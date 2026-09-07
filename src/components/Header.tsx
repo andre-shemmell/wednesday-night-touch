@@ -38,7 +38,7 @@ export const Header: React.FC<HeaderProps> = ({
                 </span>
               </div>
               <p className="text-xs text-slate-400 hidden xs:block">
-                Dad's Official Weekly Grassroots Dispatches
+                Graeme's Official Weekly Footy Dispatches
               </p>
             </div>
           </div>

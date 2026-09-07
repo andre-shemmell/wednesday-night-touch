@@ -193,7 +193,7 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
               SMS INGEST STUDIO
             </h2>
             <p className="text-sm text-slate-300 mt-1 max-w-2xl">
-              Paste your dad's Wednesday night SMS. Gemini Flash parses the scores, try scorers, casualties (5-stitch injuries 😂), referee controversies, and his closing quote into a structured match report.
+              Paste Graeme's Wednesday night SMS. Gemini Flash parses the scores, try scorers, casualties (5-stitch injuries 😂), referee controversies, and his closing quote into a structured match report.
             </p>
           </div>
 
@@ -249,7 +249,7 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
       {/* Input Box */}
       <div className="bg-slate-800/80 rounded-3xl p-6 sm:p-8 border border-slate-700/80 shadow-xl">
         <label className="block text-sm font-bold text-white mb-2">
-          Dad's Raw SMS Message:
+          Graeme's Raw SMS Message:
         </label>
         <textarea
           rows={10}

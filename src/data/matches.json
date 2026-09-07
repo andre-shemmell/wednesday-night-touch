@@ -1,8 +1,8 @@
 [
   {
-    "id": "2026-09-07-round-1",
-    "date": "2026-09-07",
-    "round": "Round 1",
+    "id": "2026-09-02-round-2",
+    "date": "2026-09-02",
+    "round": "Round 2",
     "season": "Spring 2026",
     "teamName": "The Wednesday Night Boys",
     "opponent": "The Opposition",
@@ -66,6 +66,74 @@
       "playerOfTheMatch": "Joel & Dylan (Joint MVP)",
       "momentOfTheMatch": "Nev's 'A Great Leave'",
       "quoteOfTheMatch": "Everyone tonight played like young blokes. Good job. 👍"
+    }
+  },
+  {
+    "id": "2026-08-26-round-1",
+    "date": "2026-08-26",
+    "round": "Round 1",
+    "season": "Spring 2026",
+    "teamName": "The Wednesday Night Boys",
+    "opponent": "The Touchers",
+    "score": {
+      "us": 4,
+      "them": 8,
+      "halfTimeUs": 2,
+      "halfTimeThem": 5,
+      "outcome": "loss"
+    },
+    "dadQuote": "We are playing some terrific teams this season. We need to enjoy the experience. And we will.",
+    "headline": "Brave Battle Against The Touchers: 4-8 Shootout Against the Speedy Youngsters",
+    "rawSmsText": "Tonight's game saw us play The Touchers who were another young group of players.\nWe were missing Reece (injured), Matt, and Jayden (injured).\nSo we had 3 subs.\n\nWe started well with Cam attacking in the middle and he found a running Mitch out wide and he ran over and put it down.\n1-0.\nA good run up by Peter looked promising but his pass fell to ground, unfortunately.\nFurther good runs by Adrian and Nev gave us some momentum.\nThen, the speedy Touchers went over a little too easily. 1-1.\n\nJoel was looking really keen as he often does and he dived over the line but got tagged.\nCam got the ball not far out and looked around for someone. Eventually he found Joely, attentive to the situation, and he very quickly rushed to the line and put it down. 2-1.\n\nWe continued to play well but when they attacked us with interest, we gave them a big gap to run into and they did. 2-2.\n\nPeter was keen to take the ball up in the midfield and he dodged and weaved his way forward. Soon after however, they received a nice intercept pass and ran without interference to the tryline. 2-3.\n\nFollowing this disappointment, Cam got busy and ran to the line only to be tagged at the crucial moment.\nMack took the ball up well and then accepted a very low pass to give us another chance.\nWe were defending fairly grimly at this stage, but Mitch ran very determinedly to make a great tag.\n\nAnother intercept pass found their fast number 8 guy and he was always going to score.\nAnd he did. 2-4.\n\nCam and Peter tried to get one back but it didn't work that well as they grabbed another intercept pass. And as we didn't pursue them, they simply passed the ball around until they found a chosen one on their team who just placed it for , maybe, a life long goal.\n2-5.\n\nThen. Siren.\n\nHT 2-5.\n\nCam and Joel were singular in their efforts to score and they attacked. However, the Touchers got the ball , dived and scored. 2-6.\n\nCam, always looking for someone to achieve, found a falling Peter but he grabbed it and grounded it and got us an important try. 3-6.\n\nMack got interested and with Adrian made some good ground.\nThen Dylan almost got through to score but not this time.\n\nThe Touchers were strong , and young, and quick, but a great tag by BJ saved us. And then his father, Nev , made the necessary move to stop them scoring.\n\nA very nice catch by BJ from Cam was inspirational. It was quite a long pass. Then Joel kept popping up and stopped them yet again.\nPeter ran on and made a very important tag to keep us in it.\n\nThey attacked us and looked dangerous. Adrian made the tag but it was disallowed. They scored. 3-7.\n\nCam and Dylan run riot , trying to turn this around.\nPeter receives a nice intercept pass to give us a chance.\nAgain, Cam and Dylan were tagged. Then, Joel almost got there.\n\nThey attacked us but BJ tagged them to give us a \"touch and pass\" penalty.\nThen Joel nearly made it through to score. And again , he was tagged as he slid through to score for us.\n\nDylan was still looking fit as he looked to score.  We weren't done as Cam and Joel had other ideas.\nJoel dived over to give us our 4th.\n4-7.\n\nWith only seconds to go, they attacked our line and as we stood back, showing the line, they put it down.\n4-8.\nAnd that was that.\n\nWe are playing some terrific teams this season. We need to enjoy the experience.\nAnd we will.",
+    "storyParagraphs": [
+      "Tonight's game saw us play The Touchers who were another young group of players. We were missing Reece (injured), Matt, and Jayden (injured), so we had 3 subs.",
+      "We started well with Cam attacking in the middle and he found a running Mitch out wide and he ran over and put it down. 1-0.",
+      "A good run up by Peter looked promising but his pass fell to ground, unfortunately. Further good runs by Adrian and Nev gave us some momentum. Then, the speedy Touchers went over a little too easily. 1-1.",
+      "Joel was looking really keen as he often does and he dived over the line but got tagged. Cam got the ball not far out and looked around for someone. Eventually he found Joely, attentive to the situation, and he very quickly rushed to the line and put it down. 2-1.",
+      "We continued to play well but when they attacked us with interest, we gave them a big gap to run into and they did. 2-2.",
+      "Peter was keen to take the ball up in the midfield and he dodged and weaved his way forward. Soon after however, they received a nice intercept pass and ran without interference to the tryline. 2-3.",
+      "Following this disappointment, Cam got busy and ran to the line only to be tagged at the crucial moment. Mack took the ball up well and then accepted a very low pass to give us another chance. We were defending fairly grimly at this stage, but Mitch ran very determinedly to make a great tag.",
+      "Another intercept pass found their fast number 8 guy and he was always going to score. And he did. 2-4.",
+      "Cam and Peter tried to get one back but it didn't work that well as they grabbed another intercept pass. And as we didn't pursue them, they simply passed the ball around until they found a chosen one on their team who just placed it for, maybe, a life long goal. 2-5. Then. Siren. HT 2-5.",
+      "Cam and Joel were singular in their efforts to score and they attacked. However, the Touchers got the ball, dived and scored. 2-6.",
+      "Cam, always looking for someone to achieve, found a falling Peter but he grabbed it and grounded it and got us an important try. 3-6.",
+      "Mack got interested and with Adrian made some good ground. Then Dylan almost got through to score but not this time.",
+      "The Touchers were strong, and young, and quick, but a great tag by BJ saved us. And then his father, Nev, made the necessary move to stop them scoring.",
+      "A very nice catch by BJ from Cam was inspirational. It was quite a long pass. Then Joel kept popping up and stopped them yet again. Peter ran on and made a very important tag to keep us in it.",
+      "They attacked us and looked dangerous. Adrian made the tag but it was disallowed. They scored. 3-7.",
+      "Cam and Dylan run riot, trying to turn this around. Peter receives a nice intercept pass to give us a chance. Again, Cam and Dylan were tagged. Then, Joel almost got there.",
+      "They attacked us but BJ tagged them to give us a 'touch and pass' penalty. Then Joel nearly made it through to score. And again, he was tagged as he slid through to score for us.",
+      "Dylan was still looking fit as he looked to score. We weren't done as Cam and Joel had other ideas. Joel dived over to give us our 4th. 4-7.",
+      "With only seconds to go, they attacked our line and as we stood back, showing the line, they put it down. 4-8. And that was that."
+    ],
+    "tryScorers": [
+      { "player": "Joel", "count": 2, "notes": "Quick rush to the line for 2-1; dived over late for our 4th try" },
+      { "player": "Mitch", "count": 1, "notes": "Opened the scoring with a charging run out wide off Cam's ball" },
+      { "player": "Peter", "count": 1, "notes": "Acrobatic grounded try while falling to keep us in the fight (3-6)" }
+    ],
+    "defensiveHighlights": [
+      { "player": "Nev & BJ", "action": "Father & son combination: BJ made a try-saving tag, followed immediately by Nev shutting them down" },
+      { "player": "BJ", "action": "Inspirational long-pass catch from Cam, try-saving tag, and won a touch-and-pass penalty" },
+      { "player": "Joel", "action": "Kept popping up in defense to halt breaks; tireless sliding effort" },
+      { "player": "Mitch", "action": "Ran very determinedly to make a great tag under grim defensive pressure" },
+      { "player": "Peter", "action": "Important second-half tag and grabbed an attacking intercept" }
+    ],
+    "casualtyWard": [
+      { "player": "Reece", "reason": "Injured", "isSelfInflicted": false },
+      { "player": "Jayden", "reason": "Injured", "isSelfInflicted": false },
+      { "player": "Matt", "reason": "Unavailable", "isSelfInflicted": false }
+    ],
+    "controversies": [
+      { "title": "Adrian's Disallowed Tag", "description": "Adrian made a clean tag on an attacking Toucher, but referee disallowed the tag and awarded a try." }
+    ],
+    "venueNotes": "Facing a very speedy, young Touchers lineup.",
+    "squadNotes": "Started with 3 subs. Reece, Jayden, and Matt missing.",
+    "squadPresent": ["Cam", "Joel", "Mitch", "Peter", "Adrian", "Nev", "Mack", "BJ", "Dylan"],
+    "squadMissing": ["Reece", "Matt", "Jayden"],
+    "awards": {
+      "playerOfTheMatch": "Joel (2 Tries, Engine Room)",
+      "momentOfTheMatch": "BJ and his father Nev's clutch goal-line tags",
+      "quoteOfTheMatch": "We are playing some terrific teams this season. We need to enjoy the experience. And we will."
     }
   }
 ]

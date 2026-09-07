@@ -17,7 +17,7 @@ export const DadQuote: React.FC<DadQuoteProps> = ({ quote }) => {
       <div className="relative z-10">
         <div className="flex items-center gap-2 text-xs sm:text-sm font-bold tracking-wider text-amber-400 uppercase mb-3">
           <ThumbsUp className="w-4 h-4 text-amber-400" />
-          <span>Dad's Post-Match Summing Up</span>
+          <span>Graeme's Post-Match Summing Up</span>
         </div>
 
         <blockquote className="text-lg sm:text-2xl font-serif italic text-slate-100 leading-relaxed">
@@ -26,7 +26,7 @@ export const DadQuote: React.FC<DadQuoteProps> = ({ quote }) => {
 
         <div className="mt-4 flex items-center justify-between text-xs text-slate-400 pt-3 border-t border-slate-700/50">
           <span className="font-semibold text-turf-400">
-            — The Gaffer / Match Reporter
+            — Graeme (The Gaffer / Match Reporter)
           </span>
           <span className="italic text-slate-400">
             Wednesday Night Touch Footy Dispatch

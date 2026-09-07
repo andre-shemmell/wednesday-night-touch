@@ -171,7 +171,7 @@ export const App: React.FC = () => {
             <span className="text-base">🏉</span>
             <span className="font-semibold text-slate-400">Wednesday Night Touch Footy Hub</span>
             <span>•</span>
-            <span>Dedicated to Dad's Match Reports</span>
+            <span>Dedicated to Graeme's Match Reports</span>
           </div>
 
           <div className="flex items-center gap-4 text-slate-400">

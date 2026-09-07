@@ -16,7 +16,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({ match, onClose }) => {
   const shareText = `🏉 WEDNESDAY NIGHT TOUCH • ${match.round}
 🏆 RESULT: ${match.score.outcome.toUpperCase()} ${match.score.us} - ${match.score.them} (HT ${match.score.halfTimeUs}-${match.score.halfTimeThem})
 
-💬 Dad's Verdict:
+💬 Graeme's Verdict:
 "${match.dadQuote}"
 
 🏉 Tries: ${scorersSummary || 'None'}
