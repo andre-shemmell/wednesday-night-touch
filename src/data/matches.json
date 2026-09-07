@@ -1,8 +1,8 @@
 [
   {
-    "id": "2026-09-02-round-3",
+    "id": "2026-09-02-round-4",
     "date": "2026-09-02",
-    "round": "Round 3",
+    "round": "Round 4",
     "season": "Spring 2026",
     "teamName": "The Wednesday Night Boys",
     "opponent": "The Opposition",
@@ -69,9 +69,9 @@
     }
   },
   {
-    "id": "2026-08-26-round-2",
+    "id": "2026-08-26-round-3",
     "date": "2026-08-26",
-    "round": "Round 2",
+    "round": "Round 3",
     "season": "Spring 2026",
     "teamName": "The Wednesday Night Boys",
     "opponent": "The Touchers",
@@ -137,9 +137,9 @@
     }
   },
   {
-    "id": "2026-08-19-round-1",
+    "id": "2026-08-19-round-2",
     "date": "2026-08-19",
-    "round": "Round 1",
+    "round": "Round 2",
     "season": "Spring 2026",
     "teamName": "The Wednesday Night Boys",
     "opponent": "Hunt and Kill",
@@ -200,6 +200,72 @@
       "playerOfTheMatch": "Jayden (Hat-Trick Masterclass & Final Tag) & Joely (Buzzer-Beater)",
       "momentOfTheMatch": "Joely throwing his body across the line for 6-5, followed by Graeme fixing the scorebook",
       "quoteOfTheMatch": "The referee had the game as a 5-5 draw. No Way mate... We deserved a very galant win. And we will take it."
+    }
+  },
+  {
+    "id": "2026-08-12-round-1",
+    "date": "2026-08-12",
+    "round": "Round 1",
+    "season": "Spring 2026",
+    "teamName": "The Wednesday Night Boys",
+    "opponent": "The 15-Year-Old Young Guns",
+    "score": {
+      "us": 4,
+      "them": 5,
+      "halfTimeUs": 1,
+      "halfTimeThem": 3,
+      "outcome": "loss"
+    },
+    "dadQuote": "A very nice game against some very fast and young players. Of course, we wish them great success in the future. FT 4-5.",
+    "headline": "Rain, 'Nifty Nev', and One of the Great Tries of All Time in a 4-5 Thriller",
+    "rawSmsText": "We were missing Reece and Joel tonight and Cam and Matt were running late.\nWe looked at our opponents and saw a group of young, 15ish, players who were probably well drilled. And fast.\n\nThey had the ball first and went deep into attack. Surprisingly no score though and we attacked them through BJ, Mitch and Cam.\nNext thing, they just swept past us and put it down. 0-1.\n\nAdrian got the ball in the middle and made some very good ground.\nMatt and Jayden combined well and very nearly scored.\nJayden was on fire and was tagged on the try line twice.\n\nOf course , the game went end to end with both teams moving the ball fast. (And Furious).\n\nThen, they appeared to drop the ball over the try line but the Referees paid the try. When the main ref came off  to mark the try, he shook his head and said \"it's one of those things\". 0-2.\n\nCam, looking very determined; maybe they thought he was dummy half, but he calmly went over and put it down. 1-2.\n\nCam was busy and passed to BJ and their contact on him gave us a penalty. However, they attacked with purpose and when Peter slipped over, they took off and ran most of the field to score another.\n1-3.\n\nWe defended quite well but Adrian was obstructed and we were given the penalty. Very good refereeing.\n\nBack on the field after a break, Jayden made a great tag to keep us in the game.\n\nHT 1-3.\n\nWe had the ball for the start of the second half. And what happened next is a little unbelievable.\n\nPeter took the tap and ran the ball forward to where he could give it to Mitch on the left wing. Peter made plenty of ground and Mitch had a lot to do. Mitch ran at his normal speed, (flat out), and he very narrowly missed being tagged about 3 times as he placed the ball down for one of the great tries of all time. 2-3.\n\nSoon after, this very speedy team of youngsters, ran a great angular line to ensure a nice try. 2-4.\n\nCam was smart in defence as well as our attacking leader. He smacked the ball down to deny them.\n\nJayden was always alive to any situation and sent a strong pass out to Dylan. Well, what a great catch that was.\n\nThey attacked us with venom, often, and on this occasion, BJ made the miraculous touch to shut them down.\n\nAs I said earlier, the ball went up and down the field as both teams were constantly in attack mode.\n\nYou can't hold him down.\nNifty Nev. He runs it toward the line until, ok, I must pass.\nWell, he found young Mack who just put it straight down for a very nice and welcome try. 3-4.\n\nWe kept attacking with Cam finding Mitch, who is always looking lively. And he caught the pass beautifully.\nThen, Mack and BJ worked well together to make some really important tags.\n\nJayden was serious as he made about 30 metres on his own.\nAbout 10 metres out, we got the ball out to Adrian but it just slipped through his hands.\nRemember, it's raining. The ball is wet.  \n\nYou couldn't keep Jayden out of this game as he dived for a try but was tagged unfortunately.\nWe were keen as Cam dived over but was also deemed tagged.\n\nYou know when things aren't going that well but then a great low down catch is taken to keep our momentum, then Adrian did it. On his knees.\n\nMatt came on and with Nev (you know Nifty), made some very good ground.\n\nAmazingly, after some really good defensive work, they strolled over for a well earned try. 3-5.\n\nHe can only thank those who gave him the ball so near to the tryline.\nBecause, he dodged and weaved, and showed the ball , just like Nifty has always done, and fell over the line to score a really wonderful try. That was Adrian.\n4-5.\n\nCam, fantastic in defence as usual, as the siren went.\n\nSo, the final score was 4-5.\nA very nice game against some very fast and young players.\nOf course, we wish them great success in the future.\n\nFT 4-5.",
+    "storyParagraphs": [
+      "We were missing Reece and Joel tonight and Cam and Matt were running late. We looked at our opponents and saw a group of young, 15ish players who were probably well drilled. And fast.",
+      "They had the ball first and went deep into attack. Surprisingly no score though and we attacked them through BJ, Mitch and Cam. Next thing, they just swept past us and put it down. 0-1.",
+      "Adrian got the ball in the middle and made some very good ground. Matt and Jayden combined well and very nearly scored. Jayden was on fire and was tagged on the try line twice. Of course, the game went end to end with both teams moving the ball fast (and furious).",
+      "Then, they appeared to drop the ball over the try line but the Referees paid the try. When the main ref came off to mark the try, he shook his head and said 'it's one of those things'. 0-2.",
+      "Cam, looking very determined; maybe they thought he was dummy half, but he calmly went over and put it down. 1-2. Cam was busy and passed to BJ and their contact on him gave us a penalty. However, they attacked with purpose and when Peter slipped over, they took off and ran most of the field to score another. 1-3.",
+      "We defended quite well but Adrian was obstructed and we were given the penalty. Very good refereeing. Back on the field after a break, Jayden made a great tag to keep us in the game. HT 1-3.",
+      "We had the ball for the start of the second half. And what happened next is a little unbelievable. Peter took the tap and ran the ball forward to where he could give it to Mitch on the left wing. Peter made plenty of ground and Mitch had a lot to do. Mitch ran at his normal speed (flat out), and he very narrowly missed being tagged about 3 times as he placed the ball down for one of the great tries of all time. 2-3.",
+      "Soon after, this very speedy team of youngsters ran a great angular line to ensure a nice try. 2-4. Cam was smart in defence as well as our attacking leader. He smacked the ball down to deny them. Jayden was always alive to any situation and sent a strong pass out to Dylan. Well, what a great catch that was.",
+      "They attacked us with venom, often, and on this occasion, BJ made the miraculous touch to shut them down. As I said earlier, the ball went up and down the field as both teams were constantly in attack mode.",
+      "You can't hold him down: Nifty Nev. He runs it toward the line until, ok, I must pass. Well, he found young Mack who just put it straight down for a very nice and welcome try. 3-4.",
+      "We kept attacking with Cam finding Mitch, who is always looking lively. And he caught the pass beautifully. Then, Mack and BJ worked well together to make some really important tags.",
+      "Jayden was serious as he made about 30 metres on his own. About 10 metres out, we got the ball out to Adrian but it just slipped through his hands. Remember, it's raining. The ball is wet.",
+      "You couldn't keep Jayden out of this game as he dived for a try but was tagged unfortunately. We were keen as Cam dived over but was also deemed tagged. You know when things aren't going that well but then a great low down catch is taken to keep our momentum, then Adrian did it. On his knees.",
+      "Matt came on and with Nev (you know Nifty), made some very good ground. Amazingly, after some really good defensive work, they strolled over for a well earned try. 3-5.",
+      "He can only thank those who gave him the ball so near to the tryline. Because, he dodged and weaved, and showed the ball, just like Nifty has always done, and fell over the line to score a really wonderful try. That was Adrian. 4-5.",
+      "Cam, fantastic in defence as usual, as the siren went. So, the final score was 4-5. A very nice game against some very fast and young players. Of course, we wish them great success in the future. FT 4-5."
+    ],
+    "tryScorers": [
+      { "player": "Mitch", "count": 1, "notes": "One of the great tries of all time: ran flat out down the wing, narrowly evading 3 desperate tags" },
+      { "player": "Cam", "count": 1, "notes": "Calm, determined dummy-half style put-down" },
+      { "player": "Mack", "count": 1, "notes": "Put it straight down after Nifty Nev drew the defense" },
+      { "player": "Adrian", "count": 1, "notes": "Dodged, weaved, and showed the ball just like Nifty to score" }
+    ],
+    "defensiveHighlights": [
+      { "player": "Cam", "action": "Smacked the ball down to deny a certain try; fantastic goal-line defense as the final siren sounded" },
+      { "player": "BJ", "action": "Miraculous touch to shut down a venomous break; worked with Mack on crucial tags" },
+      { "player": "Jayden", "action": "Kept us in the match with a crucial pre-halftime tag, made 30m solo run in attack" },
+      { "player": "Peter", "action": "Tap and 40-meter surge to set up Mitch's wonder try" },
+      { "player": "Adrian", "action": "Unbelievable low-down catch on his knees in the pouring rain to maintain momentum" },
+      { "player": "Nev ('Nifty Nev')", "action": "Drew the defensive line and delivered the perfect assist to young Mack" }
+    ],
+    "casualtyWard": [
+      { "player": "Reece", "reason": "Missing / Injured", "isSelfInflicted": false },
+      { "player": "Joel", "reason": "Absent tonight", "isSelfInflicted": false }
+    ],
+    "controversies": [
+      { "title": "The 'One of Those Things' Ref Decision", "description": "Opponents appeared to drop the ball over our line, but referee awarded the try. When coming off, the main ref shook his head and said: 'It\\'s one of those things'." }
+    ],
+    "venueNotes": "Pouring rain, wet ball, slippery turf against well-drilled 15-year-old youngsters.",
+    "squadNotes": "Reece and Joel missing; Cam and Matt arrived right on game time.",
+    "squadPresent": ["Cam", "Matt", "Jayden", "Dylan", "Mack", "BJ", "Adrian", "Nev", "Peter", "Mitch"],
+    "squadMissing": ["Reece", "Joel"],
+    "awards": {
+      "playerOfTheMatch": "Mitch ('One of the Great Tries of All Time') & Adrian (Knee Catch & Try)",
+      "momentOfTheMatch": "Peter's tap and feed to flat-out Mitch evading 3 tags",
+      "quoteOfTheMatch": "The referee shook his head and said: 'It\\'s one of those things' (0-2)"
     }
   }
 ]
