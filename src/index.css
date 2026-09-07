@@ -168,37 +168,56 @@ html.light .text-slate-500 {
   color: #64748b !important;
 }
 
-/* Ensure text on colored/dark buttons remains pure white */
+/* --------------------------------------------------------------------------
+   TEXT CONTRAST: Ensure NO white or yellow text renders against light backgrounds
+   -------------------------------------------------------------------------- */
+
+/* In light mode, any .text-white defaults to dark slate #0f172a */
+html.light .text-white {
+  color: #0f172a !important;
+}
+
+/* EXCEPT on solid saturated colored buttons & pills where text MUST remain pure white */
 html.light .bg-turf-600,
 html.light .bg-turf-600 *,
 html.light .bg-emerald-600,
 html.light .bg-emerald-600 *,
+html.light .bg-emerald-500,
+html.light .bg-emerald-500 *,
+html.light .bg-amber-600,
+html.light .bg-amber-600 *,
+html.light .bg-rose-600,
+html.light .bg-rose-600 *,
 html.light button.bg-turf-600,
 html.light button.bg-emerald-600,
-html.light button.bg-emerald-500 {
+html.light button.bg-emerald-500,
+html.light .bg-\[\#25D366\],
+html.light .bg-\[\#25D366\] * {
   color: #ffffff !important;
 }
 
-/* Card Titles & Heading spans */
-html.light .bg-slate-800 > div > .text-white,
-html.light .bg-slate-800 h2.text-white,
-html.light .bg-slate-800 h3.text-white,
-html.light .bg-slate-800 span.text-white,
-html.light .bg-slate-900 h2.text-white,
-html.light .bg-slate-900 h3.text-white {
-  color: #0f172a;
-}
-
-/* High-Contrast Accessible Accents in Light Mode */
+/* All yellow/amber text becomes high-contrast amber-700 (#b45309) or amber-800 (#92400e) */
+html.light [class*="text-amber-"],
+html.light [class*="text-yellow-"],
+html.light [class*="text-gold-"],
 html.light .text-amber-400,
-html.light .text-amber-300 {
-  color: #b45309 !important; /* amber-700 (crisp high-contrast warm gold) */
+html.light .text-amber-300,
+html.light .text-amber-200,
+html.light .text-amber-500,
+html.light .text-amber-300\/90 {
+  color: #b45309 !important; /* amber-700 (deep warm accessible bronze/amber) */
 }
 
-html.light .text-amber-200 {
-  color: #92400e !important; /* amber-800 */
+/* SVG icons inheriting amber/yellow text */
+html.light svg[class*="text-amber-"],
+html.light svg[class*="text-yellow-"],
+html.light svg.text-amber-400,
+html.light svg.text-amber-500 {
+  color: #b45309 !important;
+  stroke: #b45309 !important;
 }
 
+/* Other High-Contrast Accessible Accents in Light Mode */
 html.light .text-turf-400,
 html.light .text-turf-300,
 html.light .text-emerald-400,
@@ -220,7 +239,9 @@ html.light .text-rose-300 {
 html.light .bg-turf-500\/20,
 html.light .bg-emerald-500\/20,
 html.light .bg-turf-900\/60,
-html.light .bg-emerald-950\/40 {
+html.light .bg-emerald-950\/40,
+html.light .bg-turf-950\/40,
+html.light .bg-turf-950\/80 {
   background-color: #dcfce7 !important; /* emerald-100 */
   border-color: #86efac !important; /* emerald-300 */
   color: #14532d !important; /* emerald-900 */
@@ -229,6 +250,7 @@ html.light .bg-emerald-950\/40 {
 html.light .bg-amber-500\/20,
 html.light .bg-amber-500\/10,
 html.light .bg-amber-950\/20,
+html.light .bg-amber-950\/30,
 html.light .bg-amber-950\/40 {
   background-color: #fef3c7 !important; /* amber-100 */
   border-color: #fcd34d !important; /* amber-300 */
