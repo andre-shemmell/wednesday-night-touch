@@ -5,7 +5,7 @@
     "round": "Round 4",
     "season": "Spring 2026",
     "teamName": "Point Takeaway",
-    "opponent": "The Opposition",
+    "opponent": "The Well Hungarians (\"The Opposition\")",
     "score": {
       "us": 5,
       "them": 3,
@@ -58,7 +58,7 @@
       { "title": "Dylan's Disallowed Try", "description": "Dylan had a clear run to the line, scored, but after ref discussion was inexplicably disallowed." },
       { "title": "Opponent Phantom Try", "description": "Opponent appeared to drop the ball in the right corner, but ref awarded a try anyway." }
     ],
-    "venueNotes": "Parking is a severe problem at the moment at this venue.",
+    "venueNotes": "Field 2, Redlands Showgrounds, Cleveland QLD. Parking was a severe problem due to showgrounds events.",
     "squadNotes": "Started with 6 players; Cam, Matt, and Jayden arrived minutes after kick-off due to parking.",
     "squadPresent": ["Cam", "Matt", "Jayden", "Dylan", "Joel", "Mack", "BJ", "Adrian", "Nev"],
     "squadMissing": ["Mitch", "Reece", "Peter"],

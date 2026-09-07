@@ -2,8 +2,8 @@ import React from 'react';
 import { Trophy, Sparkles, Users, FileText, Moon, Sun } from 'lucide-react';
 
 interface HeaderProps {
-  currentTab: 'match' | 'squad' | 'ingest' | 'archive';
-  setCurrentTab: (tab: 'match' | 'squad' | 'ingest' | 'archive') => void;
+  currentTab: 'match' | 'squad' | 'ladder' | 'ingest' | 'archive';
+  setCurrentTab: (tab: 'match' | 'squad' | 'ladder' | 'ingest' | 'archive') => void;
   isDarkMode: boolean;
   setIsDarkMode: (val: boolean) => void;
   matchesCount: number;
@@ -68,6 +68,18 @@ export const Header: React.FC<HeaderProps> = ({
               >
                 <Users className="w-3.5 h-3.5" />
                 <span>Squad</span>
+              </button>
+
+              <button
+                onClick={() => setCurrentTab('ladder')}
+                className={`px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium transition-all flex items-center gap-1.5 ${
+                  currentTab === 'ladder'
+                    ? 'bg-turf-600 text-white shadow-sm'
+                    : 'text-slate-300 hover:text-white hover:bg-slate-700/50'
+                }`}
+              >
+                <Trophy className="w-3.5 h-3.5" />
+                <span>Ladder & Draw</span>
               </button>
 
               <button

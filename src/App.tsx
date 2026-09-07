@@ -8,6 +8,7 @@ import { SquadDirectory } from './components/SquadDirectory';
 import { SmsIngestStudio } from './components/SmsIngestStudio';
 import { MatchArchive } from './components/MatchArchive';
 import { ShareModal } from './components/ShareModal';
+import { LadderAndFixtures } from './components/LadderAndFixtures';
 import { getSavedMatches, saveMatch, deleteMatch } from './services/storage';
 import { MatchReport } from './types/match';
 import { ChevronLeft, ChevronRight, HelpCircle, Globe } from 'lucide-react';
@@ -15,7 +16,7 @@ import { ChevronLeft, ChevronRight, HelpCircle, Globe } from 'lucide-react';
 export const App: React.FC = () => {
   const [matches, setMatches] = useState<MatchReport[]>([]);
   const [selectedMatchId, setSelectedMatchId] = useState<string>('');
-  const [currentTab, setCurrentTab] = useState<'match' | 'squad' | 'ingest' | 'archive'>('match');
+  const [currentTab, setCurrentTab] = useState<'match' | 'squad' | 'ladder' | 'ingest' | 'archive'>('match');
   const [selectedPlayerFilter, setSelectedPlayerFilter] = useState<string | null>(null);
   const [shareModalOpen, setShareModalOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -140,6 +141,11 @@ export const App: React.FC = () => {
         {/* SMS Ingest Studio Tab */}
         {currentTab === 'ingest' && (
           <SmsIngestStudio onPublishMatch={handlePublishNewMatch} />
+        )}
+
+        {/* Ladder & Draw Tab */}
+        {currentTab === 'ladder' && (
+          <LadderAndFixtures />
         )}
 
         {/* Archive Tab */}
