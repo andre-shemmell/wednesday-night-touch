@@ -1,8 +1,8 @@
 [
   {
-    "id": "2026-09-02-round-2",
+    "id": "2026-09-02-round-3",
     "date": "2026-09-02",
-    "round": "Round 2",
+    "round": "Round 3",
     "season": "Spring 2026",
     "teamName": "The Wednesday Night Boys",
     "opponent": "The Opposition",
@@ -69,9 +69,9 @@
     }
   },
   {
-    "id": "2026-08-26-round-1",
+    "id": "2026-08-26-round-2",
     "date": "2026-08-26",
-    "round": "Round 1",
+    "round": "Round 2",
     "season": "Spring 2026",
     "teamName": "The Wednesday Night Boys",
     "opponent": "The Touchers",
@@ -134,6 +134,72 @@
       "playerOfTheMatch": "Joel (2 Tries, Engine Room)",
       "momentOfTheMatch": "BJ and his father Nev's clutch goal-line tags",
       "quoteOfTheMatch": "We are playing some terrific teams this season. We need to enjoy the experience. And we will."
+    }
+  },
+  {
+    "id": "2026-08-19-round-1",
+    "date": "2026-08-19",
+    "round": "Round 1",
+    "season": "Spring 2026",
+    "teamName": "The Wednesday Night Boys",
+    "opponent": "Hunt and Kill",
+    "score": {
+      "us": 6,
+      "them": 5,
+      "halfTimeUs": 1,
+      "halfTimeThem": 2,
+      "outcome": "win"
+    },
+    "dadQuote": "The referee had the game as a 5-5 draw. No Way mate. Myself and others discussed this after the match with the Two Referees and it was agreed that they missed one. Ours. We deserved a very galant win. And we will take it.",
+    "headline": "The Gallant Win: 6-5 Buzzer-Beater Over 'Hunt and Kill' (And No Way Was It A Draw!)",
+    "rawSmsText": "So tonight it was Hunt and Kill.\nThat's their name.\nSo that will be our endeavour.\n\nEveryone has showed up for this game except for Reece who is handling a serious injury.\n\nThey kicked off and we held them well after they attacked us with irreverence.\n\nJoel and Dylan took us deep into attack early. We then defended well as Cam grabbed an intercept pass and ran easily (walking for the last bit) for over half the field to score. 1-0.\n\nAdrian was looking lively as he took the ball forward through the middle and made some good ground. Soon after , they attacked our line when Dylan made a quite spectacular touch on them to deny a certain try.\n\nMatt made a nice tag at the line but a forward pass ruling was enough to stop them.\n\nSome nice attacking play gave Joely a chance and he passed to BJ on the wing. Unfortunately it was deemed forward.\nWe attacked again as Cam found Joely and he stretched out to score but got tagged.\n\nNext thing. They attacked us with incredible speed and found a big gap in our defence, and put it down comfortably. 1-1.\n\nMatt took a great catch , down low , as we advanced.\nHowever, they combined really well to approach our line and simply went over to score. 1-2.\n\nNev used his time on the field to take the ball up into their defensive line and looked to pierce it. He made excellent ground but was tagged eventually.\n\nWe got the ball back in the middle and Joely rushed forward only to be pushed in the back ( by some coward) and we were given the penalty.\n\nAnother attempt at scoring was when Cam sent the ball to Peter who dived over but was tagged in flight.\n\nHT 1-2.\n\nWe had the ball and went forward.\nJayden wasn't happy with the way things were going. He got the ball about 20 metres out and just hung back causing some confusion. The very \"wiley\" Jayden then simply created the gap and ran in to try. 2-2.\n\nOur defence was standing up as Dylan made a crucial tag on the line. This was followed by a good run forward by Matt. Then BJ and Adrian made a try saving tag on the line.\n\nThey got the ball back and threw it right across the field and scored. 2-3.\n\nCam and Joely took the ball and went forward at speed.\nThe ball came back and Peter tagged well and again and again.\n\nJoely went forward with the ball and threw a nice long ball out to Nev, but it was too tough to take.\n\nBJ made a great tag to stop them.\nBut a really long throw to their winger on the other side of the field, enabled them to score quite easily. 2-4.\n\nJayden, obviously obsessed with winning for his team tonight, hung back again after receiving the ball , and then literally \"walked \" through their defensive line, and scored effortlessly.\nWhat a fantastic effort and statement for our team.\nFabulous. 3-4.\n\nPeter was fouled in a \"play the ball\" and with their field position they scored soon after.  3-5.\n\nPeter then attracted heavy attention and was awarded a penalty. Great.\n\nWe weren't done when Matt and brother Cam combined to put one down. A very speedy put down by Cam. 4-5.\n\nWith only about 5 minutes to go, they attacked us with great determination, but spilled the ball. Thank goodness Jayden was on the field as he collected the ball and ran , with some enormous determination.\nHe ran all the way to provide us with a chance to win. 5-5.\n\nA tag in defence by Adrian was crucial. They might have scored.\n\nThen the referee couldn't cope any more with the pushing and shoving by both teams but , mostly by them.\nUnfortunately for Mack, he was binned as well as their number 13.\nMack was probably sucked in by this provocative \"smart arse\" player.\n\nMatt continued to play well and made a very important tag.\n\nWith only moments to go , we got the ball and Joely ran with it and ran with it again. He was tagged but you wouldn't have thought that as he progressed towards the line.\nUnbelievably, he threw his body towards the try line.\nYes . He went over . Just.\n6-5.\nAnd to finish off tonight, Jayden made the final touch .\n\nA really great win for us. \n\nFT 6-5.\n\nPS.\n\nThe referee had the game as a 5-5 draw.\n No Way mate.\nMyself and others discussed this after the match with the Two Referees and it was agreed that they missed one.\nOurs.\nWe deserved a very galant win.\nAnd we will take it.",
+    "storyParagraphs": [
+      "So tonight it was Hunt and Kill. That's their name. So that will be our endeavour. Everyone has showed up for this game except for Reece who is handling a serious injury.",
+      "They kicked off and we held them well after they attacked us with irreverence. Joel and Dylan took us deep into attack early. We then defended well as Cam grabbed an intercept pass and ran easily (walking for the last bit) for over half the field to score. 1-0.",
+      "Adrian was looking lively as he took the ball forward through the middle and made some good ground. Soon after, they attacked our line when Dylan made a quite spectacular touch on them to deny a certain try.",
+      "Matt made a nice tag at the line but a forward pass ruling was enough to stop them. Some nice attacking play gave Joely a chance and he passed to BJ on the wing. Unfortunately it was deemed forward. We attacked again as Cam found Joely and he stretched out to score but got tagged.",
+      "Next thing. They attacked us with incredible speed and found a big gap in our defence, and put it down comfortably. 1-1. Matt took a great catch, down low, as we advanced. However, they combined really well to approach our line and simply went over to score. 1-2.",
+      "Nev used his time on the field to take the ball up into their defensive line and looked to pierce it. He made excellent ground but was tagged eventually. We got the ball back in the middle and Joely rushed forward only to be pushed in the back (by some coward) and we were given the penalty. Another attempt at scoring was when Cam sent the ball to Peter who dived over but was tagged in flight. HT 1-2.",
+      "We had the ball and went forward. Jayden wasn't happy with the way things were going. He got the ball about 20 metres out and just hung back causing some confusion. The very 'wiley' Jayden then simply created the gap and ran in to try. 2-2.",
+      "Our defence was standing up as Dylan made a crucial tag on the line. This was followed by a good run forward by Matt. Then BJ and Adrian made a try saving tag on the line. They got the ball back and threw it right across the field and scored. 2-3.",
+      "Cam and Joely took the ball and went forward at speed. The ball came back and Peter tagged well and again and again. Joely went forward with the ball and threw a nice long ball out to Nev, but it was too tough to take.",
+      "BJ made a great tag to stop them. But a really long throw to their winger on the other side of the field, enabled them to score quite easily. 2-4.",
+      "Jayden, obviously obsessed with winning for his team tonight, hung back again after receiving the ball, and then literally 'walked' through their defensive line, and scored effortlessly. What a fantastic effort and statement for our team. Fabulous. 3-4.",
+      "Peter was fouled in a 'play the ball' and with their field position they scored soon after. 3-5. Peter then attracted heavy attention and was awarded a penalty. Great.",
+      "We weren't done when Matt and brother Cam combined to put one down. A very speedy put down by Cam. 4-5.",
+      "With only about 5 minutes to go, they attacked us with great determination, but spilled the ball. Thank goodness Jayden was on the field as he collected the ball and ran, with some enormous determination. He ran all the way to provide us with a chance to win. 5-5.",
+      "A tag in defence by Adrian was crucial. They might have scored. Then the referee couldn't cope any more with the pushing and shoving by both teams but, mostly by them. Unfortunately for Mack, he was binned as well as their number 13. Mack was probably sucked in by this provocative 'smart arse' player.",
+      "Matt continued to play well and made a very important tag. With only moments to go, we got the ball and Joely ran with it and ran with it again. He was tagged but you wouldn't have thought that as he progressed towards the line. Unbelievably, he threw his body towards the try line. Yes. He went over. Just. 6-5. And to finish off tonight, Jayden made the final touch.",
+      "A really great win for us. FT 6-5. PS. The referee had the game as a 5-5 draw. No Way mate. Myself and others discussed this after the match with the Two Referees and it was agreed that they missed one. Ours. We deserved a very galant win. And we will take it."
+    ],
+    "tryScorers": [
+      { "player": "Jayden", "count": 3, "notes": "Sensational Hat-Trick: hung back and created gaps, 'walked' through their line, ran the length of the field for 5-5" },
+      { "player": "Cam", "count": 2, "notes": "Half-field runaway intercept (walked the last bit for 1-0); brother combo with Matt for 4-5" },
+      { "player": "Joel", "count": 1, "notes": "Unbelievable buzzer-beater winner: threw his body towards the line with seconds left for 6-5" }
+    ],
+    "defensiveHighlights": [
+      { "player": "Jayden", "action": "Clutched the final match-ending tag at the death to seal the 6-5 win" },
+      { "player": "Dylan", "action": "Spectacular diving touch to deny a certain try; crucial goal-line defense" },
+      { "player": "Adrian & BJ", "action": "Clutch combined try-saving tag on the line; Adrian made crucial late-game tag" },
+      { "player": "Peter", "action": "Tagged well 'again and again and again' under heavy physical pressure" },
+      { "player": "Matt", "action": "Great low catch, strong goal-line tag, and set up Cam's try" }
+    ],
+    "casualtyWard": [
+      { "player": "Reece", "reason": "Handling a serious injury (Only squad absentee)", "isSelfInflicted": false }
+    ],
+    "controversies": [
+      { "title": "The 5-5 Scorebook Dispute (No Way Mate!)", "description": "The referee had the game recorded as a 5-5 draw. Graeme and others went to the two referees after the game to correct the scorebook to our rightful 6-5 gallant win." },
+      { "title": "Mack's Sin-Bin", "description": "Mack and opponent #13 both binned after pushing and shoving. Mack was sucked in by a provocative 'smart arse' player." },
+      { "title": "Pushed in the Back", "description": "Joely pushed in the back by 'some coward' during an attack; penalty awarded to us." }
+    ],
+    "venueNotes": "Facing 'Hunt and Kill'. Heavy pushing and shoving, fiery atmosphere.",
+    "squadNotes": "Full squad showed up except Reece.",
+    "squadPresent": ["Cam", "Matt", "Jayden", "Dylan", "Joel", "Mack", "BJ", "Adrian", "Nev", "Peter", "Mitch"],
+    "squadMissing": ["Reece"],
+    "awards": {
+      "playerOfTheMatch": "Jayden (Hat-Trick Masterclass & Final Tag) & Joely (Buzzer-Beater)",
+      "momentOfTheMatch": "Joely throwing his body across the line for 6-5, followed by Graeme fixing the scorebook",
+      "quoteOfTheMatch": "The referee had the game as a 5-5 draw. No Way mate... We deserved a very galant win. And we will take it."
     }
   }
 ]
