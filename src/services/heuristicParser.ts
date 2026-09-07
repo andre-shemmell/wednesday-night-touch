@@ -4,7 +4,8 @@ import { MatchReport } from '../types/match';
  * Smart Heuristic Parser that runs locally in the browser with 0 external API calls.
  * Extracts scores, casualties, try scorers, highlights, and dad's quotes.
  */
-export function parseSmsHeuristic(smsText: string): Partial<MatchReport> {
+export function parseSmsHeuristic(rawSms: string): Partial<MatchReport> {
+  const smsText = rawSms.replace(/^(?:hey|hi|g'day|hello)\s+[a-zA-Z\u00C0-\u017F]+[,.]?\s*\n*/i, '').trim();
   const lines = smsText.split('\n').map(l => l.trim()).filter(Boolean);
 
   // Extract Scores
