@@ -131,7 +131,7 @@ export function parseSmsHeuristic(smsText: string): Partial<MatchReport> {
     date: today,
     round: 'Next Round',
     season: '2026',
-    teamName: 'The Wednesday Night Boys',
+    teamName: 'Point Takeaway',
     opponent: 'The Opposition',
     score: {
       us,

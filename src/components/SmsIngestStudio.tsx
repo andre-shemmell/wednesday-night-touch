@@ -139,7 +139,7 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
       date: parsedPartial.date || new Date().toISOString().split('T')[0],
       round: parsedPartial.round || 'Round 2',
       season: parsedPartial.season || '2026',
-      teamName: parsedPartial.teamName || 'The Wednesday Night Boys',
+      teamName: parsedPartial.teamName || 'Point Takeaway',
       opponent: parsedPartial.opponent || 'The Opposition',
       score: parsedPartial.score || { us: 0, them: 0, halfTimeUs: 0, halfTimeThem: 0, outcome: 'draw' },
       dadQuote: parsedPartial.dadQuote || '',
