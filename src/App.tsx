@@ -19,8 +19,32 @@ export const App: React.FC = () => {
   const [currentTab, setCurrentTab] = useState<'match' | 'squad' | 'ladder' | 'ingest' | 'archive'>('match');
   const [selectedPlayerFilter, setSelectedPlayerFilter] = useState<string | null>(null);
   const [shareModalOpen, setShareModalOpen] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
+    try {
+      const saved = localStorage.getItem('touch_theme');
+      return saved !== null ? saved === 'dark' : true;
+    } catch {
+      return true;
+    }
+  });
   const [showHostingGuide, setShowHostingGuide] = useState(false);
+
+  // Sync theme class to <html> element
+  useEffect(() => {
+    try {
+      if (isDarkMode) {
+        document.documentElement.classList.add('dark');
+        document.documentElement.classList.remove('light');
+        localStorage.setItem('touch_theme', 'dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+        document.documentElement.classList.add('light');
+        localStorage.setItem('touch_theme', 'light');
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }, [isDarkMode]);
 
   // Initialize matches from storage / JSON
   useEffect(() => {
@@ -66,7 +90,7 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col font-['Plus_Jakarta_Sans']">
+    <div className={`min-h-screen ${isDarkMode ? 'bg-slate-900 text-slate-100' : 'bg-slate-100 text-slate-900'} flex flex-col font-['Plus_Jakarta_Sans'] transition-colors duration-200`}>
       <Header
         currentTab={currentTab}
         setCurrentTab={setCurrentTab}
