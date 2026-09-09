@@ -57,19 +57,22 @@ export const MatchArchive: React.FC<MatchArchiveProps> = ({
 
         {/* Outcome filter buttons */}
         <div className="flex items-center gap-2 mt-5 pt-4 border-t border-slate-700/60">
-          {(['all', 'win', 'loss', 'draw'] as const).map(tab => (
-            <button
-              key={tab}
-              onClick={() => setFilter(tab)}
-              className={`px-3 py-1 rounded-lg text-xs font-semibold capitalize transition-colors ${
-                filter === tab
-                  ? 'bg-turf-600 text-white'
-                  : 'bg-slate-900 text-slate-400 hover:text-slate-200'
-              }`}
-            >
-              {tab === 'all' ? 'All Matches' : `${tab}s`}
-            </button>
-          ))}
+          {(['all', 'win', 'loss', 'draw'] as const).map(tab => {
+            const label = tab === 'all' ? 'All Matches' : tab === 'loss' ? 'Losses' : `${tab}s`;
+            return (
+              <button
+                key={tab}
+                onClick={() => setFilter(tab)}
+                className={`px-3 py-1 rounded-lg text-xs font-semibold capitalize transition-colors ${
+                  filter === tab
+                    ? 'bg-turf-600 text-white'
+                    : 'bg-slate-900 text-slate-400 hover:text-slate-200'
+                }`}
+              >
+                {label}
+              </button>
+            );
+          })}
         </div>
       </div>
 
