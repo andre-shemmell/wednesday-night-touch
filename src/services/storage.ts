@@ -1,7 +1,7 @@
 import { MatchReport } from '../types/match';
 import initialMatchesRaw from '../data/matches.json';
 
-const STORAGE_KEY = 'wednesday_touch_matches_v2';
+const STORAGE_KEY = 'wednesday_touch_matches_v3';
 const API_KEY_STORAGE = 'gemini_api_key_v1';
 const MODEL_STORAGE = 'gemini_model_choice_v1';
 

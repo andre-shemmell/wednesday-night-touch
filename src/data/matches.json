@@ -1,8 +1,8 @@
 [
   {
-    "id": "2026-09-09-round-5",
+    "id": "2026-09-09-round-8",
     "date": "2026-09-09",
-    "round": "Round 5",
+    "round": "Round 8",
     "season": "Spring 2026",
     "teamName": "Point Takeaway",
     "opponent": "Bonsai",
@@ -143,9 +143,9 @@
     }
   },
   {
-    "id": "2026-09-02-round-4",
+    "id": "2026-09-02-round-7",
     "date": "2026-09-02",
-    "round": "Round 4",
+    "round": "Round 7",
     "season": "Spring 2026",
     "teamName": "Point Takeaway",
     "opponent": "The Well Hungarians (\"The Opposition\")",
@@ -212,9 +212,9 @@
     }
   },
   {
-    "id": "2026-08-26-round-3",
+    "id": "2026-08-26-round-6",
     "date": "2026-08-26",
-    "round": "Round 3",
+    "round": "Round 6",
     "season": "Spring 2026",
     "teamName": "Point Takeaway",
     "opponent": "The Touchers",
@@ -280,9 +280,9 @@
     }
   },
   {
-    "id": "2026-08-19-round-2",
+    "id": "2026-08-19-round-5",
     "date": "2026-08-19",
-    "round": "Round 2",
+    "round": "Round 5",
     "season": "Spring 2026",
     "teamName": "Point Takeaway",
     "opponent": "Hunt and Kill",
@@ -346,12 +346,12 @@
     }
   },
   {
-    "id": "2026-08-12-round-1",
+    "id": "2026-08-12-grading",
     "date": "2026-08-12",
-    "round": "Round 1",
+    "round": "Grading Round",
     "season": "Spring 2026",
     "teamName": "Point Takeaway",
-    "opponent": "The 15-Year-Old Young Guns",
+    "opponent": "The 15-Year-Old Young Guns (Bonsai)",
     "score": {
       "us": 4,
       "them": 5,
