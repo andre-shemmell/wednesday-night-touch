@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { COMPETITION_DETAILS } from '../data/competition';
 import { Trophy, Calendar, MapPin, ExternalLink, Shield, AlertCircle, Clock } from 'lucide-react';
 
 export const LadderAndFixtures: React.FC = () => {
-  const { ladder, upcomingFixtures, associationName, competitionName, grade, venueName, venueAddress, teamContactName } = COMPETITION_DETAILS;
+  const { ladder, divisionResults, upcomingFixtures, associationName, competitionName, grade, venueName, venueAddress, teamContactName } = COMPETITION_DETAILS;
   const nextMatch = upcomingFixtures[0];
+  const [selectedRoundTab, setSelectedRoundTab] = useState<string>(divisionResults[0]?.round || 'Round 8');
+
+  const ptEntry = ladder.find(t => t.isPointTakeaway) || { pos: 5, won: 2, drawn: 0, lost: 2, points: 8 };
+  const oppEntry = ladder.find(t => t.team.toLowerCase().includes(nextMatch?.opponent?.toLowerCase() || '')) || { pos: 3, won: 1, drawn: 2, lost: 1, points: 8 };
+  const currentRoundData = divisionResults.find(r => r.round === selectedRoundTab) || divisionResults[0];
 
   return (
     <div className="space-y-6 sm:space-y-8 animate-fade-in">
@@ -27,8 +32,8 @@ export const LadderAndFixtures: React.FC = () => {
               {/* Point Takeaway */}
               <div className="text-center md:text-left">
                 <div className="text-xs font-semibold uppercase tracking-wider text-emerald-400 mb-1">Point Takeaway</div>
-                <div className="text-2xl sm:text-3xl font-black text-white tracking-tight">The Boys (4th)</div>
-                <div className="text-xs text-slate-400 mt-1">2W - 0D - 1L (7 pts)</div>
+                <div className="text-2xl sm:text-3xl font-black text-white tracking-tight">The Boys ({ptEntry.pos}th)</div>
+                <div className="text-xs text-slate-400 mt-1">{ptEntry.won}W - {ptEntry.drawn}D - {ptEntry.lost}L ({ptEntry.points} pts)</div>
               </div>
 
               {/* VS Pill */}
@@ -37,15 +42,15 @@ export const LadderAndFixtures: React.FC = () => {
                   VS
                 </div>
                 <div className="text-xs font-bold text-amber-400 mt-2 text-center uppercase tracking-wide">
-                  Top 4 Showdown!
+                  Top 4 Battle! Level on {ptEntry.points} pts
                 </div>
               </div>
 
               {/* Opponent */}
               <div className="text-center md:text-right">
-                <div className="text-xs font-semibold uppercase tracking-wider text-amber-400 mb-1">League Leaders</div>
-                <div className="text-2xl sm:text-3xl font-black text-white tracking-tight">{nextMatch.opponent} (1st)</div>
-                <div className="text-xs text-slate-400 mt-1">2W - 1D - 0L (8 pts)</div>
+                <div className="text-xs font-semibold uppercase tracking-wider text-amber-400 mb-1">Upcoming Opponent</div>
+                <div className="text-2xl sm:text-3xl font-black text-white tracking-tight">{nextMatch.opponent} ({oppEntry.pos}rd)</div>
+                <div className="text-xs text-slate-400 mt-1">{oppEntry.won}W - {oppEntry.drawn}D - {oppEntry.lost}L ({oppEntry.points} pts)</div>
               </div>
             </div>
 
@@ -159,6 +164,133 @@ export const LadderAndFixtures: React.FC = () => {
             </tbody>
           </table>
         </div>
+      </div>
+
+      {/* Official Division Round Results Scoreboard */}
+      <div className="bg-slate-800/80 rounded-3xl border border-slate-700/80 p-5 sm:p-7 shadow-xl">
+        <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
+          <div className="flex items-center gap-2.5">
+            <div className="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-400/30 flex items-center justify-center text-emerald-400">
+              <Calendar className="w-5 h-5" />
+            </div>
+            <div>
+              <h3 className="text-lg sm:text-xl font-black text-white tracking-tight">E/F Grade Round-by-Round Results</h3>
+              <p className="text-xs text-slate-400">Official match scores across all 8 teams in the division</p>
+            </div>
+          </div>
+
+          {/* Round Selector Tabs */}
+          <div className="flex flex-wrap items-center gap-1.5 p-1 bg-slate-900/80 rounded-2xl border border-slate-700/60">
+            {divisionResults.map((r) => {
+              const isActive = r.round === selectedRoundTab;
+              return (
+                <button
+                  key={r.round}
+                  onClick={() => setSelectedRoundTab(r.round)}
+                  className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                    isActive
+                      ? 'bg-emerald-500 text-white shadow-md'
+                      : 'text-slate-400 hover:text-white hover:bg-slate-800/70'
+                  }`}
+                >
+                  {r.round}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Selected Round Info & Match Cards Grid */}
+        {currentRoundData && (
+          <div className="space-y-4">
+            <div className="flex items-center justify-between text-xs text-slate-400 px-1 border-b border-slate-700/60 pb-2">
+              <span className="font-semibold text-emerald-400">{currentRoundData.round} • {currentRoundData.date}</span>
+              <span>4 Matches played</span>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 sm:gap-4">
+              {currentRoundData.matches.map((m, idx) => {
+                const isPtGame = m.homeTeam === 'Point Takeaway' || m.awayTeam === 'Point Takeaway';
+                const homeWon = m.homeScore > m.awayScore;
+                const awayWon = m.awayScore > m.homeScore;
+                const isDraw = m.homeScore === m.awayScore;
+
+                return (
+                  <div
+                    key={idx}
+                    className={`p-4 rounded-2xl border transition-all ${
+                      isPtGame
+                        ? 'bg-gradient-to-br from-emerald-950/40 via-slate-900/90 to-slate-900/90 border-emerald-500/50 shadow-lg shadow-emerald-950/20'
+                        : 'bg-slate-900/60 border-slate-700/60 hover:border-slate-600'
+                    }`}
+                  >
+                    <div className="flex items-center justify-between text-[11px] mb-2">
+                      <span className="inline-flex items-center gap-1 font-semibold text-slate-400">
+                        <MapPin className="w-3 h-3 text-emerald-400" />
+                        {m.field}
+                      </span>
+                      {isPtGame ? (
+                        <span className="px-2 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wide bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
+                          Point Takeaway
+                        </span>
+                      ) : isDraw ? (
+                        <span className="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wide bg-slate-700 text-slate-300">
+                          Draw
+                        </span>
+                      ) : null}
+                    </div>
+
+                    {/* Teams & Scores */}
+                    <div className="space-y-1.5 py-1">
+                      {/* Home Team */}
+                      <div className="flex items-center justify-between">
+                        <span className={`text-sm font-bold ${
+                          m.homeTeam === 'Point Takeaway'
+                            ? 'text-emerald-300 font-black'
+                            : homeWon ? 'text-white' : 'text-slate-400'
+                        }`}>
+                          {m.homeTeam}
+                        </span>
+                        <span className={`text-base font-black px-2.5 py-0.5 rounded-lg ${
+                          homeWon
+                            ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
+                            : isDraw ? 'bg-slate-800 text-slate-300' : 'text-slate-500'
+                        }`}>
+                          {m.homeScore}
+                        </span>
+                      </div>
+
+                      {/* Away Team */}
+                      <div className="flex items-center justify-between">
+                        <span className={`text-sm font-bold ${
+                          m.awayTeam === 'Point Takeaway'
+                            ? 'text-emerald-300 font-black'
+                            : awayWon ? 'text-white' : 'text-slate-400'
+                        }`}>
+                          {m.awayTeam}
+                        </span>
+                        <span className={`text-base font-black px-2.5 py-0.5 rounded-lg ${
+                          awayWon
+                            ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
+                            : isDraw ? 'bg-slate-800 text-slate-300' : 'text-slate-500'
+                        }`}>
+                          {m.awayScore}
+                        </span>
+                      </div>
+                    </div>
+
+                    {/* Match Notes / Subtext */}
+                    {m.notes && (
+                      <div className="mt-2.5 pt-2 border-t border-slate-800/80 text-[11px] text-emerald-400/90 italic">
+                        "{m.notes}"
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Upcoming Fixtures & Venue Details */}
