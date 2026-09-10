@@ -11,7 +11,7 @@ import { ShareModal } from './components/ShareModal';
 import { LadderAndFixtures } from './components/LadderAndFixtures';
 import { getSavedMatches, saveMatch, deleteMatch } from './services/storage';
 import { MatchReport } from './types/match';
-import { ChevronLeft, ChevronRight, HelpCircle, Globe } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export const App: React.FC = () => {
   const [matches, setMatches] = useState<MatchReport[]>([]);
@@ -27,7 +27,6 @@ export const App: React.FC = () => {
       return true;
     }
   });
-  const [showHostingGuide, setShowHostingGuide] = useState(false);
 
   // Sync theme class to <html> element
   useEffect(() => {
@@ -196,48 +195,12 @@ export const App: React.FC = () => {
 
       {/* Footer */}
       <footer className="mt-16 border-t border-slate-800 bg-slate-950 py-8 text-center text-xs text-slate-500">
-        <div className="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <span className="text-base">🏉</span>
-            <span className="font-semibold text-slate-400">Wednesday Night Touch Footy Hub</span>
-            <span>•</span>
-            <span>Dedicated to Graeme's Match Reports</span>
-          </div>
-
-          <div className="flex items-center gap-4 text-slate-400">
-            <button
-              onClick={() => setShowHostingGuide(!showHostingGuide)}
-              className="flex items-center gap-1 hover:text-turf-400 transition-colors"
-            >
-              <HelpCircle className="w-3.5 h-3.5" />
-              <span>Hosting & Deployment Info</span>
-            </button>
-          </div>
+        <div className="max-w-5xl mx-auto px-4 flex items-center justify-center gap-2">
+          <span className="text-base">🏉</span>
+          <span className="font-semibold text-slate-400">Wednesday Night Touch Footy Hub</span>
+          <span>•</span>
+          <span>Dedicated to Graeme's Match Reports</span>
         </div>
-
-        {/* Hosting Guide Expandable Banner */}
-        {showHostingGuide && (
-          <div className="mt-6 max-w-2xl mx-auto p-5 bg-slate-900 rounded-2xl border border-slate-700 text-left text-xs text-slate-300 space-y-3">
-            <div className="flex items-center justify-between">
-              <span className="font-bold text-white text-sm flex items-center gap-1.5">
-                <Globe className="w-4 h-4 text-turf-400" />
-                Where to Host (100% Free Forever)
-              </span>
-              <button
-                onClick={() => setShowHostingGuide(false)}
-                className="text-slate-400 hover:text-white"
-              >
-                ✕
-              </button>
-            </div>
-            <p>
-              <strong>1. Vercel (Recommended):</strong> Run <code className="bg-slate-950 px-1 py-0.5 rounded text-amber-300">npx vercel</code> or link this GitHub repository on vercel.com. It deploys in 10 seconds with free HTTPS, custom domain support, and auto-updates on git push.
-            </p>
-            <p>
-              <strong>2. GitHub Pages:</strong> A GitHub Actions workflow is included in <code className="bg-slate-950 px-1 py-0.5 rounded text-amber-300">.github/workflows/deploy.yml</code>. Simply push to GitHub and enable Pages in repository settings!
-            </p>
-          </div>
-        )}
       </footer>
     </div>
   );
