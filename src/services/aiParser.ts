@@ -143,7 +143,6 @@ export async function parseSmsWithGemini(
   }
 
   // Call Google Gemini REST API directly with responseSchema & responseMimeType: application/json
-  const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${activeKey}`;
 
   const requestBody = {
     contents: [
@@ -170,24 +169,65 @@ export async function parseSmsWithGemini(
     }
   };
 
-  const response = await fetch(endpoint, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(requestBody),
-  });
-
-  if (!response.ok) {
-    const errorText = await response.text();
-    throw new Error(`Gemini API error (${response.status}): ${errorText}`);
+  // Attempt call with automatic retry and fallback to gemini-2.5-flash if 503 / overloaded
+  const modelsToTry = [modelName];
+  if (!modelsToTry.includes('gemini-2.5-flash')) {
+    modelsToTry.push('gemini-2.5-flash');
   }
 
-  const data = await response.json();
-  const textOutput = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+  let lastError: Error | null = null;
+  let textOutput: string | null = null;
+
+  for (const currentModel of modelsToTry) {
+    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${currentModel}:generateContent?key=${activeKey}`;
+    
+    // Up to 2 attempts per model (immediate attempt + quick backoff retry)
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        const response = await fetch(endpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(requestBody),
+        });
+
+        if (response.status === 503 || response.status === 429) {
+          const errBody = await response.text();
+          console.warn(`[${currentModel}] attempt ${attempt} got ${response.status} (High Demand): ${errBody}`);
+          if (attempt === 1) {
+            // Wait 1.5s before retrying
+            await new Promise(res => setTimeout(res, 1500));
+            continue;
+          }
+          // After attempt 2 on this model, break to fallback model
+          break;
+        }
+
+        if (!response.ok) {
+          const errorText = await response.text();
+          throw new Error(`Gemini API error (${response.status}): ${errorText}`);
+        }
+
+        const data = await response.json();
+        textOutput = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (textOutput) break;
+      } catch (err: any) {
+        lastError = err;
+        if (attempt === 1 && !err.message?.includes('API error (4')) {
+          await new Promise(res => setTimeout(res, 1500));
+          continue;
+        }
+      }
+    }
+
+    if (textOutput) {
+      break;
+    }
+  }
 
   if (!textOutput) {
-    throw new Error('Gemini did not return text response.');
+    throw lastError || new Error('Gemini API is currently overloaded. Please try again in a moment or use the Instant Offline Heuristic.');
   }
 
   const parsed = JSON.parse(textOutput);
