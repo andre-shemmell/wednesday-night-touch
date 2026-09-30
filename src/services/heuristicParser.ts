@@ -126,11 +126,18 @@ export function parseSmsHeuristic(rawSms: string): Partial<MatchReport> {
     venueNotes = `Parking is ${parkingMatch[1].trim()}.`;
   }
 
-  const today = new Date().toISOString().split('T')[0];
+  // Default to the most recent Wednesday (touch footy match day)
+  const d = new Date();
+  // In JS, day 3 is Wednesday. If today is Thursday (4), (4 - 3 + 7) % 7 = 1 day ago = Wednesday!
+  const dayOfWeek = d.getDay();
+  const daysSinceWednesday = (dayOfWeek - 3 + 7) % 7;
+  const matchDateObj = new Date(d);
+  matchDateObj.setDate(d.getDate() - daysSinceWednesday);
+  const matchDate = matchDateObj.toISOString().split('T')[0];
 
   return {
-    date: today,
-    round: 'Next Round',
+    date: matchDate,
+    round: 'Round 9',
     season: '2026',
     teamName: 'Point Takeaway',
     opponent: 'The Opposition',

@@ -150,7 +150,13 @@ export async function parseSmsWithGemini(
         role: 'user',
         parts: [
           {
-            text: `Here is the Dad's Wednesday night touch footy SMS writeup:\n\n${smsText}`
+            text: `Here is the Dad's Wednesday night touch footy SMS writeup:\n\n${smsText}\n\n` +
+              `Contextual Information for Redlands Touch Association:\n` +
+              `- Matches are played on Wednesday nights.\n` +
+              `- Most recent match date: Wednesday, 30 September 2026 (Round 9).\n` +
+              `- Previous rounds for reference: Round 8 was 2026-09-09, Round 7 was 2026-09-02, Round 6 was 2026-08-26, Round 5 was 2026-08-19.\n` +
+              `- Team name is "Point Takeaway".\n` +
+              `- Please accurately infer the date (YYYY-MM-DD) and round (e.g. "Round 9") matching the competition schedule.`
           }
         ]
       }
