@@ -21,12 +21,12 @@ You have two excellent, zero-maintenance free hosting options:
 
 ---
 
-## 🤖 AI-Powered SMS Ingestion (Gemini Pro & Flash)
+## 🤖 AI-Powered SMS Ingestion (Gemini 3.8 Flash)
 
 Every Wednesday night when Dad sends his SMS, you don't need to format anything manually:
 1. Open the site and click the **"AI Ingest"** button in the header.
 2. Paste Dad's raw SMS into the text box.
-3. Select your model (Flagship **Gemini 2.5 Pro**, **Gemini 2.0 Pro Experimental**, or fast **Gemini 2.5 Flash**) and click **"Parse with Gemini"** (or use the built-in **Instant Offline Heuristic** button if you don't have an API key set).
+3. Click **"Parse with Gemini Flash"** (defaults to **Gemini 3.8 Flash**, or use the built-in **Instant Offline Heuristic** button if you don't have an API key set).
 4. Gemini extracts:
    - Match Score (Half Time, Full Time, Result)
    - Try Scorers (Dylan, Joel, Jayden, Cam)
