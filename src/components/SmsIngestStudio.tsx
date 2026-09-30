@@ -193,7 +193,7 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
               SMS INGEST STUDIO
             </h2>
             <p className="text-sm text-slate-300 mt-1 max-w-2xl">
-              Paste Graeme's Wednesday night SMS. Gemini Flash parses the scores, try scorers, casualties (5-stitch injuries 😂), referee controversies, and his closing quote into a structured match report.
+              Paste Graeme's Wednesday night SMS. Gemini AI parses the scores, try scorers, casualties (5-stitch injuries 😂), referee controversies, and his closing quote into a structured match report.
             </p>
           </div>
 
@@ -228,19 +228,26 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
           <div>
             <label className="text-xs font-semibold text-slate-300 flex items-center gap-1.5 mb-1.5">
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              <span>AI Model</span>
+              <span>AI Model Tier</span>
             </label>
             <select
               value={model}
               onChange={e => handleSaveModel(e.target.value)}
               className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-amber-500"
             >
-              <option value="gemini-2.5-flash">Gemini 2.5 Flash (Recommended)</option>
-              <option value="gemini-1.5-flash">Gemini 1.5 Flash (Fast)</option>
-              <option value="gemini-2.0-flash">Gemini 2.0 Flash</option>
+              <optgroup label="Higher Level / Pro Models (Deep Reasoning & Nuance)">
+                <option value="gemini-2.5-pro">Gemini 2.5 Pro (Flagship Intelligence & Nuance)</option>
+                <option value="gemini-2.0-pro-exp-02-05">Gemini 2.0 Pro Experimental (Complex Extraction)</option>
+                <option value="gemini-1.5-pro">Gemini 1.5 Pro (Advanced Reasoning)</option>
+              </optgroup>
+              <optgroup label="Flash Models (Fast & Lightweight)">
+                <option value="gemini-2.5-flash">Gemini 2.5 Flash (Balanced & Fast - Recommended)</option>
+                <option value="gemini-2.0-flash">Gemini 2.0 Flash (Next-Gen Fast)</option>
+                <option value="gemini-1.5-flash">Gemini 1.5 Flash (Lightweight)</option>
+              </optgroup>
             </select>
             <p className="text-[11px] text-slate-400 mt-1">
-              Optimized for Australian sports jargon & grassroots match summaries.
+              Pro models excel at Australian footy slang, subtle ref controversies, and complex narrative flow.
             </p>
           </div>
         </div>
@@ -270,12 +277,16 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
               {isProcessing ? (
                 <>
                   <RefreshCw className="w-4 h-4 animate-spin" />
-                  <span>Gemini Flash Thinking...</span>
+                  <span>
+                    {model.includes('pro') ? 'Gemini Pro Thinking...' : 'Gemini Thinking...'}
+                  </span>
                 </>
               ) : (
                 <>
                   <Sparkles className="w-4 h-4" />
-                  <span>Parse with Gemini Flash</span>
+                  <span>
+                    Parse with {model.includes('pro') ? 'Gemini Pro' : 'Gemini AI'}
+                  </span>
                 </>
               )}
             </button>
