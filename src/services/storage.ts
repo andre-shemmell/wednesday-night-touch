@@ -77,9 +77,9 @@ export function setStoredApiKey(key: string): void {
 
 export function getStoredModel(): string {
   try {
-    return localStorage.getItem(MODEL_STORAGE) || 'gemini-2.5-flash';
+    return localStorage.getItem(MODEL_STORAGE) || 'gemini-3.8-flash';
   } catch {
-    return 'gemini-2.5-flash';
+    return 'gemini-3.8-flash';
   }
 }
 

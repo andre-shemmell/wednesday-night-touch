@@ -110,7 +110,7 @@ const JSON_SCHEMA = {
 export async function parseSmsWithGemini(
   rawSms: string,
   apiKey?: string,
-  modelName: string = 'gemini-2.5-flash'
+  modelName: string = 'gemini-3.8-flash'
 ): Promise<MatchReport> {
   const smsText = rawSms.replace(/^(?:hey|hi|g'day|hello)\s+[a-zA-Z\u00C0-\u017F]+[,.]?\s*\n*/i, '').trim();
   const activeKey = apiKey || (import.meta as any).env?.VITE_GEMINI_API_KEY || '';
