@@ -112,10 +112,10 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
     try {
       const parsed = await parseSmsWithGemini(smsText, apiKey);
       setCandidate(parsed);
-      setSuccessMsg('Parsed successfully with Gemini 3.8 Flash! Review and publish below.');
+      setSuccessMsg('🎉 Match parsed successfully with Gemini Flash! Review and publish below.');
     } catch (err: any) {
       console.error(err);
-      setErrorMsg(`AI Parsing failed: ${err?.message || err}. You can also use the Instant Heuristic Parser.`);
+      setErrorMsg(`AI Parsing failed: ${err?.message || err}.`);
     } finally {
       setIsProcessing(false);
     }

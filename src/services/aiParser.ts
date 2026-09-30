@@ -169,14 +169,18 @@ export async function parseSmsWithGemini(
     }
   };
 
-  // Attempt call with automatic retry and fallback to gemini-2.5-flash if 503 / overloaded
+  // Attempt call with automatic retry and fallback: 3.8 Flash -> 3.7 Flash -> 2.5 Flash
   const modelsToTry = [modelName];
+  if (!modelsToTry.includes('gemini-3.7-flash')) {
+    modelsToTry.push('gemini-3.7-flash');
+  }
   if (!modelsToTry.includes('gemini-2.5-flash')) {
     modelsToTry.push('gemini-2.5-flash');
   }
 
   let lastError: Error | null = null;
   let textOutput: string | null = null;
+  let successfulModel = '';
 
   for (const currentModel of modelsToTry) {
     const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${currentModel}:generateContent?key=${activeKey}`;
@@ -196,11 +200,11 @@ export async function parseSmsWithGemini(
           const errBody = await response.text();
           console.warn(`[${currentModel}] attempt ${attempt} got ${response.status} (High Demand): ${errBody}`);
           if (attempt === 1) {
-            // Wait 1.5s before retrying
+            // Wait 1.5s before retrying this model
             await new Promise(res => setTimeout(res, 1500));
             continue;
           }
-          // After attempt 2 on this model, break to fallback model
+          // After attempt 2 on this model, break to fallback model in cascade
           break;
         }
 
@@ -211,7 +215,10 @@ export async function parseSmsWithGemini(
 
         const data = await response.json();
         textOutput = data?.candidates?.[0]?.content?.parts?.[0]?.text;
-        if (textOutput) break;
+        if (textOutput) {
+          successfulModel = currentModel;
+          break;
+        }
       } catch (err: any) {
         lastError = err;
         if (attempt === 1 && !err.message?.includes('API error (4')) {
@@ -227,8 +234,10 @@ export async function parseSmsWithGemini(
   }
 
   if (!textOutput) {
-    throw lastError || new Error('Gemini API is currently overloaded. Please try again in a moment or use the Instant Offline Heuristic.');
+    throw lastError || new Error('Gemini API is currently overloaded across all models. Please try again in a moment or use the Instant Offline Heuristic.');
   }
+
+  console.log(`Successfully generated match report using model: ${successfulModel}`);
 
   const parsed = JSON.parse(textOutput);
 
