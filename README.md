@@ -21,12 +21,12 @@ You have two excellent, zero-maintenance free hosting options:
 
 ---
 
-## 🤖 AI-Powered SMS Ingestion (Gemini 3.8 Flash)
+## 🤖 AI-Powered Match Ingestion (Gemini 3.8 Flash)
 
-Every Wednesday night when Dad sends his SMS, you don't need to format anything manually:
+Every Wednesday night when Graeme writes his match recap, you don't need to format anything manually:
 1. Open the site and click the **"AI Ingest"** button in the header.
-2. Paste Dad's raw SMS into the text box.
-3. Click **"Parse with Gemini Flash"** (defaults to **Gemini 3.8 Flash**, or use the built-in **Instant Offline Heuristic** button if you don't have an API key set).
+2. Enter or paste Graeme's write-up into the text box.
+3. Click **"Parse with Gemini Flash"** (defaults to **Gemini 3.8 Flash**, with automatic fallback).
 4. Gemini extracts:
    - Match Score (Half Time, Full Time, Result)
    - Try Scorers (Dylan, Joel, Jayden, Cam)

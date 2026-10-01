@@ -89,7 +89,7 @@ export const MatchReportView: React.FC<MatchReportProps> = ({
               }`}
             >
               <MessageSquare className="w-3 h-3" />
-              <span>Original SMS</span>
+              <span>Original Text</span>
             </button>
           </div>
         </div>

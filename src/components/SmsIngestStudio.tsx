@@ -103,7 +103,7 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
 
   const handleParseWithGemini = async () => {
     if (!smsText.trim()) {
-      setErrorMsg('Please paste an SMS match writeup first!');
+      setErrorMsg('Please enter a match write-up first!');
       return;
     }
 
@@ -123,7 +123,7 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
 
   const handleParseHeuristic = () => {
     if (!smsText.trim()) {
-      setErrorMsg('Please paste an SMS match writeup first!');
+      setErrorMsg('Please enter a match write-up first!');
       return;
     }
     setErrorMsg(null);
@@ -184,10 +184,10 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
               <span className="text-xs text-slate-400">Zero manual formatting needed</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-white mt-1 font-['Chakra_Petch']">
-              SMS INGEST STUDIO
+              INGEST STUDIO
             </h2>
             <p className="text-sm text-slate-300 mt-1 max-w-2xl">
-              Paste Graeme's Wednesday night SMS. Gemini AI parses the scores, try scorers, casualties (5-stitch injuries 😂), referee controversies, and his closing quote into a structured match report.
+              Add Graeme's Wednesday night write-up. Gemini AI automatically parses the scores, try scorers, casualties (5-stitch injuries 😂), referee controversies, and his closing quote into a structured match report.
             </p>
           </div>
 
@@ -196,7 +196,7 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
             className="self-start sm:self-auto px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-amber-300 border border-slate-700 flex items-center gap-1.5 transition-colors"
           >
             <FileText className="w-3.5 h-3.5" />
-            <span>Load Tonight's Sample SMS</span>
+            <span>Load Sample Write-up</span>
           </button>
         </div>
 
@@ -225,13 +225,13 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
       {/* Input Box */}
       <div className="bg-slate-800/80 rounded-3xl p-6 sm:p-8 border border-slate-700/80 shadow-xl">
         <label className="block text-sm font-bold text-white mb-2">
-          Graeme's Raw SMS Message:
+          Graeme's write-up:
         </label>
         <textarea
           rows={10}
           value={smsText}
           onChange={e => setSmsText(e.target.value)}
-          placeholder="Paste the SMS here (e.g. For tonight's game we were missing Reece... HT 4-2... FT 5-3... Everyone played like young blokes. Good job. 👍)"
+          placeholder="Paste or write the match recap here (e.g. For tonight's game we were missing Reece... HT 4-2... FT 5-3... Everyone played like young blokes. Good job. 👍)"
           className="w-full bg-slate-950 border border-slate-700 rounded-2xl p-4 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-turf-500 font-mono leading-relaxed resize-y"
         />
 

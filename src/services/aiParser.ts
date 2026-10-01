@@ -150,7 +150,7 @@ export async function parseSmsWithGemini(
         role: 'user',
         parts: [
           {
-            text: `Here is the Dad's Wednesday night touch footy SMS writeup:\n\n${smsText}\n\n` +
+            text: `Here is the Dad's Wednesday night touch footy write-up:\n\n${smsText}\n\n` +
               `Contextual Information for Redlands Touch Association:\n` +
               `- Matches are played on Wednesday nights.\n` +
               `- Most recent match date: Wednesday, 30 September 2026 (Round 9).\n` +
