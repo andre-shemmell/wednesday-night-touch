@@ -74,6 +74,13 @@ export const COMPETITION_DETAILS: CompDetails = {
   ],
   divisionResults: [
     {
+      round: 'Round 9',
+      date: 'Wednesday, 30 September 2026',
+      matches: [
+        { homeTeam: 'Point Takeaway', awayTeam: 'United', homeScore: 6, awayScore: 6, field: 'Field 5', notes: "Cam's siren equalizer; 8 blokes battle to epic 6-6 draw" }
+      ]
+    },
+    {
       round: 'Round 8',
       date: 'Wednesday, 9 September 2026',
       matches: [
@@ -115,15 +122,6 @@ export const COMPETITION_DETAILS: CompDetails = {
     }
   ],
   upcomingFixtures: [
-    {
-      round: 'Round 9',
-      date: 'Wednesday, 30 September 2026',
-      time: '7:55 PM',
-      opponent: 'United',
-      field: 'Field 5',
-      venue: 'Redlands Showgrounds, Cleveland',
-      notes: 'Crucial 3rd vs 5th showdown! Both teams locked on 8 points. Winner breaks into the top 3.'
-    },
     {
       round: 'Round 10',
       date: 'Wednesday, 7 October 2026',
