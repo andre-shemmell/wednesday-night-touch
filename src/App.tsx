@@ -5,18 +5,17 @@ import { DadQuote } from './components/DadQuote';
 import { MatchHighlights } from './components/MatchHighlights';
 import { MatchReportView } from './components/MatchReport';
 import { SquadDirectory } from './components/SquadDirectory';
-import { SmsIngestStudio } from './components/SmsIngestStudio';
 import { MatchArchive } from './components/MatchArchive';
 import { ShareModal } from './components/ShareModal';
 import { LadderAndFixtures } from './components/LadderAndFixtures';
-import { getSavedMatches, saveMatch, deleteMatch } from './services/storage';
+import { getSavedMatches, deleteMatch } from './services/storage';
 import { MatchReport } from './types/match';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export const App: React.FC = () => {
   const [matches, setMatches] = useState<MatchReport[]>([]);
   const [selectedMatchId, setSelectedMatchId] = useState<string>('');
-  const [currentTab, setCurrentTab] = useState<'match' | 'squad' | 'ladder' | 'ingest' | 'archive'>('match');
+  const [currentTab, setCurrentTab] = useState<'match' | 'squad' | 'ladder' | 'archive'>('match');
   const [selectedPlayerFilter, setSelectedPlayerFilter] = useState<string | null>(null);
   const [shareModalOpen, setShareModalOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
@@ -55,13 +54,6 @@ export const App: React.FC = () => {
   }, []);
 
   const activeMatch = matches.find(m => m.id === selectedMatchId) || matches[0];
-
-  const handlePublishNewMatch = (newMatch: MatchReport) => {
-    const updated = saveMatch(newMatch);
-    setMatches(updated);
-    setSelectedMatchId(newMatch.id);
-    setCurrentTab('match');
-  };
 
   const handleDeleteMatch = (id: string) => {
     const updated = deleteMatch(id);
@@ -159,11 +151,6 @@ export const App: React.FC = () => {
             currentMatch={activeMatch}
             onSelectPlayer={handleSelectPlayerFromCard}
           />
-        )}
-
-        {/* SMS Ingest Studio Tab */}
-        {currentTab === 'ingest' && (
-          <SmsIngestStudio onPublishMatch={handlePublishNewMatch} />
         )}
 
         {/* Ladder & Draw Tab */}

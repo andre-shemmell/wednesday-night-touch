@@ -1,9 +1,9 @@
 import React from 'react';
-import { Trophy, Sparkles, Users, FileText, Moon, Sun } from 'lucide-react';
+import { Trophy, Users, FileText, Moon, Sun } from 'lucide-react';
 
 interface HeaderProps {
-  currentTab: 'match' | 'squad' | 'ladder' | 'ingest' | 'archive';
-  setCurrentTab: (tab: 'match' | 'squad' | 'ladder' | 'ingest' | 'archive') => void;
+  currentTab: 'match' | 'squad' | 'ladder' | 'archive';
+  setCurrentTab: (tab: 'match' | 'squad' | 'ladder' | 'archive') => void;
   isDarkMode: boolean;
   setIsDarkMode: (val: boolean) => void;
   matchesCount: number;
@@ -99,20 +99,6 @@ export const Header: React.FC<HeaderProps> = ({
               </button>
             </nav>
 
-            {/* AI Ingest Studio CTA Button */}
-            <button
-              onClick={() => setCurrentTab('ingest')}
-              className={`px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 shadow-md ${
-                currentTab === 'ingest'
-                  ? 'bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 font-bold shadow-amber-500/25 ring-2 ring-amber-400'
-                  : 'bg-gradient-to-r from-amber-500/20 to-amber-600/20 text-amber-300 border border-amber-500/40 hover:bg-amber-500/30'
-              }`}
-              title="Add a new SMS match write-up using Gemini AI"
-            >
-              <Sparkles className="w-4 h-4 text-amber-400 animate-pulse" />
-              <span>AI Ingest</span>
-            </button>
-
             {/* Night / Floodlight Mode Toggle */}
             <button
               onClick={() => setIsDarkMode(!isDarkMode)}
@@ -125,18 +111,6 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Mobile Actions (Top Row Right) */}
           <div className="flex md:hidden items-center gap-2">
-            <button
-              onClick={() => setCurrentTab('ingest')}
-              className={`px-2.5 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1 border ${
-                currentTab === 'ingest'
-                  ? 'bg-amber-500 text-slate-950 border-amber-400 shadow-sm'
-                  : 'bg-amber-500/20 text-amber-300 border-amber-500/40 hover:bg-amber-500/30'
-              }`}
-            >
-              <Sparkles className="w-3 h-3 text-amber-400" />
-              <span>AI Ingest</span>
-            </button>
-
             <button
               onClick={() => setIsDarkMode(!isDarkMode)}
               className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-amber-400 border border-slate-700 transition-colors"
