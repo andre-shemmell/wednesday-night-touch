@@ -11,15 +11,20 @@ export function getSavedMatches(): MatchReport[] {
     if (local) {
       const parsed = JSON.parse(local);
       if (Array.isArray(parsed) && parsed.length > 0) {
-        // Auto-correct any match date saved as 2026-10-01 (Thursday ingestion date) or non-Wednesday back to 2026-09-30
+        // Auto-correct any match date saved as 2026-03-25, 2026-10-01, or non-Wednesday back to 2026-09-30
         let modified = false;
-        const sanitized = parsed.map((m: MatchReport) => {
-          if (m.date === '2026-10-01' || (m.round?.includes('9') && m.date !== '2026-09-30')) {
+        const sanitized = parsed.map((m: MatchReport, idx: number) => {
+          if (
+            m.date === '2026-03-25' ||
+            m.date === '2026-10-01' ||
+            (idx === 0 && m.date !== '2026-09-30' && m.date !== '2026-09-09') ||
+            (m.round?.includes('9') && m.date !== '2026-09-30')
+          ) {
             modified = true;
             return {
               ...m,
               date: '2026-09-30',
-              round: m.round || 'Round 9'
+              round: m.round?.includes('Round') ? m.round : 'Round 9'
             };
           }
           return m;
