@@ -74,6 +74,13 @@ export const COMPETITION_DETAILS: CompDetails = {
   ],
   divisionResults: [
     {
+      round: 'Round 10',
+      date: 'Wednesday, 7 October 2026',
+      matches: [
+        { homeTeam: 'Point Takeaway', awayTeam: 'Screws', homeScore: 13, awayScore: 4, field: 'Field 5', notes: '5-on-5 open-field masterclass; Mitch (4 tries) & Dylan (4 tries) run riot' }
+      ]
+    },
+    {
       round: 'Round 9',
       date: 'Wednesday, 30 September 2026',
       matches: [
@@ -123,15 +130,6 @@ export const COMPETITION_DETAILS: CompDetails = {
   ],
   upcomingFixtures: [
     {
-      round: 'Round 10',
-      date: 'Wednesday, 7 October 2026',
-      time: '6:15 PM',
-      opponent: 'Screws',
-      field: 'Field 5',
-      venue: 'Redlands Showgrounds, Cleveland',
-      notes: 'Rematch against long-time rivals Screws (beaten 7-2 in Autumn/Winter).'
-    },
-    {
       round: 'Round 11',
       date: 'Wednesday, 14 October 2026',
       time: '7:05 PM',
@@ -139,6 +137,15 @@ export const COMPETITION_DETAILS: CompDetails = {
       field: 'Field 2',
       venue: 'Redlands Showgrounds, Cleveland',
       notes: 'High-stakes clash against 2nd-place Hunt and Kill.'
+    },
+    {
+      round: 'Round 12',
+      date: 'Wednesday, 21 October 2026',
+      time: '6:15 PM',
+      opponent: 'The Touchers',
+      field: 'Field 3',
+      venue: 'Redlands Showgrounds, Cleveland',
+      notes: 'Crucial late-season fixture leading into finals.'
     }
   ]
 };

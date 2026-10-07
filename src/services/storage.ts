@@ -1,7 +1,7 @@
 import { MatchReport } from '../types/match';
 import initialMatchesRaw from '../data/matches.json';
 
-const STORAGE_KEY = 'wednesday_touch_matches_v5';
+const STORAGE_KEY = 'wednesday_touch_matches_v6';
 const API_KEY_STORAGE = 'gemini_api_key_v1';
 const MODEL_STORAGE = 'gemini_model_choice_v1';
 
@@ -11,30 +11,7 @@ export function getSavedMatches(): MatchReport[] {
     if (local) {
       const parsed = JSON.parse(local);
       if (Array.isArray(parsed) && parsed.length > 0) {
-        // Auto-correct any match date saved as 2026-03-25, 2026-10-01, or non-Wednesday back to 2026-09-30
-        let modified = false;
-        const sanitized = parsed.map((m: MatchReport, idx: number) => {
-          if (
-            m.date === '2026-03-25' ||
-            m.date === '2026-10-01' ||
-            (idx === 0 && m.date !== '2026-09-30' && m.date !== '2026-09-09') ||
-            (m.round?.includes('9') && m.date !== '2026-09-30')
-          ) {
-            modified = true;
-            return {
-              ...m,
-              date: '2026-09-30',
-              round: m.round?.includes('Round') ? m.round : 'Round 9'
-            };
-          }
-          return m;
-        });
-
-        if (modified) {
-          localStorage.setItem(STORAGE_KEY, JSON.stringify(sanitized, null, 2));
-        }
-
-        return sanitized;
+        return parsed;
       }
     }
   } catch (e) {
