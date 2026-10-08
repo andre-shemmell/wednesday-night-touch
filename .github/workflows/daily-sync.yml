@@ -1,0 +1,61 @@
+name: Daily Competition & Ladder Sync
+
+on:
+  schedule:
+    # Runs everyday at 20:00 UTC (6:00 AM AEST / Brisbane time)
+    - cron: '0 20 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Recalculate & Sync Ladder
+        run: npm run sync:ladder
+
+      - name: Check for changes and commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain src/data/competition.ts)" ]; then
+            git add src/data/competition.ts
+            git commit -m "chore(cron): daily sync competition ladder and results [skip ci]"
+            git push origin main
+          else
+            echo "No changes in competition ladder today."
+          fi
+
+      - name: Build application
+        run: npm run build
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
