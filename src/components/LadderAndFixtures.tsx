@@ -66,6 +66,9 @@ export const LadderAndFixtures: React.FC = () => {
                 <div className="flex items-center gap-1.5">
                   <Calendar className="w-4 h-4 text-emerald-400" />
                   <span className="font-semibold text-white">{nextMatch.date}</span> @ <span className="font-bold text-emerald-400">{nextMatch.time}</span>
+                  <span className="ml-1 px-2 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                    Brisbane Local (QLD No DST)
+                  </span>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <MapPin className="w-4 h-4 text-emerald-400" />
@@ -314,9 +317,11 @@ export const LadderAndFixtures: React.FC = () => {
                   <span className="font-extrabold text-emerald-400">{f.round}</span>
                   <span className="text-slate-400">{f.date}</span>
                 </div>
-                <div className="text-sm font-bold text-white flex items-center justify-between">
+                <div className="text-sm font-bold text-white flex flex-wrap items-center justify-between gap-1">
                   <span>vs {f.opponent}</span>
-                  <span className="text-xs text-amber-400 font-semibold">{f.time}</span>
+                  <div className="flex items-center gap-1.5">
+                    <span className="text-xs text-amber-400 font-semibold">{f.time}</span>
+                  </div>
                 </div>
                 <div className="text-xs text-slate-400 mt-1 flex items-center gap-1">
                   <MapPin className="w-3 h-3 text-slate-500" />

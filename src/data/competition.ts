@@ -234,20 +234,20 @@ export const COMPETITION_DETAILS: CompDetails = {
     {
       round: 'Round 11',
       date: 'Wednesday, 14 October 2026',
-      time: '8:05 PM',
+      time: '8:05 PM AEST (Brisbane)',
       opponent: 'Redlands Centurions',
       field: 'Field 9',
       venue: 'Redlands Showgrounds, Cleveland',
-      notes: 'Official draw confirmed: 8:05 PM prime-time clash on Field 9 vs Centurions.'
+      notes: 'Official draw confirmed: 8:05 PM AEST (Brisbane time / 9:05 PM AEDT Sydney) on Field 9 vs Centurions.'
     },
     {
       round: 'Round 12',
       date: 'Wednesday, 21 October 2026',
-      time: '6:15 PM',
+      time: '6:15 PM AEST (Brisbane)',
       opponent: 'The Touchers',
       field: 'Field 3',
       venue: 'Redlands Showgrounds, Cleveland',
-      notes: 'Crucial late-season fixture leading into finals.'
+      notes: 'Crucial late-season fixture: 6:15 PM AEST (Brisbane time) leading into finals.'
     }
   ]
 };
