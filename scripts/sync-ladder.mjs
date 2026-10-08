@@ -8,6 +8,9 @@ const rootDir = path.resolve(__dirname, '..');
 
 const compFilePath = path.join(rootDir, 'src', 'data', 'competition.ts');
 
+const NRL_GRAPHQL_ENDPOINT = 'https://community-backend.api.nationalrugbyleague.io/graphql';
+const REDLANDS_WEDNESDAY_COMP_ID = 69349014;
+
 export const TEAMS = [
   'Bonsai',
   'Hunt and Kill',
@@ -19,10 +22,31 @@ export const TEAMS = [
   'Redlands Centurions'
 ];
 
-/**
- * Recalculates ladder standings based on all division rounds in competition.ts
- * TFA Scoring: Win = 3, Draw = 2, Loss = 1 (or 0 for unplayed/forfeit loss)
- */
+const LADDER_QUERY = `
+query CompetitionLadder($competitionId: Int!) {
+  competitionLadder(competitionId: $competitionId) {
+    teams {
+      _id
+      name
+      ageLvl
+      pool
+      avatar
+      stats {
+        totalMatchPoints
+        pointsDifference
+        pointsFor
+        pointsAgainst
+        matchesPlayed
+        matchesWon
+        matchesLost
+        matchesDrawn
+        byes
+      }
+    }
+  }
+}
+`;
+
 export function recalculateLadderFromResults(divisionResults) {
   const stats = {};
   TEAMS.forEach(team => {
@@ -40,21 +64,14 @@ export function recalculateLadderFromResults(divisionResults) {
     };
   });
 
-  // Iterate chronologically through all matches in divisionResults
   divisionResults.forEach(roundData => {
     roundData.matches.forEach(m => {
-      // Skip bye / non-matches (0-0 without played flags)
       const isByeOrWashout = (m.homeScore === 0 && m.awayScore === 0 && (m.notes?.includes('Bye') || m.notes?.includes('Washout') || m.notes?.includes('Rescheduled')));
-      if (isByeOrWashout) {
-        return;
-      }
+      if (isByeOrWashout) return;
 
       const home = stats[m.homeTeam];
       const away = stats[m.awayTeam];
-
-      if (!home || !away) {
-        return;
-      }
+      if (!home || !away) return;
 
       home.played += 1;
       away.played += 1;
@@ -85,7 +102,6 @@ export function recalculateLadderFromResults(divisionResults) {
     });
   });
 
-  // Sort by points desc, diff desc, pointsFor desc
   const sorted = Object.values(stats).sort((a, b) => {
     if (b.points !== a.points) return b.points - a.points;
     if (b.diff !== a.diff) return b.diff - a.diff;
@@ -98,7 +114,72 @@ export function recalculateLadderFromResults(divisionResults) {
   }));
 }
 
-export function syncCompetition() {
+export async function fetchLiveLadderFromAPI() {
+  console.log(`🌐 Fetching official live ladder from NRL Community API for comp ID ${REDLANDS_WEDNESDAY_COMP_ID}...`);
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 8000);
+
+    const res = await fetch(NRL_GRAPHQL_ENDPOINT, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
+      },
+      body: JSON.stringify({
+        operationName: 'CompetitionLadder',
+        variables: { competitionId: REDLANDS_WEDNESDAY_COMP_ID },
+        query: LADDER_QUERY
+      }),
+      signal: controller.signal
+    });
+
+    clearTimeout(timeout);
+
+    if (!res.ok) {
+      console.warn(`API returned status ${res.status}. Falling back to division results calculation.`);
+      return null;
+    }
+
+    const data = await res.json();
+    const allTeams = data.data?.competitionLadder?.teams || [];
+    const efTeams = allTeams.filter(t => t.pool === 'E/F GRADE');
+    if (!efTeams.length) {
+      console.warn('Could not find E/F GRADE pool in API response.');
+      return null;
+    }
+
+    const sorted = efTeams.sort((a, b) => {
+      const sa = a.stats || {};
+      const sb = b.stats || {};
+      if (sb.totalMatchPoints !== sa.totalMatchPoints) return (sb.totalMatchPoints || 0) - (sa.totalMatchPoints || 0);
+      if (sb.pointsDifference !== sa.pointsDifference) return (sb.pointsDifference || 0) - (sa.pointsDifference || 0);
+      return (sb.pointsFor || 0) - (sa.pointsFor || 0);
+    });
+
+    return sorted.map((t, idx) => {
+      const s = t.stats || {};
+      return {
+        pos: idx + 1,
+        team: t.name,
+        played: s.matchesPlayed || 0,
+        won: s.matchesWon || 0,
+        drawn: s.matchesDrawn || 0,
+        lost: s.matchesLost || 0,
+        pointsFor: s.pointsFor || 0,
+        pointsAgainst: s.pointsAgainst || 0,
+        diff: s.pointsDifference || 0,
+        points: s.totalMatchPoints || 0,
+        isPointTakeaway: t.name === 'Point Takeaway'
+      };
+    });
+  } catch (err) {
+    console.warn('Live API request failed or timed out:', err.message);
+    return null;
+  }
+}
+
+export async function syncCompetition() {
   console.log('🔄 Checking competition standings and division scores...');
   if (!fs.existsSync(compFilePath)) {
     console.error(`Error: Could not find ${compFilePath}`);
@@ -107,27 +188,23 @@ export function syncCompetition() {
 
   let code = fs.readFileSync(compFilePath, 'utf8');
 
-  // Extract divisionResults JSON array
-  const match = code.match(/divisionResults:\s*(\[[\s\S]*?\n\s*\]),/);
-  if (!match) {
-    console.error('Could not parse divisionResults block in competition.ts');
-    process.exit(1);
-  }
+  // Try fetching live ladder from NRL official API first
+  let updatedLadder = await fetchLiveLadderFromAPI();
 
-  // Safely evaluate divisionResults structure
-  const rawResultsStr = match[1];
-  let divisionResults;
-  try {
+  if (!updatedLadder) {
+    console.log('⚡ Using divisionResults recalculation engine...');
+    const match = code.match(/divisionResults:\s*(\[[\s\S]*?\n\s*\]),/);
+    if (!match) {
+      console.error('Could not parse divisionResults block in competition.ts');
+      process.exit(1);
+    }
+    const rawResultsStr = match[1];
     const fn = new Function(`return ${rawResultsStr};`);
-    divisionResults = fn();
-  } catch (err) {
-    console.error('Failed to parse divisionResults:', err);
-    process.exit(1);
+    const divisionResults = fn();
+    updatedLadder = recalculateLadderFromResults(divisionResults);
   }
 
-  const updatedLadder = recalculateLadderFromResults(divisionResults);
-
-  console.log('\n🏆 Current Recalculated Standings:');
+  console.log('\n🏆 Verified Standings:');
   updatedLadder.forEach(t => {
     const star = t.isPointTakeaway ? ' ⭐' : '';
     console.log(
@@ -163,5 +240,4 @@ export function syncCompetition() {
   }
 }
 
-// Run if called directly
 syncCompetition();
