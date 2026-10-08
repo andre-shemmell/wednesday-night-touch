@@ -244,10 +244,10 @@ export const COMPETITION_DETAILS: CompDetails = {
       round: 'Round 12',
       date: 'Wednesday, 21 October 2026',
       time: '8:15 PM AEST (Brisbane)',
-      opponent: 'Hunt and Kill',
+      opponent: 'Hunt and Kill (Double Header Game 1)',
       field: 'Field 6',
       venue: 'Redlands Showgrounds, Cleveland',
-      notes: 'Crucial top-order clash: 8:15 PM AEST (Brisbane time / 9:15 PM AEDT Sydney) on Field 6 vs Hunt and Kill.'
+      notes: '🔥 Double Header Night! Game 1 vs Hunt and Kill confirmed for 8:15 PM AEST. 2nd fixture timeslot & opponent pending official association release.'
     }
   ]
 };
