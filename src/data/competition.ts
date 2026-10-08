@@ -63,28 +63,34 @@ export const COMPETITION_DETAILS: CompDetails = {
   teamContactName: 'Graeme Shemmell',
   teamContactRole: 'Registered Team Manager & Gaffer',
   ladder: [
-    { pos: 1, team: 'Bonsai', played: 4, won: 3, drawn: 1, lost: 0, pointsFor: 30, pointsAgainst: 22, diff: 8, points: 11 },
-    { pos: 2, team: 'Hunt and Kill', played: 4, won: 3, drawn: 0, lost: 1, pointsFor: 26, pointsAgainst: 10, diff: 16, points: 10 },
-    { pos: 3, team: 'United', played: 4, won: 1, drawn: 2, lost: 1, pointsFor: 25, pointsAgainst: 25, diff: 0, points: 8 },
-    { pos: 4, team: 'The Touchers', played: 4, won: 2, drawn: 0, lost: 2, pointsFor: 19, pointsAgainst: 22, diff: -3, points: 8 },
-    { pos: 5, team: 'Point Takeaway', played: 4, won: 2, drawn: 0, lost: 2, pointsFor: 21, pointsAgainst: 24, diff: -3, points: 8, isPointTakeaway: true },
-    { pos: 6, team: 'Screws', played: 4, won: 1, drawn: 1, lost: 2, pointsFor: 16, pointsAgainst: 17, diff: -1, points: 7 },
-    { pos: 7, team: 'The Well Hungarians', played: 4, won: 1, drawn: 0, lost: 3, pointsFor: 19, pointsAgainst: 27, diff: -8, points: 6 },
-    { pos: 8, team: 'Redlands Centurions', played: 4, won: 1, drawn: 0, lost: 3, pointsFor: 15, pointsAgainst: 24, diff: -9, points: 6 },
+    { pos: 1, team: 'Bonsai', played: 5, won: 4, drawn: 1, lost: 0, pointsFor: 38, pointsAgainst: 28, diff: 10, points: 14 },
+    { pos: 2, team: 'Hunt and Kill', played: 5, won: 4, drawn: 0, lost: 1, pointsFor: 33, pointsAgainst: 15, diff: 18, points: 13 },
+    { pos: 3, team: 'Point Takeaway', played: 6, won: 3, drawn: 1, lost: 2, pointsFor: 40, pointsAgainst: 34, diff: 6, points: 13, isPointTakeaway: true },
+    { pos: 4, team: 'United', played: 5, won: 1, drawn: 3, lost: 1, pointsFor: 31, pointsAgainst: 31, diff: 0, points: 10 },
+    { pos: 5, team: 'The Touchers', played: 5, won: 2, drawn: 1, lost: 2, pointsFor: 24, pointsAgainst: 27, diff: -3, points: 10 },
+    { pos: 6, team: 'Screws', played: 5, won: 1, drawn: 1, lost: 3, pointsFor: 20, pointsAgainst: 30, diff: -10, points: 8 },
+    { pos: 7, team: 'The Well Hungarians', played: 5, won: 1, drawn: 0, lost: 4, pointsFor: 23, pointsAgainst: 34, diff: -11, points: 7 },
+    { pos: 8, team: 'Redlands Centurions', played: 5, won: 1, drawn: 0, lost: 4, pointsFor: 18, pointsAgainst: 31, diff: -13, points: 7 },
   ],
   divisionResults: [
     {
       round: 'Round 10',
       date: 'Wednesday, 7 October 2026',
       matches: [
-        { homeTeam: 'Point Takeaway', awayTeam: 'Screws', homeScore: 13, awayScore: 4, field: 'Field 5', notes: '5-on-5 open-field masterclass; Mitch (4 tries) & Dylan (4 tries) run riot' }
+        { homeTeam: 'Point Takeaway', awayTeam: 'Screws', homeScore: 13, awayScore: 4, field: 'Field 5', notes: '5-on-5 open-field masterclass; Mitch (4 tries) & Dylan (4 tries) run riot' },
+        { homeTeam: 'Hunt and Kill', awayTeam: 'The Touchers', homeScore: 7, awayScore: 5, field: 'Field 2', notes: 'Hunt and Kill hold off Touchers late charge' },
+        { homeTeam: 'Bonsai', awayTeam: 'The Well Hungarians', homeScore: 8, awayScore: 4, field: 'Field 3', notes: 'Bonsai keep unbeaten run alive' },
+        { homeTeam: 'United', awayTeam: 'Redlands Centurions', homeScore: 6, awayScore: 3, field: 'Field 8', notes: 'United grind out tight win' }
       ]
     },
     {
       round: 'Round 9',
       date: 'Wednesday, 30 September 2026',
       matches: [
-        { homeTeam: 'Point Takeaway', awayTeam: 'United', homeScore: 6, awayScore: 6, field: 'Field 5', notes: "Cam's siren equalizer; 8 blokes battle to epic 6-6 draw" }
+        { homeTeam: 'Point Takeaway', awayTeam: 'United', homeScore: 6, awayScore: 6, field: 'Field 5', notes: "Cam's siren equalizer; 8 blokes battle to epic 6-6 draw" },
+        { homeTeam: 'The Touchers', awayTeam: 'The Well Hungarians', homeScore: 0, awayScore: 0, field: 'Field 2', notes: 'Scoreless stalemate' },
+        { homeTeam: 'Bonsai', awayTeam: 'Redlands Centurions', homeScore: 0, awayScore: 0, field: 'Field 3', notes: 'Bye / Washout' },
+        { homeTeam: 'Hunt and Kill', awayTeam: 'Screws', homeScore: 0, awayScore: 0, field: 'Field 10', notes: 'Rescheduled match' }
       ]
     },
     {

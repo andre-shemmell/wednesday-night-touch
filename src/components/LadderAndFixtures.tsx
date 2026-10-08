@@ -32,7 +32,9 @@ export const LadderAndFixtures: React.FC = () => {
               {/* Point Takeaway */}
               <div className="text-center md:text-left">
                 <div className="text-xs font-semibold uppercase tracking-wider text-emerald-400 mb-1">Point Takeaway</div>
-                <div className="text-2xl sm:text-3xl font-black text-white tracking-tight">The Boys ({ptEntry.pos}th)</div>
+                <div className="text-2xl sm:text-3xl font-black text-white tracking-tight">
+                  The Boys ({ptEntry.pos === 1 ? '1st' : ptEntry.pos === 2 ? '2nd' : ptEntry.pos === 3 ? '3rd' : `${ptEntry.pos}th`})
+                </div>
                 <div className="text-xs text-slate-400 mt-1">{ptEntry.won}W - {ptEntry.drawn}D - {ptEntry.lost}L ({ptEntry.points} pts)</div>
               </div>
 
@@ -42,14 +44,18 @@ export const LadderAndFixtures: React.FC = () => {
                   VS
                 </div>
                 <div className="text-xs font-bold text-amber-400 mt-2 text-center uppercase tracking-wide">
-                  Top 4 Battle! Level on {ptEntry.points} pts
+                  {ptEntry.points === oppEntry.points
+                    ? `Level on ${ptEntry.points} pts - Battle for 2nd!`
+                    : `${ptEntry.pos <= 4 && oppEntry.pos <= 4 ? 'Top 4 Showdown!' : 'Upcoming Clash'}`}
                 </div>
               </div>
 
               {/* Opponent */}
               <div className="text-center md:text-right">
                 <div className="text-xs font-semibold uppercase tracking-wider text-amber-400 mb-1">Upcoming Opponent</div>
-                <div className="text-2xl sm:text-3xl font-black text-white tracking-tight">{nextMatch.opponent} ({oppEntry.pos}rd)</div>
+                <div className="text-2xl sm:text-3xl font-black text-white tracking-tight">
+                  {nextMatch.opponent} ({oppEntry.pos === 1 ? '1st' : oppEntry.pos === 2 ? '2nd' : oppEntry.pos === 3 ? '3rd' : `${oppEntry.pos}th`})
+                </div>
                 <div className="text-xs text-slate-400 mt-1">{oppEntry.won}W - {oppEntry.drawn}D - {oppEntry.lost}L ({oppEntry.points} pts)</div>
               </div>
             </div>
