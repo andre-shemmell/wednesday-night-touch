@@ -7,8 +7,9 @@ export const LadderAndFixtures: React.FC = () => {
   const nextMatch = upcomingFixtures[0];
   const [selectedRoundTab, setSelectedRoundTab] = useState<string>(divisionResults[0]?.round || 'Round 8');
 
-  const ptEntry = ladder.find(t => t.isPointTakeaway) || { pos: 5, won: 2, drawn: 0, lost: 2, points: 8 };
-  const oppEntry = ladder.find(t => t.team.toLowerCase().includes(nextMatch?.opponent?.toLowerCase() || '')) || { pos: 3, won: 1, drawn: 2, lost: 1, points: 8 };
+  const ptEntry = ladder.find(t => t.isPointTakeaway) || { pos: 3, won: 4, drawn: 1, lost: 2, points: 16 };
+  const cleanOpponentName = nextMatch?.opponent?.split('(')[0]?.trim()?.toLowerCase() || '';
+  const oppEntry = ladder.find(t => t.team.toLowerCase().includes(cleanOpponentName)) || { pos: 2, won: 5, drawn: 0, lost: 2, points: 17 };
   const currentRoundData = divisionResults.find(r => r.round === selectedRoundTab) || divisionResults[0];
 
   return (
