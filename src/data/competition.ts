@@ -242,22 +242,40 @@ export const COMPETITION_DETAILS: CompDetails = {
   ],
   upcomingFixtures: [
     {
-      round: 'Round 12 (Game 1)',
+      round: 'Round 12 (Double Header Game 1)',
       date: 'Wednesday, 21 October 2026',
       time: '8:15 PM AEST (Brisbane)',
       opponent: 'Hunt and Kill',
       field: 'Field 6',
       venue: 'Redlands Showgrounds, Cleveland',
-      notes: '🔥 Double Header Night! Game 1 clash vs Hunt and Kill at 8:15 PM AEST (9:15 PM AEDT Sydney).'
+      notes: '🔥 Double Header Game 1: 3rd vs 2nd showdown! 8:15 PM AEST (9:15 PM AEDT Sydney) on Field 6.'
     },
     {
-      round: 'Round 12 (Game 2)',
+      round: 'Round 13 (Double Header Game 2)',
       date: 'Wednesday, 21 October 2026',
-      time: 'TBA AEST (Brisbane)',
-      opponent: 'TBA (Double Header Game 2)',
-      field: 'Redlands Showgrounds',
+      time: '8:45 PM AEST (Brisbane)',
+      opponent: 'The Touchers',
+      field: 'Field 6',
       venue: 'Redlands Showgrounds, Cleveland',
-      notes: 'Second fixture timeslot & opponent pending final Redlands Touch Association announcement.'
+      notes: '🔥 Double Header Game 2: Immediate follow-up clash vs 1st-place The Touchers! 8:45 PM AEST on Field 6.'
+    },
+    {
+      round: 'Round 14',
+      date: 'Wednesday, 28 October 2026',
+      time: '6:15 PM AEST (Brisbane)',
+      opponent: 'The Well Hungarians',
+      field: 'Field 3',
+      venue: 'Redlands Showgrounds, Cleveland',
+      notes: 'Penultimate regular season clash: 6:15 PM AEST (7:15 PM AEDT Sydney) on Field 3.'
+    },
+    {
+      round: 'Round 15',
+      date: 'Wednesday, 4 November 2026',
+      time: '7:05 PM AEST (Brisbane)',
+      opponent: 'Bonsai',
+      field: 'Field 2',
+      venue: 'Redlands Showgrounds, Cleveland',
+      notes: 'Final round before finals: 7:05 PM AEST (8:05 PM AEDT Sydney) on Field 2 vs Bonsai.'
     }
   ]
 };
