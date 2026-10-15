@@ -255,7 +255,7 @@ export const TheWrapPlayer: React.FC<TheWrapPlayerProps> = ({ round, matchId }) 
                       {turn.speaker}
                     </span>
                     <span className="text-[11px] text-slate-400 font-mono">
-                      Voice: {turn.voice}
+                      Voice: {isMick ? 'Fenrir' : 'Charon'}
                     </span>
                   </div>
                   <span className="text-[10px] text-slate-500 font-mono">Turn {idx + 1}</span>

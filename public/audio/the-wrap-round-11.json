@@ -5,9 +5,11 @@
   "title": "The Wrap: Round 11 Clinic, Northern Lights & Double Header Fever",
   "matchId": "2026-10-14-round-11",
   "isAudioReady": true,
-  "durationSeconds": 270.4,
-  "formattedDuration": "4:30",
+  "modelUsed": "gemini-3.8-flash-tts",
+  "durationSeconds": 301,
+  "formattedDuration": "5:01",
   "audioUrl": "/audio/the-wrap-round-11.wav",
+  "stagedNative": true,
   "hosts": [
     {
       "name": "Mick \"The Rocket\" Ryan",
@@ -23,71 +25,56 @@
   "transcript": [
     {
       "speaker": "Mick",
-      "voice": "Fenrir",
-      "text": "G'day touch footy tragics and welcome to The Wrap! Mick here alongside the tactical guru, Gazza! Gaz, what an absolute ripper out at Cleveland Showgrounds tonight! It was spitting rain early, the boys were huddled under the tin roof like cold chooks, but fair dinkum, right on the hooter, the skies parted for Point Takeaway against the Centurions!"
+      "text": "G'day legends and welcome to The Wrap, your weekly dose of touch footy gold for Point Takeaway down at Redlands Touch Association! Mick here, and oh boy, Round 11 was an absolute pearler! Cleveland Showgrounds turned on a bit of pre-game drizzle, had all eleven of us huddled under the rusty tin roof, and then right on kickoff the skies cleared, the turf gripped, and the boys dished out a proper 7 to 2 shellacking to the Redlands Centurions! You beauty!"
     },
     {
       "speaker": "Gazza",
-      "voice": "Charon",
-      "text": "Haha, g'day Mick! Bloody oath, mate. Noticeably absent was Nev, who has hopped on a big bird flying to the North Pole to see the Northern Lights, lucky bugger. But the lads turned up ready to rip in: Cam, Matt, BJ, Jayden, Reece, Mitch, Mack, Adrian, Joely, Dylan, and Peter. Mind you, minute one was a shocker—Centurions put on some young stepping magic and caught our blokes napping. Nil-one down before we even broke a sweat, mate."
+      "text": "A clinical performance, Mick. Particularly impressive considering our mate Nev decided looking at green skies in Norway for the Northern Lights was more important than freezing his backside off in Cleveland. So without Nev, the gaffer Graeme had eleven troops locked and loaded: Cam, Matt, BJ, Jayden, Reece, Mitch, Mack, Adrian, Joely, Dylan, and Peter. Though I must say, minute one had a few blokes coughing up their tuckshop pies when Centurions crossed immediately to make it 0-1."
     },
     {
       "speaker": "Mick",
-      "voice": "Fenrir",
-      "text": "Haha, oh mate, they got stung! And then what about Peter's mystery penalty? Charging in with total fervour, eyes on the prize, and he runs dead straight into his own teammate! You couldn't script it! Jayden had a blistering line break cut short by a fingernail, but then Joely—cool as a cucumber—waltzes right through the middle to lock it at one-all. You beauty!"
+      "text": "Haha! Stone the crows Gazza, talk about a wake-up call! And then Peter produces the play of the century by getting penalised for colliding into his own teammate! The ref did not know what to blow, the sideline was in stitches, and Peter looked like he had just tackled a ghost! But fair dinkum, once that cobweb cleared, Jayden sliced straight through the line and fed Joely for a cool-headed dot down to level it 1-1!"
     },
     {
       "speaker": "Gazza",
-      "voice": "Charon",
-      "text": "Pure class from Joely, mate. Then Cam, pulling the strings at link, drills an absolute rocket—a genuine bullet pass—straight into Mack hitting the gap at full throttle. Two-one. Centurions struck back out wide to make it two-all, despite Mack putting in a heroic diving try-saver earlier. But Mick, that five-minute patch before halftime from our boys was textbook touch footy."
+      "text": "Pure class from Joely. Then Cam stepped up into first receiver and delivered an absolute tracer bullet pass out wide to Mack, who crashed over right in the corner to make it 2-1. Centurions managed to scramble back to 2-2 shortly after, despite Mack nearly dislocating a shoulder pulling off a heroic diving tag. But Peter quickly made amends for his friendly fire incident, dishing a sweet pill to Reece to regain the lead at 3-2."
     },
     {
       "speaker": "Mick",
-      "voice": "Fenrir",
-      "text": "Poetry in motion, Gazza! Peter dishes a peach out to Reece, who turns on the afterburners down the chalk for three-two! Then Dylan and Jayden do a classic give-and-go right through the guts—slippery as eels—bang, four-two right on halftime! Then straight out of the sheds, Mitch pulls off a piece of pure solo brilliance to make it five-two, mate!"
+      "text": "And right before the halftime hooter, Jayden and Dylan put on an absolute clinic through the middle! Give and go, draw and pass, slicing them to ribbons like a hot knife through butter to send us into the sheds up 4-2! The banter at the break was sensational, and whatever Graeme put in the water bottles worked wonders because Mitch came straight out of the sheds and scored an outrageous solo try to blow it out to 5-2!"
     },
     {
       "speaker": "Gazza",
-      "voice": "Charon",
-      "text": "And then, the drama, mate! The ref decides it is time for some crowd entertainment. Double soft send-offs! First, Mack gets marched to the sideline to have a quick breather, and literally twenty seconds later, Joely gets pinged and sent packing too! The sideline is screaming: 'What for?!' and the only answer you get is: 'It's a referee thing!'"
+      "text": "Mitch made five blokes look like parking cones on that run, Mick. Sublime individual try. But then, the match official decided he wanted his own headline with the rare Cleveland double soft send-off. Mack gets sent for a walk to cool his heels on the sideline, and twenty seconds later Joely gets marched off right behind him. The sideline yelled out asking what for, and the ref deadpan replied, quote, it is a referee thing. Tactical genius at work right there."
     },
     {
       "speaker": "Mick",
-      "voice": "Fenrir",
-      "text": "Haha, 'It's a referee thing!' Unbelievable, mate! But did it slow the boys down? Not a chance in hell! Centurions cough up a tap near our line, Reece spots grass, someone yells 'No, don't do it!', and Reece just takes off like a bloody missile! Supersonic speed, dotting it down for six-two! Then Adrian breaks some poor defender's ankles in the middle—'You wouldn't know would you? Good step Adrian!'—before Cam caps an endless motor of a performance with the sealer for seven-two!"
+      "text": "Haha! Bloody oath, a referee thing! I am going to use that at work tomorrow! But playing down numbers did not bother the lads one bit. We get a tap penalty, the sideline literally screams out, no, don't do it! And Reece completely ignores the call, flicks on the turbo afterburners, burns their entire backline, and slams it down for 6-2! You can not coach speed like that, mate!"
     },
     {
       "speaker": "Gazza",
-      "voice": "Charon",
-      "text": "Seven-two at full time, mate. The gaffer Graeme was on the sideline giving the official post-match verdict: 'We played near to our best tonight. And it is good. Great to watch.' Strewth, you cannot get a higher stamp of approval than that from Graeme, Mick! Clinical performance right across the park."
+      "text": "Reece does not take advice from the cheap seats, Mick, he just takes tries. Then Adrian produced an ankle-breaker in the middle of the paddock that sent two Centurions defenders sliding halfway to the Redlands clubhouse. And to put the cherry on the cake, Cam, who simply never stops digging into the contest, chased down a loose ball, beat the cover defence, and sealed the emphatic 7-2 win right on the hooter."
     },
     {
       "speaker": "Mick",
-      "voice": "Fenrir",
-      "text": "Bloody oath, Gaz! Now, let us run the rule over the other Round eleven footy clashes around the grounds. The Touchers took care of business, eight to two over United. Hunt and Kill gave Screws a hiding, six to two. And Bonsai notched an eight-three win over The Well Hungarians. So Gazza mate, have a squiz at the ladder for the punters at home!"
+      "text": "What a win! And the gaffer Graeme was absolutely purring on the sideline after the match! He gave his official post-match appraisal to the group: We played near to our best tonight. And it is good. Great to watch. When Graeme drops praise like that, you know the boys earned their post-game frothies!"
     },
     {
       "speaker": "Gazza",
-      "voice": "Charon",
-      "text": "Righto mate, let us have a look! The Touchers sit in first on seventeen points. Hunt and Kill are right beside them in second on seventeen too. But mate, Point Takeaway are breathing right down their necks in third on sixteen points, with a plus-eleven differential. And get this into ya: we have the best attack in the whole comp with forty-seven tries bagged this season! Bonsai are nipping right at our heels in fourth on sixteen points as well."
+      "text": "High praise indeed from the gaffer. Now, let us have a squiz at the other division results around Redlands. The Touchers took care of business against United, winning 8 to 2. Second-placed Hunt and Kill took down the Screws 6 to 2. And Bonsai kept themselves right in the hunt with an 8 to 3 victory over The Well Hungarians."
     },
     {
       "speaker": "Mick",
-      "voice": "Fenrir",
-      "text": "Forty-seven tries, you little beauty! Absolute try-scoring machine, mate! But strewth Gaz, pull your footy socks up, because next Wednesday, the twenty-first of October, on Field Six... mate, it is the mother of all nights. A MASSIVE double header!"
+      "text": "Strewth, that sets up a wild ladder! Have a squiz at this: The Touchers sit in first on 17 points, Hunt and Kill sit second on 17 points, and right up their clobber in third spot is Point Takeaway on 16 points with a plus 11 differential! And check this stat Gazza: we have the outright best attack in the entire competition with 47 tries scored! Bonsai are right on our tail in fourth on 16 points as well!"
     },
     {
       "speaker": "Gazza",
-      "voice": "Charon",
-      "text": "Lock it in your diary, mate, fair dinkum. Game one kicks off at quarter past eight Brisvegas time against number two, Hunt and Kill. Then just a quick breather before game two at quarter to nine against the table toppers, The Touchers. Back-to-back grudge matches against the top two sides in the comp! If Point Takeaway can sweep both games, mate, the minor premiership is blown wide open!"
+      "text": "Which brings us to next week, Wednesday the twenty-first of October on Field 6. It is the mother of all assignments. A double header against the top two teams on the ladder. Game one taps off at quarter past eight Brisvegas time against number two Hunt and Kill. Then thirty minutes later, on the same field at quarter to nine, we back it up against the ladder leaders, The Touchers."
     },
     {
       "speaker": "Mick",
-      "voice": "Fenrir",
-      "text": "Haha, stone the crows, it is gonna be bonza! Get down to Cleveland, bring your camp chairs and your aerogard, grab a cold tinny! We will catch you next week on The Wrap—cheers legends!"
+      "text": "Stone the crows! Back-to-back grudge matches against first and second! If the Point Takeaway machine clicks like it did against Centurions, we blow this minor premiership wide open! Get your strapping tape ready, hydrate up, and we will see all the faithful down at Cleveland Showgrounds on Wednesday night. Up the Point Takeaway!"
     }
   ],
-  "modelUsed": "gemini-3.8-flash-tts",
-  "stagedNative": true,
-  "updatedAt": "2026-10-15T08:26:01.898Z"
+  "updatedAt": "2026-10-15T08:58:14.946Z"
 }
