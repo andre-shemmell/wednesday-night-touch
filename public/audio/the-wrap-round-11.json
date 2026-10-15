@@ -5,20 +5,20 @@
   "title": "The Wrap: Round 11 Clinic, Northern Lights & Double Header Fever",
   "matchId": "2026-10-14-round-11",
   "isAudioReady": true,
-  "modelUsed": "gemini-3.8-flash-lite-tts",
-  "durationSeconds": 315.8,
-  "formattedDuration": "5:15",
+  "modelUsed": "gemini-3.8-flash-tts",
+  "durationSeconds": 318.5,
+  "formattedDuration": "5:18",
   "audioUrl": "/audio/the-wrap-round-11.wav",
   "stagedNative": true,
   "hosts": [
     {
       "name": "Mick \"The Rocket\" Ryan",
-      "voice": "voice_lepxbd2f37gg",
+      "voice": "voice_5sz1py2m7szz",
       "role": "Colour Commentator"
     },
     {
       "name": "Gazza Shemmell",
-      "voice": "voice_xuyxtq26tqmg",
+      "voice": "voice_aurrcyu83jaj",
       "role": "Tactical Analyst"
     }
   ],
@@ -26,47 +26,47 @@
     {
       "speaker": "Mick",
       "style": "excited and high energy",
-      "text": "G'day legends and welcome to The Wrap, your weekly dose of touch footy gold for Point Takeaway down at Redlands Touch Association! Mick here, and oh boy, Round 11 was an absolute pearler! Cleveland Showgrounds turned on a bit of pre-game drizzle, had all eleven of us huddled under the rusty tin roof, and then right on kickoff the skies cleared, the turf gripped, and the boys dished out a proper 7 to 2 shellacking to the Redlands Centurions! You beauty!"
+      "text": "G'day legends and welcome to The Wrap, your weekly dose of touch footy gold for Point Takeaway down at Redlands Touch Association! Mick here, and oh boy, <short pause> Round 11 was an absolute pearler! Cleveland Showgrounds turned on a bit of pre-game drizzle, had all eleven of us huddled under the rusty tin roof, and then right on kickoff <sighs> the skies cleared, the turf gripped, and the boys dished out a proper 7 to 2 shellacking to the Redlands Centurions! <laugh> You beauty!"
     },
     {
       "speaker": "Gazza",
       "style": "calm, dry wit, deadpan",
-      "text": "A clinical performance, Mick. Particularly impressive considering our mate Nev decided looking at green skies in Norway for the Northern Lights was more important than freezing his backside off in Cleveland. So without Nev, the gaffer Graeme had eleven troops locked and loaded: Cam, Matt, BJ, Jayden, Reece, Mitch, Mack, Adrian, Joely, Dylan, and Peter. Though I must say, minute one had a few blokes coughing up their tuckshop pies when Centurions crossed immediately to make it nil-one."
+      "text": "A clinical performance, Mick. Particularly impressive considering our mate Nev decided looking at green skies in Norway for the Northern Lights was more important than freezing his backside off in Cleveland. <chuckle> So without Nev, the gaffer Graeme had eleven troops locked and loaded: Cam, Matt, BJ, Jayden, Reece, Mitch, Mack, Adrian, Joely, Dylan, and Peter. Though I must say, <short pause> minute one had a few blokes coughing up their tuckshop pies when Centurions crossed immediately to make it nil-one."
     },
     {
       "speaker": "Mick",
       "style": "laughing, hyped up, incredulous",
-      "text": "Haha! Stone the crows Gazza, talk about a wake-up call! And then Peter produces the play of the century by getting penalised for colliding straight into his own teammate! The ref didn't know what to blow, the sideline was in stitches, and Peter looked like he'd just tackled a ghost! But fair dinkum, once that cobweb cleared, Jayden sliced straight through the line and fed Joely for a cool-headed dot down to level it 1-all!"
+      "text": "<laughter> Stone the crows Gazza, talk about a wake-up call! <gasp> And then Peter produces the play of the century by getting penalised for colliding straight into his own teammate! <laugh> The ref didn't know what to blow, the sideline was in stitches, and Peter looked like he'd just tackled a ghost! <chuckle> But fair dinkum, once that cobweb cleared, Jayden sliced straight through the line and fed Joely for a cool-headed dot down to level it 1-all!"
     },
     {
       "speaker": "Gazza",
       "style": "analytical, admiring, measured",
-      "text": "Pure class from Joely. Then Cam stepped up into first receiver and delivered an absolute tracer bullet pass out wide to Mack, who crashed over right in the corner to make it 2-1. Centurions managed to scramble back to 2-all shortly after, despite Mack nearly dislocating a shoulder pulling off a heroic diving tag. But Peter quickly made amends for his friendly fire incident, dishing a sweet pill to Reece to regain the lead at 3-2."
+      "text": "Pure class from Joely. Then Cam stepped up into first receiver and delivered an absolute tracer bullet pass out wide to Mack, who crashed over right in the corner to make it 2-1. Centurions managed to scramble back to 2-all shortly after, despite Mack nearly dislocating a shoulder pulling off a heroic diving tag. <pant> But Peter quickly made amends for his friendly fire incident, dishing a sweet pill to Reece to regain the lead at 3-2."
     },
     {
       "speaker": "Mick",
       "style": "enthusiastic, fast-paced, vivid",
-      "text": "And right before the halftime hooter, Jayden and Dylan put on an absolute clinic through the middle! Give and go, draw and pass, slicing them to ribbons like a hot knife through butter to send us into the sheds up 4-2! The banter at the break was sensational, and whatever Graeme put in the water bottles worked wonders because Mitch came straight out of the sheds and scored an outrageous solo try to blow it out to 5-2!"
+      "text": "And right before the halftime hooter, Jayden and Dylan put on an absolute clinic through the middle! Give and go, draw and pass, slicing them to ribbons like a hot knife through butter to send us into the sheds up 4-2! <chuckle> The banter at the break was sensational, and whatever Graeme put in the water bottles worked wonders because Mitch came straight out of the sheds and scored an outrageous solo try to blow it out to 5-2!"
     },
     {
       "speaker": "Gazza",
       "style": "dry humor, amused, deadpan",
-      "text": "Mitch made five blokes look like parking cones on that run, Mick. Sublime individual try. But then, the match official decided he wanted his own headline with the rare Cleveland double soft send-off. Mack gets sent for a walk to cool his heels on the sideline, and twenty seconds later Joely gets marched off right behind him. The sideline yelled out asking what for, and the ref deadpan replied, quote, it is a referee thing. Tactical genius at work right there."
+      "text": "Mitch made five blokes look like parking cones on that run, Mick. <snicker> Sublime individual try. But then, the match official decided he wanted his own headline with the rare Cleveland double soft send-off. Mack gets sent for a walk to cool his heels on the sideline, and twenty seconds later Joely gets marched off right behind him. The sideline yelled out asking what for, and the ref deadpan replied, quote, it is a referee thing. <short pause> Tactical genius at work right there."
     },
     {
       "speaker": "Mick",
       "style": "chuckling, spirited, emphatic",
-      "text": "Haha! Bloody oath, a referee thing! I'm going to use that at work on Monday! But playing down numbers didn't bother the lads one bit. We get a tap penalty, the sideline literally screams out, no, don't do it! And Reece completely ignores the call, flicks on the turbo afterburners, burns their entire backline, and slams it down for 6-2! You can't coach speed like that, mate!"
+      "text": "<cackle> Bloody oath, a referee thing! I'm going to use that at work on Monday! But playing down numbers didn't bother the lads one bit. We get a tap penalty, the sideline literally screams out, no, don't do it! And Reece completely ignores the call, flicks on the turbo afterburners, burns their entire backline, and slams it down for 6-2! <laugh> You can't coach speed like that, mate!"
     },
     {
       "speaker": "Gazza",
       "style": "relaxed, appreciative, smooth Queensland drawl",
-      "text": "Reece doesn't take advice from the cheap seats, Mick, he just takes tries. Then Adrian produced an ankle-breaker in the middle of the paddock that sent two Centurions defenders sliding halfway to the Redlands clubhouse. And to put the cherry on the cake, Cam, who simply never stops digging into the contest, chased down a loose ball, beat the cover defence, and sealed the emphatic 7-2 win right on the hooter."
+      "text": "Reece doesn't take advice from the cheap seats, Mick, he just takes tries. <chuckle> Then Adrian produced an ankle-breaker in the middle of the paddock that sent two Centurions defenders sliding halfway to the Redlands clubhouse. <gasp> And to put the cherry on the cake, Cam, who simply never stops digging into the contest, chased down a loose ball, beat the cover defence, and sealed the emphatic 7-2 win right on the hooter."
     },
     {
       "speaker": "Mick",
       "style": "warm, proud, respectful",
-      "text": "What a win! And the gaffer Graeme was absolutely purring on the sideline after the match! He gave his official post-match appraisal to the group: We played near to our best tonight. And it is good. Great to watch. When Graeme drops praise like that, you know the boys earned their post-game frothies!"
+      "text": "What a win! <sigh> And the gaffer Graeme was absolutely purring on the sideline after the match! He gave his official post-match appraisal to the group: <short pause> We played near to our best tonight. And it is good. Great to watch. When Graeme drops praise like that, you know the boys earned their post-game frothies!"
     },
     {
       "speaker": "Gazza",
@@ -76,18 +76,18 @@
     {
       "speaker": "Mick",
       "style": "excited, competitive, pumped",
-      "text": "Strewth, that sets up a wild ladder! Have a squiz at this: The Touchers sit in first on 17 points, Hunt and Kill sit second on 17 points, and right up their clobber in third spot is Point Takeaway on 16 points with a plus 11 differential! And check this stat Gazza: we've got the outright best attack in the entire competition with 47 tries scored! Bonsai are right on our tail in fourth on 16 points as well!"
+      "text": "Strewth, that sets up a wild ladder! Have a squiz at this: <short pause> The Touchers sit in first on 17 points, Hunt and Kill sit second on 17 points, and right up their clobber in third spot is Point Takeaway on 16 points with a plus 11 differential! And check this stat Gazza: <gasp> we've got the outright best attack in the entire competition with 47 tries scored! Bonsai are right on our tail in fourth on 16 points as well!"
     },
     {
       "speaker": "Gazza",
       "style": "tactical, anticipatory, big match build-up",
-      "text": "Which brings us to next week, Wednesday the twenty-first of October on Field 6. It's the mother of all assignments. A double header against the top two teams on the ladder. Game one taps off at quarter past eight Brisvegas time against number two Hunt and Kill. Then thirty minutes later, on the same field at quarter to nine, we back it up against the ladder leaders, The Touchers."
+      "text": "Which brings us to next week, Wednesday the twenty-first of October on Field 6. It's the mother of all assignments. A double header against the top two teams on the ladder. <short pause> Game one taps off at quarter past eight Brisvegas time against number two Hunt and Kill. Then thirty minutes later, on the same field at quarter to nine, we back it up against the ladder leaders, The Touchers."
     },
     {
       "speaker": "Mick",
       "style": "rousing, passionate, call to arms",
-      "text": "Stone the crows! Back-to-back grudge matches against first and second! If the Point Takeaway machine clicks like it did against Centurions, we blow this minor premiership wide open! Get your strapping tape ready, hydrate up, and we'll see all the faithful down at Cleveland Showgrounds on Wednesday night. Up the Point Takeaway!"
+      "text": "Stone the crows! Back-to-back grudge matches against first and second! If the Point Takeaway machine clicks like it did against Centurions, we blow this minor premiership wide open! <laughter> Get your strapping tape ready, hydrate up, and we'll see all the faithful down at Cleveland Showgrounds on Wednesday night. Up the Point Takeaway!"
     }
   ],
-  "updatedAt": "2026-10-15T09:45:14.203026Z"
+  "updatedAt": "2026-10-15T10:11:30.451750+00:00"
 }
