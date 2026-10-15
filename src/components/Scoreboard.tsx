@@ -1,7 +1,8 @@
 import React from 'react';
 import confetti from 'canvas-confetti';
-import { Share2, Calendar, Sparkles, AlertTriangle } from 'lucide-react';
+import { Share2, Calendar, Sparkles, AlertTriangle, Radio } from 'lucide-react';
 import { MatchReport } from '../types/match';
+import theWrapEpisodes from '../data/theWrapEpisodes.json';
 
 interface ScoreboardProps {
   match: MatchReport;
@@ -21,12 +22,16 @@ export const Scoreboard: React.FC<ScoreboardProps> = ({ match, onShare }) => {
   const isWin = match.score.outcome === 'win';
   const isDraw = match.score.outcome === 'draw';
 
+  const wrapEpisode = theWrapEpisodes.find(
+    e => e.round.toLowerCase() === match.round.toLowerCase() || e.matchId === match.id
+  );
+
   return (
     <div className="relative overflow-hidden rounded-3xl bg-gradient-to-b from-slate-800/90 to-slate-900 border border-slate-700/80 shadow-2xl p-5 sm:p-8">
       {/* Background Stadium Glow */}
       <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-96 h-48 bg-turf-500/15 blur-3xl pointer-events-none rounded-full" />
 
-      {/* Top Banner: Round, Date, Share */}
+      {/* Top Banner: Round, Date, Share & The Wrap */}
       <div className="flex flex-wrap items-center justify-between gap-2 pb-5 border-b border-slate-700/60 text-xs sm:text-sm">
         <div className="flex items-center gap-2">
           <span className="px-3 py-1 bg-turf-900/60 text-turf-300 font-bold rounded-lg border border-turf-700/50 uppercase tracking-wider text-xs">
@@ -38,13 +43,36 @@ export const Scoreboard: React.FC<ScoreboardProps> = ({ match, onShare }) => {
           </span>
         </div>
 
-        <button
-          onClick={onShare}
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-700/60 hover:bg-slate-700 text-slate-200 text-xs font-semibold border border-slate-600/50 transition-colors"
-        >
-          <Share2 className="w-3.5 h-3.5 text-turf-400" />
-          <span>Share Match</span>
-        </button>
+        <div className="flex items-center gap-2">
+          {wrapEpisode && wrapEpisode.isAudioReady && (
+            <button
+              onClick={() => {
+                const el = document.getElementById('the-wrap-player');
+                if (el) {
+                  el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                  const playBtn = el.querySelector('button[title*="Play"], button[title*="Pause"]') as HTMLButtonElement | null;
+                  if (playBtn) playBtn.click();
+                }
+              }}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-400 hover:to-yellow-400 text-slate-950 text-xs font-black shadow-md shadow-amber-500/20 active:scale-95 transition-all"
+              title="Listen to The Wrap Podcast"
+            >
+              <Radio className="w-3.5 h-3.5 animate-pulse text-slate-950" />
+              <span>The Wrap</span>
+              <span className="text-[10px] bg-slate-950/20 px-1.5 py-0.5 rounded font-mono font-bold">
+                {wrapEpisode.formattedDuration || '4:14'}
+              </span>
+            </button>
+          )}
+
+          <button
+            onClick={onShare}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-700/60 hover:bg-slate-700 text-slate-200 text-xs font-semibold border border-slate-600/50 transition-colors"
+          >
+            <Share2 className="w-3.5 h-3.5 text-turf-400" />
+            <span>Share Match</span>
+          </button>
+        </div>
       </div>
 
       {/* Main Scoreboard Display */}

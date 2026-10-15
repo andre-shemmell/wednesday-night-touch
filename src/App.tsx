@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import { Scoreboard } from './components/Scoreboard';
 import { DadQuote } from './components/DadQuote';
+import { TheWrapPlayer } from './components/TheWrapPlayer';
 import { MatchHighlights } from './components/MatchHighlights';
 import { MatchReportView } from './components/MatchReport';
 import { SquadDirectory } from './components/SquadDirectory';
@@ -129,6 +130,12 @@ export const App: React.FC = () => {
 
             {/* Dad's Quote of the Week Card */}
             <DadQuote quote={activeMatch.dadQuote} />
+
+            {/* The Wrap Podcast Player (Round Audio Recap) */}
+            <TheWrapPlayer
+              round={activeMatch.round}
+              matchId={activeMatch.id}
+            />
 
             {/* Key Match Highlights (Tries, Defense, Casualties, Ref Room) */}
             <MatchHighlights
