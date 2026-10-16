@@ -1,0 +1,93 @@
+{
+  "id": "the-wrap-round-9",
+  "round": "Round 9",
+  "date": "2026-09-30",
+  "title": "The Wrap: The Catchup Thriller, 3-Week Layoff & Cam's Siren Equalizer",
+  "matchId": "2026-09-30-round-9",
+  "isAudioReady": true,
+  "modelUsed": "gemini-3.8-flash-tts",
+  "durationSeconds": 273.0,
+  "formattedDuration": "4:33",
+  "audioUrl": "/audio/the-wrap-round-9.wav",
+  "stagedNative": true,
+  "hosts": [
+    {
+      "name": "Mick \"The Rocket\" Ryan",
+      "voice": "voice_lepxbd2f37gg",
+      "role": "Colour Commentator"
+    },
+    {
+      "name": "Gazza Shemmell",
+      "voice": "voice_xuyxtq26tqmg",
+      "role": "Tactical Analyst"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "Mick",
+      "style": "excited and high energy",
+      "text": "G'day legends and welcome back to The Wrap, your weekly hit of touch footy gold for Point Takeaway at Redlands Touch Association! Mick here with Gazza, and oh boy... Round 9 was a heart-stopping, cardiac-arrest thriller down at Cleveland Showgrounds! First game back after a three-week break while the council had the fields locked down for Showgrounds activities. And fair dinkum, we turned up with eight troops, Nev and BJ sprinting onto the paddock right on the kickoff hooter, and played out an absolute 6-all blockbuster against United! <laugh> You beauty!"
+    },
+    {
+      "speaker": "Gazza",
+      "style": "calm, dry wit, deadpan",
+      "text": "A proper war of attrition, Mick. Coming off a three-week layoff with zero cardio is tough enough, but we were down to the bare bones. Peter and Reece were still in the casualty ward, Jayden was unavailable, and Adrian was over in Thailand living his best life. So with just two fresh legs on the sub bench, the game fell into an agonizing pattern. The gaffer Graeme dubbed it 'The Catchup'. United would sneak ahead, and we'd have to bust a gut to pull them back."
+    },
+    {
+      "speaker": "Mick",
+      "style": "laughing, hyped up, incredulous",
+      "text": "Haha! Pure catchup footy! But mate, we drew first blood! Cam got busy deep in attack, drew the markers, and Mitch somehow squeezed through a needle-eye gap between two United defenders to dot it down for 1-nil! <laugh> Those defenders were so close they could've checked his pulse, but the ref gave the all clear!"
+    },
+    {
+      "speaker": "Gazza",
+      "style": "analytical, admiring, measured",
+      "text": "United hit back quickly when an errant defensive pass bounced off Nev to level it 1-all, and then they crossed again out wide to take the lead at 1-2. But Mitch wasn't having a bar of it. Matt and Joely worked a sweet midfield platform, dished to Mitch on the charge, and he iced his double to square the ledger at 2-all."
+    },
+    {
+      "speaker": "Mick",
+      "style": "enthusiastic, laughing, fast-paced",
+      "text": "And then came the first controversial call of the night! <gasp> United throws a pass that was at least two meters forward... fair dinkum, it was practically in another postcode, but the ref pays it and they go up 2-3! <laugh> Stone the crows! But you can't keep Cam quiet for long. He pulls out the playmaking magic, feeds his brother Matt slicing into a hole, and Matt slams it down to lock it up at 3-all into the sheds!"
+    },
+    {
+      "speaker": "Gazza",
+      "style": "dry humor, amused, deadpan",
+      "text": "Halftime 3-all was a miracle given our heavy legs, Mick. But the second half was pure drama. United crossed early to make it 3-4, but Nev made amends in defence, corralling their winger right into the corner to force a turnover penalty. And off that tap, Joely produced one of the bravest diving tries of the season, crashing through three defenders to level it at 4-all."
+    },
+    {
+      "speaker": "Mick",
+      "style": "chuckling, spirited, emphatic",
+      "text": "Haha! Classic Joely, fear is not in that bloke's vocabulary! Meanwhile, Dylan was having an absolute field day in defence! <chuckle> He was tagging blokes left, right, and centre... anything that moved in a United jersey got chopped down! But United got lucky again out wide, catching Nev isolated on the wing to snatch a 4-5 lead with ten minutes to go!"
+    },
+    {
+      "speaker": "Gazza",
+      "style": "relaxed, appreciative, smooth Queensland drawl",
+      "text": "And that set the stage for total chaos in the middle of the paddock. The referee yelled out, quote, play on, while the entire United defence froze thinking there was a stoppage. Joely didn't hesitate for a second... he put his head down, sprinted straight through their offside defenders, and put it down to square it up at 5-all. Tactical awareness at its finest."
+    },
+    {
+      "speaker": "Mick",
+      "style": "laughing, animated, hyped",
+      "text": "<laugh> Play to the whistle, legends! But mate, United struck right back out wide with two minutes on the clock to make it 5-6! Time ticking away, the legs were screaming, and it looked like we were cooked!"
+    },
+    {
+      "speaker": "Gazza",
+      "style": "authoritative, structured, footy analyst",
+      "text": "And that's when Cam stepped up for the play of the match. Graeme wrote in his official match report: when Cam sees the light, anything can happen. Cam took the ball forty meters out, saw the defensive line staggering, and backed himself. He pinned his ears back, sliced straight through three tired defenders, and planted the ball down under the black dot for 6-all right on the siren."
+    },
+    {
+      "speaker": "Mick",
+      "style": "excited, competitive, pumped",
+      "text": "<gasp> Buzzer beater of the year! <laugh> Pure clutch from Cam! The final hooter blows as the ball hits the turf, and the boys walk away with an epic 6-all draw! What a finish!"
+    },
+    {
+      "speaker": "Gazza",
+      "style": "tactical, respectful, smiling",
+      "text": "The gaffer Graeme was honest in his post-match summary: A draw. Initial reaction: No way. We played better. But we have to realise that a couple of things happened tonight. One: We were short of players. Two: We were not given the rub of the green. So many referee calls not addressing forward passes and touch-and-passes."
+    },
+    {
+      "speaker": "Mick",
+      "style": "rousing, passionate, call to arms",
+      "text": "<sigh> Spot on from the gaffer Graeme! We didn't get the rub of the green, but walking away with a point after three weeks off with eight blokes is pure guts and determination. What a comeback, what a squad! Up the Point Takeaway!"
+    }
+  ],
+  "updatedAt": "2026-10-16T12:03:55.852026+00:00"
+}
