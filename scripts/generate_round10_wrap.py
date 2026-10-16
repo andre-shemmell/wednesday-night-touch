@@ -34,17 +34,18 @@ os.makedirs(audio_dir, exist_ok=True)
 MICK_VOICE_ID = 'voice_lepxbd2f37gg'   # "Mick The Rocket" (en-AU, enthusiastic gravelly footy commentator)
 GAZZA_VOICE_ID = 'voice_xuyxtq26tqmg'  # "Gazza Shemmell" (en-AU, deadpan Queensland tactical analyst)
 
-# 4. Round 10 Script with Native Expression Tags & Australian Phrasing
+# 4. Round 10 Script with strictly verified acoustic tags (<laugh>, <chuckle>, <gasp>, <sigh>)
+# and natural punctuation (... and -) for pauses instead of literal <short pause>.
 SCRIPT_TURNS = [
     {
         "speaker": "Mick",
         "style": "excited and high energy",
-        "text": "G'day legends and welcome back to The Wrap, your weekly hit of touch footy gold for Point Takeaway at Redlands Touch Association! Mick here with Gazza, and oh boy, <short pause> Round 10 was an absolute turkey shoot! Field 5 down at Cleveland Showgrounds, and fair dinkum, we turned up to find the Screws only had four blokes! <laugh> Four! So the gaffer Graeme and the boys agreed to a gentlemen's agreement, played five-on-five on a full-sized paddock, and dished out an almighty 13 to 4 shellacking! <laugh> You beauty!"
+        "text": "G'day legends and welcome back to The Wrap, your weekly hit of touch footy gold for Point Takeaway at Redlands Touch Association! Mick here with Gazza, and oh boy... Round 10 was an absolute turkey shoot! Field 5 down at Cleveland Showgrounds, and fair dinkum, we turned up to find the Screws only had four blokes! <laugh> Four! So the gaffer Graeme and the boys agreed to a gentlemen's agreement, played five-on-five on a full-sized paddock, and dished out an almighty 13 to 4 shellacking! <laugh> You beauty!"
     },
     {
         "speaker": "Gazza",
         "style": "calm, dry wit, deadpan",
-        "text": "A proper open-field track meet, Mick. Playing five-on-five meant the defensive gaps weren't just big, they were like the Grand Canyon. We had eleven troops ready to roll, with only Adrian missing on a family holiday to Thailand, which meant our sub bench was practically overflowing. And it was a massive night for our flyer Reece, finally back on the paddock after six months on the sidelines with injury. <short pause> Cam got the party started early, finding his brother Matt slicing straight through a yawning gap to make it 1-nil."
+        "text": "A proper open-field track meet, Mick. Playing five-on-five meant the defensive gaps weren't just big, they were like the Grand Canyon. We had eleven troops ready to roll, with only Adrian missing on a family holiday to Thailand, which meant our sub bench was practically overflowing. And it was a massive night for our flyer Reece, finally back on the paddock after six months on the sidelines with injury. ... Cam got the party started early, finding his brother Matt slicing straight through a yawning gap to make it 1-nil."
     },
     {
         "speaker": "Mick",
@@ -54,12 +55,12 @@ SCRIPT_TURNS = [
     {
         "speaker": "Gazza",
         "style": "analytical, admiring, measured",
-        "text": "Mitch's vision in space was exceptional. Peter then got in on the act, sneaking right through the middle after Jayden earned six more to push it out to 4-1. Screws pulled one back in the corner for 4-2, before Joely probed the line, spotted Reece on his return, and fed him an absolute gift for 5-2. <short pause> Then Mitch pulled off a gorgeous one-two give-and-go with Jayden through the ruck to make it 6-2."
+        "text": "Mitch's vision in space was exceptional. Peter then got in on the act, sneaking right through the middle after Jayden earned six more to push it out to 4-1. Screws pulled one back in the corner for 4-2, before Joely probed the line, spotted Reece on his return, and fed him an absolute gift for 5-2. ... Then Mitch pulled off a gorgeous one-two give-and-go with Jayden through the ruck to make it 6-2."
     },
     {
         "speaker": "Mick",
         "style": "enthusiastic, laughing, fast-paced",
-        "text": "Stone the crows Gazza, and then the ref produces a comedy special right on halftime! <laughter> Matt pulls off a textbook tag on their runner, the bloke just ignores it, keeps running, grounds the ball, and the ref gives the try for 6-3! <cackle> The sideline was yelling out, but into the sheds we went with a healthy three-try buffer! And mate, whatever Graeme said at halftime, Dylan took it personally!"
+        "text": "Stone the crows Gazza, and then the ref produces a comedy special right on halftime! <laugh> Matt pulls off a textbook tag on their runner, the bloke just ignores it, keeps running, grounds the ball, and the ref gives the try for 6-3! Haha! The sideline was yelling out, but into the sheds we went with a healthy three-try buffer! And mate, whatever Graeme said at halftime, Dylan took it personally!"
     },
     {
         "speaker": "Gazza",
@@ -69,22 +70,22 @@ SCRIPT_TURNS = [
     {
         "speaker": "Mick",
         "style": "chuckling, spirited, emphatic",
-        "text": "They were completely out of puff, Gazza! And that's when Peter turned on the razzle-dazzle! <gasp> He gets the ball, pulls off an ankle-breaking double step that sent two defenders into next week, and waltzed over for 8-4! Then Mack started rucking like a man possessed, laying a platform for Jayden to dish to Joely to make it 9-4! But Gazza, <short pause> talk to me about Dylan's hat-trick try!"
+        "text": "They were completely out of puff, Gazza! And that's when Peter turned on the razzle-dazzle! <gasp> He gets the ball, pulls off an ankle-breaking double step that sent two defenders into next week, and waltzed over for 8-4! Then Mack started rucking like a man possessed, laying a platform for Jayden to dish to Joely to make it 9-4! But Gazza — talk to me about Dylan's hat-trick try!"
     },
     {
         "speaker": "Gazza",
         "style": "relaxed, appreciative, smooth Queensland drawl",
-        "text": "<snicker> The showboat of the season, Mick. Graeme noted it officially in the team dispatches. Dylan gets the ball on the outside, waves and shows the ball to the Screws defender as he cruises past, and dots it down for 10-4. Graeme literally wrote in his notes, quote, I say, over and out. <laugh> Ruthless disrespect from Dylan, you've got to love it."
+        "text": "<chuckle> The showboat of the season, Mick. Graeme noted it officially in the team dispatches. Dylan gets the ball on the outside, waves and shows the ball to the Screws defender as he cruises past, and dots it down for 10-4. Graeme literally wrote in his notes, quote, I say, over and out. <laugh> Ruthless disrespect from Dylan, you've got to love it."
     },
     {
         "speaker": "Mick",
         "style": "laughing, animated, hyped",
-        "text": "<cackle> 'I say, over and out!' That is legendary from the gaffer Graeme! And we weren't done yet! Cam, Peter, and Jayden marched us fifty meters upfield, dished to Mitch on the burst, and he streaks away for his hat-trick to blow it out to 11-4! Then Peter and Reece trade sweet passes before Matt feeds Mitch again for his fourth try of the night to make it 12-4! Four tries for Mitch, you beauty!"
+        "text": "<laugh> 'I say, over and out!' That is legendary from the gaffer Graeme! And we weren't done yet! Cam, Peter, and Jayden marched us fifty meters upfield, dished to Mitch on the burst, and he streaks away for his hat-trick to blow it out to 11-4! Then Peter and Reece trade sweet passes before Matt feeds Mitch again for his fourth try of the night to make it 12-4! Four tries for Mitch, you beauty!"
     },
     {
         "speaker": "Gazza",
         "style": "authoritative, structured, footy analyst",
-        "text": "Four tries for Mitch, but the play of the night came in defence right after. Screws broke through our line against the run of play, their winger thought he was home, and Mack turned on the jetpack, chased him down from twenty meters back, and pulled off a miraculous diving tag right on our tryline. <short pause> Pure hustle from Mack."
+        "text": "Four tries for Mitch, but the play of the night came in defence right after. Screws broke through our line against the run of play, their winger thought he was home, and Mack turned on the jetpack, chased him down from twenty meters back, and pulled off a miraculous diving tag right on our tryline. ... Pure hustle from Mack."
     },
     {
         "speaker": "Mick",
@@ -94,20 +95,27 @@ SCRIPT_TURNS = [
     {
         "speaker": "Gazza",
         "style": "tactical, respectful, smiling",
-        "text": "A dominant, highly entertaining victory. And the gaffer Graeme summed up the evening with trademark serenity: <short pause> The Full time siren sounded to end an enjoyable night out. FT 13-4. When you put thirteen past an opponent and leave the park with a plus nine differential, that is certainly an enjoyable night out."
+        "text": "A dominant, highly entertaining victory. And the gaffer Graeme summed up the evening with trademark serenity: ... The Full time siren sounded to end an enjoyable night out. FT 13-4. When you put thirteen past an opponent and leave the park with a plus nine differential, that is certainly an enjoyable night out."
     },
     {
         "speaker": "Mick",
         "style": "rousing, passionate, call to arms",
-        "text": "<sighs> Too right, Gazza! That thirteen-try explosion set the stage for our Round 11 masterclass against the Centurions, and sets us right up for the top-of-the-table double header! What a team, what a club! Up the Point Takeaway!"
+        "text": "<sigh> Too right, Gazza! That thirteen-try explosion set the stage for our Round 11 masterclass against the Centurions, and sets us right up for the top-of-the-table double header! What a team, what a club! Up the Point Takeaway!"
     }
 ]
 
 def synthesize_round10_wrap():
-    print('🏉 === THE WRAP: ROUND 10 RECAP (GEMINI 3.8 FLASH TTS + EXPRESSION TAGS) === 🏉')
+    print('🏉 === THE WRAP: ROUND 10 RE-SYNTHESIS (PRIMARY GEMINI 3.8 FLASH TTS) === 🏉')
     print(f'🎙️ Host A (Mick): {MICK_VOICE_ID}')
     print(f'🎙️ Host B (Gazza): {GAZZA_VOICE_ID}')
     print(f'📝 Turns to synthesize: {len(SCRIPT_TURNS)}')
+
+    # Verify no accidental illegal tags
+    for i, t in enumerate(SCRIPT_TURNS):
+        import re
+        bad_tags = re.findall(r'<(?!(?:laugh|chuckle|gasp|sigh)>)[^>]+>', t['text'])
+        if bad_tags:
+            print(f'⚠️ Warning turn {i} has suspicious tags:', bad_tags)
 
     parts = []
     for turn in SCRIPT_TURNS:
@@ -235,7 +243,7 @@ def synthesize_round10_wrap():
     with open(os.path.join(audio_dir, 'the-wrap-round-10.json'), 'w', encoding='utf-8') as f:
         json.dump(round10_metadata, f, indent=2)
 
-    # Update theWrapEpisodes.json maintaining both Round 11 and Round 10 (sorted newest first)
+    # Update theWrapEpisodes.json maintaining both Round 11 and Round 10
     episodes_path = os.path.join('src', 'data', 'theWrapEpisodes.json')
     episodes = []
     if os.path.exists(episodes_path):
@@ -245,17 +253,14 @@ def synthesize_round10_wrap():
         except Exception:
             episodes = []
 
-    # Replace or add Round 10
     filtered_episodes = [e for e in episodes if e.get('id') != 'the-wrap-round-10']
     filtered_episodes.append(round10_metadata)
-
-    # Sort episodes by date descending
     filtered_episodes.sort(key=lambda e: e.get('date', ''), reverse=True)
 
     with open(episodes_path, 'w', encoding='utf-8') as f:
         json.dump(filtered_episodes, f, indent=2)
 
-    print('✅ Updated src/data/theWrapEpisodes.json with Round 10!')
+    print('✅ Updated src/data/theWrapEpisodes.json with clean Round 10 transcript!')
 
 if __name__ == '__main__':
     synthesize_round10_wrap()
