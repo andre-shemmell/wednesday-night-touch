@@ -279,6 +279,99 @@
     "updatedAt": "2026-10-16T12:03:55.852026+00:00"
   },
   {
+    "id": "the-wrap-round-8",
+    "round": "Round 8",
+    "date": "2026-09-09",
+    "title": "The Wrap: The 7-Man Epic, Matt's Hat-Trick & The Best Game Ever",
+    "matchId": "2026-09-09-round-8",
+    "isAudioReady": true,
+    "modelUsed": "gemini-3.8-flash-tts",
+    "durationSeconds": 303.3,
+    "formattedDuration": "5:03",
+    "audioUrl": "/audio/the-wrap-round-8.wav",
+    "stagedNative": true,
+    "hosts": [
+      {
+        "name": "Mick \"The Rocket\" Ryan",
+        "voice": "en-au-csagent-1",
+        "role": "Colour Commentator"
+      },
+      {
+        "name": "Gazza Shemmell",
+        "voice": "en-au-tutor-5",
+        "role": "Tactical Analyst"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "Mick",
+        "style": "excited and high energy",
+        "text": "G'day legends and welcome back to The Wrap, your weekly hit of touch footy gold for Point Takeaway at Redlands Touch Association! Mick here with Gazza, and oh boy... Round 8 was an absolute, certified, heroic epic! Field 5 down at Cleveland Showgrounds, taking on Bonsai, and fair dinkum, our casualty ward looked like the waiting room at Redland Hospital! <laugh> Five superstars missing! Joely with a nail through his foot at work, Mitch with five stitches in his finger, Peter with the flu, Reece on the mend, and Mack in sick bay! <laugh> Just seven blokes left standing! You beauty!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "calm, dry wit, deadpan",
+        "text": "Seven blokes against a squad of ten teenage sprinters, Mick. |fair dinkum| That meant we had exactly one substitute on the bench for the entire fifty minutes. And to make matters more interesting, Bonsai had this overzealous number 11 who was prancing around, teasing our defensive line. Graeme noted officially in the team dispatches, quote, who we no longer like because of his lack of respect for anybody. <chuckle> Needless to say, the boys took that personally."
+      },
+      {
+        "speaker": "Mick",
+        "style": "laughing, hyped up, animated",
+        "text": "Haha! Stone the crows, nobody disrespects the Point Takeaway boys! Bonsai jumped out to an early 2-nil lead, but then Cam took the steering wheel! He draws the markers, fires a peach of a ball to brother Matt, and Matt slices through to get us on the board for 1-2! Then Dylan makes a clutch tag, Jayden unleashes a rampaging Cam, and Cam slams it down for 2-all! Game on!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "analytical, admiring, measured",
+        "text": "The brotherly telepathy between Cam and Matt was firing on all cylinders. Right before the halftime siren, Cam attacking with trademark flair spots Matt on the burst again, Matt dives over for his double, and miraculously, our seven exhausted troops marched into the sheds leading 3-2... A tactical masterclass in slowing down the tempo."
+      },
+      {
+        "speaker": "Mick",
+        "style": "enthusiastic, laughing, fast-paced",
+        "text": "Leading at the break with one sub against kids half our age, mate! And we came out swinging in the second half! Cam finds an agile Jayden early, and Jayden dots it down to blow the lead out to 4-2! |you beauty!| The sideline was going off! But then, the sheer weight of numbers started taking its toll."
+      },
+      {
+        "speaker": "Gazza",
+        "style": "dry humor, slightly sombre, tactical",
+        "text": "Bonsai made four substitutions in two minutes and launched a furious counter-attack. Adrian was heroically soldiering on with severe calf muscle spasms, limping on one leg because we had nobody else to put on. Bonsai's young speedsters found space and ran in four straight tries to flip the game on its head at 4-6. It looked like the tank was bone dry."
+      },
+      {
+        "speaker": "Mick",
+        "style": "passionate, hyped, energetic",
+        "text": "Most teams would've packed their bags and headed for the canteen, Gazza! But not this mob! Cam steps up again, puts the pill right on Matt's chest, and Matt crashes over to complete a sensational brother-combo hat-trick for 5-6! <gasp> And then Jayden, fair dinkum, Jayden runs the most sublime, untouched angle through their entire backline to score an absolute stunner and lock it up at 6-all with two minutes on the clock!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "relaxed, appreciative, smooth Queensland drawl",
+        "text": "Six-all with two minutes to play was pure sporting folklore, Mick. BJ was putting on a defensive clinic in the middle, and he produced the hit of the night, planting an absolute bell-ringer of a tag on their cocky number 11 that sent him skidding into the turf. <chuckle> Absolute poetic justice."
+      },
+      {
+        "speaker": "Mick",
+        "style": "laughing, animated, hyped",
+        "text": "<laugh> Oh, you couldn't wipe the smile off BJ's face! But then Bonsai managed to sneak over for 6-7 with sixty seconds left. We had one final attacking raid to steal a draw, the ball hits the grass, and everyone stops expecting the turnover hooter... but the referee yells, quote, Play On! <gasp> Bonsai scoop it up, sprint seventy meters the length of the paddock, and score on the final siren to make it 6-8!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "authoritative, structured, footy analyst",
+        "text": "An absolute heartbreaker of a finish after fifty minutes of sheer warrior courage. But nobody hung their heads in the sheds. Graeme penned one of the greatest post-match appraisals in club history: <sigh> Wow. With only a couple of minutes to go, we were 6 all. Against a strong young team. And we were missing 5 of our great players. This has to be one of the best ever games by any team ever. So well done."
+      },
+      {
+        "speaker": "Mick",
+        "style": "excited, emotional, pumped",
+        "text": "One of the best games by any team EVER! |bloody oath!| You can not buy heart like that at the chemist, Gazza! Seven blokes taking ten teenagers right to the wire, Matt bagging a hat-trick, and BJ putting their number 11 in his place! What a match!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "tactical, respectful, smiling",
+        "text": "A legendary defeat that felt like a victory in spirit. It set the standard of grit that carried the boys through the draw against United and the slaughter of the Centurions. True club culture right there."
+      },
+      {
+        "speaker": "Mick",
+        "style": "rousing, passionate, call to arms",
+        "text": "<sigh> Too right, Gazza! Proud of every single bloke who pulled on the jersey that night. Up the Point Takeaway!"
+      }
+    ],
+    "updatedAt": "2026-10-18T06:34:16.564005+00:00"
+  },
+  {
     "id": "the-wrap-round-7",
     "round": "Round 7",
     "date": "2026-09-02",
