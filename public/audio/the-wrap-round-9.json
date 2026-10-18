@@ -6,19 +6,19 @@
   "matchId": "2026-09-30-round-9",
   "isAudioReady": true,
   "modelUsed": "gemini-3.8-flash-tts",
-  "durationSeconds": 273.0,
-  "formattedDuration": "4:33",
+  "durationSeconds": 283.6,
+  "formattedDuration": "4:43",
   "audioUrl": "/audio/the-wrap-round-9.wav",
   "stagedNative": true,
   "hosts": [
     {
       "name": "Mick \"The Rocket\" Ryan",
-      "voice": "voice_lepxbd2f37gg",
+      "voice": "en-au-csagent-1",
       "role": "Colour Commentator"
     },
     {
       "name": "Gazza Shemmell",
-      "voice": "voice_xuyxtq26tqmg",
+      "voice": "en-au-tutor-5",
       "role": "Tactical Analyst"
     }
   ],
@@ -31,7 +31,7 @@
     {
       "speaker": "Gazza",
       "style": "calm, dry wit, deadpan",
-      "text": "A proper war of attrition, Mick. Coming off a three-week layoff with zero cardio is tough enough, but we were down to the bare bones. Peter and Reece were still in the casualty ward, Jayden was unavailable, and Adrian was over in Thailand living his best life. So with just two fresh legs on the sub bench, the game fell into an agonizing pattern. The gaffer Graeme dubbed it 'The Catchup'. United would sneak ahead, and we'd have to bust a gut to pull them back."
+      "text": "A proper war of attrition, Mick. |fair dinkum| Coming off a three-week layoff with zero cardio is tough enough, but we were down to the bare bones. Peter and Reece were still in the casualty ward, Jayden was unavailable, and Adrian was over in Thailand living his best life. So with just two fresh legs on the sub bench, the game fell into an agonizing pattern. The gaffer Graeme dubbed it 'The Catchup'. United would sneak ahead, and we'd have to bust a gut to pull them back."
     },
     {
       "speaker": "Mick",
@@ -51,7 +51,7 @@
     {
       "speaker": "Gazza",
       "style": "dry humor, amused, deadpan",
-      "text": "Halftime 3-all was a miracle given our heavy legs, Mick. But the second half was pure drama. United crossed early to make it 3-4, but Nev made amends in defence, corralling their winger right into the corner to force a turnover penalty. And off that tap, Joely produced one of the bravest diving tries of the season, crashing through three defenders to level it at 4-all."
+      "text": "Halftime 3-all was a miracle given our heavy legs, Mick. |bloody oath!| But the second half was pure drama. United crossed early to make it 3-4, but Nev made amends in defence, corralling their winger right into the corner to force a turnover penalty. And off that tap, Joely produced one of the bravest diving tries of the season, crashing through three defenders to level it at 4-all."
     },
     {
       "speaker": "Mick",
@@ -76,7 +76,7 @@
     {
       "speaker": "Mick",
       "style": "excited, competitive, pumped",
-      "text": "<gasp> Buzzer beater of the year! <laugh> Pure clutch from Cam! The final hooter blows as the ball hits the turf, and the boys walk away with an epic 6-all draw! What a finish!"
+      "text": "<gasp> Buzzer beater of the year! <laugh> Pure clutch from Cam! The final hooter blows as the ball hits the turf, and the boys walk away with an epic 6-all draw! What a finish! |you beauty!|"
     },
     {
       "speaker": "Gazza",
@@ -89,5 +89,5 @@
       "text": "<sigh> Spot on from the gaffer Graeme! We didn't get the rub of the green, but walking away with a point after three weeks off with eight blokes is pure guts and determination. What a comeback, what a squad! Up the Point Takeaway!"
     }
   ],
-  "updatedAt": "2026-10-16T12:03:55.852026+00:00"
+  "updatedAt": "2026-10-18T06:57:01.246480+00:00"
 }

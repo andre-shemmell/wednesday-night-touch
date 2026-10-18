@@ -6,8 +6,8 @@
   "matchId": "2026-09-09-round-8",
   "isAudioReady": true,
   "modelUsed": "gemini-3.8-flash-tts",
-  "durationSeconds": 303.3,
-  "formattedDuration": "5:03",
+  "durationSeconds": 309.7,
+  "formattedDuration": "5:09",
   "audioUrl": "/audio/the-wrap-round-8.wav",
   "stagedNative": true,
   "hosts": [
@@ -81,7 +81,7 @@
     {
       "speaker": "Gazza",
       "style": "tactical, respectful, smiling",
-      "text": "A legendary defeat that felt like a victory in spirit. It set the standard of grit that carried the boys through the draw against United and the slaughter of the Centurions. True club culture right there."
+      "text": "A legendary defeat that felt like a victory in spirit. When seven blokes dig that deep against overwhelming odds, you see the true character of this footy side. It is the kind of grit that defines a team for the rest of the season. True club culture right there."
     },
     {
       "speaker": "Mick",
@@ -89,5 +89,5 @@
       "text": "<sigh> Too right, Gazza! Proud of every single bloke who pulled on the jersey that night. Up the Point Takeaway!"
     }
   ],
-  "updatedAt": "2026-10-18T06:34:16.564005+00:00"
+  "updatedAt": "2026-10-18T06:54:19.650671+00:00"
 }

@@ -7,19 +7,19 @@
     "matchId": "2026-10-14-round-11",
     "isAudioReady": true,
     "modelUsed": "gemini-3.8-flash-tts",
-    "durationSeconds": 318.5,
-    "formattedDuration": "5:18",
+    "durationSeconds": 349.3,
+    "formattedDuration": "5:49",
     "audioUrl": "/audio/the-wrap-round-11.wav",
     "stagedNative": true,
     "hosts": [
       {
         "name": "Mick \"The Rocket\" Ryan",
-        "voice": "voice_5sz1py2m7szz",
+        "voice": "en-au-csagent-1",
         "role": "Colour Commentator"
       },
       {
         "name": "Gazza Shemmell",
-        "voice": "voice_aurrcyu83jaj",
+        "voice": "en-au-tutor-5",
         "role": "Tactical Analyst"
       }
     ],
@@ -27,12 +27,12 @@
       {
         "speaker": "Mick",
         "style": "excited and high energy",
-        "text": "G'day legends and welcome to The Wrap, your weekly dose of touch footy gold for Point Takeaway down at Redlands Touch Association! Mick here, and oh boy, <short pause> Round 11 was an absolute pearler! Cleveland Showgrounds turned on a bit of pre-game drizzle, had all eleven of us huddled under the rusty tin roof, and then right on kickoff <sighs> the skies cleared, the turf gripped, and the boys dished out a proper 7 to 2 shellacking to the Redlands Centurions! <laugh> You beauty!"
+        "text": "G'day legends and welcome to The Wrap, your weekly dose of touch footy gold for Point Takeaway down at Redlands Touch Association! Mick here, and oh boy... Round 11 was an absolute pearler! Cleveland Showgrounds turned on a bit of pre-game drizzle, had all eleven of us huddled under the rusty tin roof, and then right on kickoff <sighs> the skies cleared, the turf gripped, and the boys dished out a proper 7 to 2 shellacking to the Redlands Centurions! <laugh> You beauty!"
       },
       {
         "speaker": "Gazza",
         "style": "calm, dry wit, deadpan",
-        "text": "A clinical performance, Mick. Particularly impressive considering our mate Nev decided looking at green skies in Norway for the Northern Lights was more important than freezing his backside off in Cleveland. <chuckle> So without Nev, the gaffer Graeme had eleven troops locked and loaded: Cam, Matt, BJ, Jayden, Reece, Mitch, Mack, Adrian, Joely, Dylan, and Peter. Though I must say, <short pause> minute one had a few blokes coughing up their tuckshop pies when Centurions crossed immediately to make it nil-one."
+        "text": "A clinical performance, Mick. |fair dinkum| Particularly impressive considering our mate Nev decided looking at green skies in Norway for the Northern Lights was more important than freezing his backside off in Cleveland. <chuckle> So without Nev, the gaffer Graeme had eleven troops locked and loaded: Cam, Matt, BJ, Jayden, Reece, Mitch, Mack, Adrian, Joely, Dylan, and Peter. Though I must say... minute one had a few blokes coughing up their tuckshop pies when Centurions crossed immediately to make it nil-one."
       },
       {
         "speaker": "Mick",
@@ -47,12 +47,12 @@
       {
         "speaker": "Mick",
         "style": "enthusiastic, fast-paced, vivid",
-        "text": "And right before the halftime hooter, Jayden and Dylan put on an absolute clinic through the middle! Give and go, draw and pass, slicing them to ribbons like a hot knife through butter to send us into the sheds up 4-2! <chuckle> The banter at the break was sensational, and whatever Graeme put in the water bottles worked wonders because Mitch came straight out of the sheds and scored an outrageous solo try to blow it out to 5-2!"
+        "text": "And right before the halftime hooter, Jayden and Dylan put on an absolute clinic through the middle! Give and go, draw and pass, slicing them to ribbons like a hot knife through butter to send us into the sheds up 4-2! <chuckle> The banter at the break was sensational, and whatever Graeme put in the water bottles worked wonders because Mitch came straight out of the sheds and scored an outrageous solo try to blow it out to 5-2! |you beauty!|"
       },
       {
         "speaker": "Gazza",
         "style": "dry humor, amused, deadpan",
-        "text": "Mitch made five blokes look like parking cones on that run, Mick. <snicker> Sublime individual try. But then, the match official decided he wanted his own headline with the rare Cleveland double soft send-off. Mack gets sent for a walk to cool his heels on the sideline, and twenty seconds later Joely gets marched off right behind him. The sideline yelled out asking what for, and the ref deadpan replied, quote, it is a referee thing. <short pause> Tactical genius at work right there."
+        "text": "Mitch made five blokes look like parking cones on that run, Mick. <snicker> Sublime individual try. But then, the match official decided he wanted his own headline with the rare Cleveland double soft send-off. Mack gets sent for a walk to cool his heels on the sideline, and twenty seconds later Joely gets marched off right behind him. The sideline yelled out asking what for, and the ref deadpan replied, quote, it is a referee thing... Tactical genius at work right there."
       },
       {
         "speaker": "Mick",
@@ -67,7 +67,7 @@
       {
         "speaker": "Mick",
         "style": "warm, proud, respectful",
-        "text": "What a win! <sigh> And the gaffer Graeme was absolutely purring on the sideline after the match! He gave his official post-match appraisal to the group: <short pause> We played near to our best tonight. And it is good. Great to watch. When Graeme drops praise like that, you know the boys earned their post-game frothies!"
+        "text": "What a win! <sigh> And the gaffer Graeme was absolutely purring on the sideline after the match! He gave his official post-match appraisal to the group... We played near to our best tonight. And it is good. Great to watch. When Graeme drops praise like that, you know the boys earned their post-game frothies!"
       },
       {
         "speaker": "Gazza",
@@ -77,12 +77,12 @@
       {
         "speaker": "Mick",
         "style": "excited, competitive, pumped",
-        "text": "Strewth, that sets up a wild ladder! Have a squiz at this: <short pause> The Touchers sit in first on 17 points, Hunt and Kill sit second on 17 points, and right up their clobber in third spot is Point Takeaway on 16 points with a plus 11 differential! And check this stat Gazza: <gasp> we've got the outright best attack in the entire competition with 47 tries scored! Bonsai are right on our tail in fourth on 16 points as well!"
+        "text": "Strewth, that sets up a wild ladder! Have a squiz at this... The Touchers sit in first on 17 points, Hunt and Kill sit second on 17 points, and right up their clobber in third spot is Point Takeaway on 16 points with a plus 11 differential! And check this stat Gazza: <gasp> we've got the outright best attack in the entire competition with 47 tries scored! |bloody oath!| Bonsai are right on our tail in fourth on 16 points as well!"
       },
       {
         "speaker": "Gazza",
         "style": "tactical, anticipatory, big match build-up",
-        "text": "Which brings us to next week, Wednesday the twenty-first of October on Field 6. It's the mother of all assignments. A double header against the top two teams on the ladder. <short pause> Game one taps off at quarter past eight Brisvegas time against number two Hunt and Kill. Then thirty minutes later, on the same field at quarter to nine, we back it up against the ladder leaders, The Touchers."
+        "text": "Which brings us to next week, Wednesday the twenty-first of October on Field 6. It's the mother of all assignments. A double header against the top two teams on the ladder... Game one taps off at quarter past eight Brisvegas time against number two Hunt and Kill. Then thirty minutes later, on the same field at quarter to nine, we back it up against the ladder leaders, The Touchers."
       },
       {
         "speaker": "Mick",
@@ -90,7 +90,7 @@
         "text": "Stone the crows! Back-to-back grudge matches against first and second! If the Point Takeaway machine clicks like it did against Centurions, we blow this minor premiership wide open! <laughter> Get your strapping tape ready, hydrate up, and we'll see all the faithful down at Cleveland Showgrounds on Wednesday night. Up the Point Takeaway!"
       }
     ],
-    "updatedAt": "2026-10-15T10:11:30.451750+00:00"
+    "updatedAt": "2026-10-18T06:56:17.760235+00:00"
   },
   {
     "id": "the-wrap-round-10",
@@ -100,19 +100,19 @@
     "matchId": "2026-10-07-round-10",
     "isAudioReady": true,
     "modelUsed": "gemini-3.8-flash-tts",
-    "durationSeconds": 309.2,
-    "formattedDuration": "5:09",
+    "durationSeconds": 331.1,
+    "formattedDuration": "5:31",
     "audioUrl": "/audio/the-wrap-round-10.wav",
     "stagedNative": true,
     "hosts": [
       {
         "name": "Mick \"The Rocket\" Ryan",
-        "voice": "voice_lepxbd2f37gg",
+        "voice": "en-au-csagent-1",
         "role": "Colour Commentator"
       },
       {
         "name": "Gazza Shemmell",
-        "voice": "voice_xuyxtq26tqmg",
+        "voice": "en-au-tutor-5",
         "role": "Tactical Analyst"
       }
     ],
@@ -125,7 +125,7 @@
       {
         "speaker": "Gazza",
         "style": "calm, dry wit, deadpan",
-        "text": "A proper open-field track meet, Mick. Playing five-on-five meant the defensive gaps weren't just big, they were like the Grand Canyon. We had eleven troops ready to roll, with only Adrian missing on a family holiday to Thailand, which meant our sub bench was practically overflowing. And it was a massive night for our flyer Reece, finally back on the paddock after six months on the sidelines with injury. ... Cam got the party started early, finding his brother Matt slicing straight through a yawning gap to make it 1-nil."
+        "text": "A proper open-field track meet, Mick. |fair dinkum| Playing five-on-five meant the defensive gaps weren't just big, they were like the Grand Canyon. We had eleven troops ready to roll, with only Adrian missing on a family holiday to Thailand, which meant our sub bench was practically overflowing. And it was a massive night for our flyer Reece, finally back on the paddock after six months on the sidelines with injury. ... Cam got the party started early, finding his brother Matt slicing straight through a yawning gap to make it 1-nil."
       },
       {
         "speaker": "Mick",
@@ -140,7 +140,7 @@
       {
         "speaker": "Mick",
         "style": "enthusiastic, laughing, fast-paced",
-        "text": "Stone the crows Gazza, and then the ref produces a comedy special right on halftime! <laugh> Matt pulls off a textbook tag on their runner, the bloke just ignores it, keeps running, grounds the ball, and the ref gives the try for 6-3! Haha! The sideline was yelling out, but into the sheds we went with a healthy three-try buffer! And mate, whatever Graeme said at halftime, Dylan took it personally!"
+        "text": "Stone the crows Gazza, and then the ref produces a comedy special right on halftime! <laugh> Matt pulls off a textbook tag on their runner, the bloke just ignores it, keeps running, grounds the ball, and the ref gives the try for 6-3! Haha! The sideline was yelling out, but into the sheds we went with a healthy three-try buffer! |you beauty!| And mate, whatever Graeme said at halftime, Dylan took it personally!"
       },
       {
         "speaker": "Gazza",
@@ -160,7 +160,7 @@
       {
         "speaker": "Mick",
         "style": "laughing, animated, hyped",
-        "text": "<laugh> 'I say, over and out!' That is legendary from the gaffer Graeme! And we weren't done yet! Cam, Peter, and Jayden marched us fifty meters upfield, dished to Mitch on the burst, and he streaks away for his hat-trick to blow it out to 11-4! Then Peter and Reece trade sweet passes before Matt feeds Mitch again for his fourth try of the night to make it 12-4! Four tries for Mitch, you beauty!"
+        "text": "<laugh> 'I say, over and out!' That is legendary from the gaffer Graeme! And we weren't done yet! Cam, Peter, and Jayden marched us fifty meters upfield, dished to Mitch on the burst, and he streaks away for his hat-trick to blow it out to 11-4! Then Peter and Reece trade sweet passes before Matt feeds Mitch again for his fourth try of the night to make it 12-4! |bloody oath!| Four tries for Mitch, you beauty!"
       },
       {
         "speaker": "Gazza",
@@ -180,10 +180,10 @@
       {
         "speaker": "Mick",
         "style": "rousing, passionate, call to arms",
-        "text": "<sigh> Too right, Gazza! That thirteen-try explosion set the stage for our Round 11 masterclass against the Centurions, and sets us right up for the top-of-the-table double header! What a team, what a club! Up the Point Takeaway!"
+        "text": "<sigh> Too right, Gazza! A thirteen-try explosion to get the confidence soaring! If the boys bring that kind of speed and teamwork into next week against the Centurions, look out! What a team, what a club! Up the Point Takeaway!"
       }
     ],
-    "updatedAt": "2026-10-16T11:57:26.808495+00:00"
+    "updatedAt": "2026-10-18T06:55:13.686541+00:00"
   },
   {
     "id": "the-wrap-round-9",
@@ -193,19 +193,19 @@
     "matchId": "2026-09-30-round-9",
     "isAudioReady": true,
     "modelUsed": "gemini-3.8-flash-tts",
-    "durationSeconds": 273.0,
-    "formattedDuration": "4:33",
+    "durationSeconds": 283.6,
+    "formattedDuration": "4:43",
     "audioUrl": "/audio/the-wrap-round-9.wav",
     "stagedNative": true,
     "hosts": [
       {
         "name": "Mick \"The Rocket\" Ryan",
-        "voice": "voice_lepxbd2f37gg",
+        "voice": "en-au-csagent-1",
         "role": "Colour Commentator"
       },
       {
         "name": "Gazza Shemmell",
-        "voice": "voice_xuyxtq26tqmg",
+        "voice": "en-au-tutor-5",
         "role": "Tactical Analyst"
       }
     ],
@@ -218,7 +218,7 @@
       {
         "speaker": "Gazza",
         "style": "calm, dry wit, deadpan",
-        "text": "A proper war of attrition, Mick. Coming off a three-week layoff with zero cardio is tough enough, but we were down to the bare bones. Peter and Reece were still in the casualty ward, Jayden was unavailable, and Adrian was over in Thailand living his best life. So with just two fresh legs on the sub bench, the game fell into an agonizing pattern. The gaffer Graeme dubbed it 'The Catchup'. United would sneak ahead, and we'd have to bust a gut to pull them back."
+        "text": "A proper war of attrition, Mick. |fair dinkum| Coming off a three-week layoff with zero cardio is tough enough, but we were down to the bare bones. Peter and Reece were still in the casualty ward, Jayden was unavailable, and Adrian was over in Thailand living his best life. So with just two fresh legs on the sub bench, the game fell into an agonizing pattern. The gaffer Graeme dubbed it 'The Catchup'. United would sneak ahead, and we'd have to bust a gut to pull them back."
       },
       {
         "speaker": "Mick",
@@ -238,7 +238,7 @@
       {
         "speaker": "Gazza",
         "style": "dry humor, amused, deadpan",
-        "text": "Halftime 3-all was a miracle given our heavy legs, Mick. But the second half was pure drama. United crossed early to make it 3-4, but Nev made amends in defence, corralling their winger right into the corner to force a turnover penalty. And off that tap, Joely produced one of the bravest diving tries of the season, crashing through three defenders to level it at 4-all."
+        "text": "Halftime 3-all was a miracle given our heavy legs, Mick. |bloody oath!| But the second half was pure drama. United crossed early to make it 3-4, but Nev made amends in defence, corralling their winger right into the corner to force a turnover penalty. And off that tap, Joely produced one of the bravest diving tries of the season, crashing through three defenders to level it at 4-all."
       },
       {
         "speaker": "Mick",
@@ -263,7 +263,7 @@
       {
         "speaker": "Mick",
         "style": "excited, competitive, pumped",
-        "text": "<gasp> Buzzer beater of the year! <laugh> Pure clutch from Cam! The final hooter blows as the ball hits the turf, and the boys walk away with an epic 6-all draw! What a finish!"
+        "text": "<gasp> Buzzer beater of the year! <laugh> Pure clutch from Cam! The final hooter blows as the ball hits the turf, and the boys walk away with an epic 6-all draw! What a finish! |you beauty!|"
       },
       {
         "speaker": "Gazza",
@@ -276,7 +276,7 @@
         "text": "<sigh> Spot on from the gaffer Graeme! We didn't get the rub of the green, but walking away with a point after three weeks off with eight blokes is pure guts and determination. What a comeback, what a squad! Up the Point Takeaway!"
       }
     ],
-    "updatedAt": "2026-10-16T12:03:55.852026+00:00"
+    "updatedAt": "2026-10-18T06:57:01.246480+00:00"
   },
   {
     "id": "the-wrap-round-8",
@@ -286,8 +286,8 @@
     "matchId": "2026-09-09-round-8",
     "isAudioReady": true,
     "modelUsed": "gemini-3.8-flash-tts",
-    "durationSeconds": 303.3,
-    "formattedDuration": "5:03",
+    "durationSeconds": 309.7,
+    "formattedDuration": "5:09",
     "audioUrl": "/audio/the-wrap-round-8.wav",
     "stagedNative": true,
     "hosts": [
@@ -361,7 +361,7 @@
       {
         "speaker": "Gazza",
         "style": "tactical, respectful, smiling",
-        "text": "A legendary defeat that felt like a victory in spirit. It set the standard of grit that carried the boys through the draw against United and the slaughter of the Centurions. True club culture right there."
+        "text": "A legendary defeat that felt like a victory in spirit. When seven blokes dig that deep against overwhelming odds, you see the true character of this footy side. It is the kind of grit that defines a team for the rest of the season. True club culture right there."
       },
       {
         "speaker": "Mick",
@@ -369,7 +369,7 @@
         "text": "<sigh> Too right, Gazza! Proud of every single bloke who pulled on the jersey that night. Up the Point Takeaway!"
       }
     ],
-    "updatedAt": "2026-10-18T06:34:16.564005+00:00"
+    "updatedAt": "2026-10-18T06:54:19.650671+00:00"
   },
   {
     "id": "the-wrap-round-7",

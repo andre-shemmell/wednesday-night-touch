@@ -95,7 +95,7 @@ SCRIPT_TURNS = [
     {
         "speaker": "Gazza",
         "style": "tactical, respectful, smiling",
-        "text": "A legendary defeat that felt like a victory in spirit. It set the standard of grit that carried the boys through the draw against United and the slaughter of the Centurions. True club culture right there."
+        "text": "A legendary defeat that felt like a victory in spirit. When seven blokes dig that deep against overwhelming odds, you see the true character of this footy side. It is the kind of grit that defines a team for the rest of the season. True club culture right there."
     },
     {
         "speaker": "Mick",

@@ -30,21 +30,21 @@ client = genai.Client(api_key=api_key)
 audio_dir = os.path.join('public', 'audio')
 os.makedirs(audio_dir, exist_ok=True)
 
-# 3. Persistent Australian Voice IDs (under new key project)
-MICK_VOICE_ID = 'voice_5sz1py2m7szz'   # "Mick The Rocket" (en-AU, enthusiastic gravelly footy commentator)
-GAZZA_VOICE_ID = 'voice_aurrcyu83jaj'  # "Gazza Shemmell" (en-AU, deadpan Queensland tactical analyst)
+# 3. Universal Dedicated Prebuilt Australian Voices
+MICK_VOICE_ID = 'en-au-csagent-1'  # 36yo Sydney AU male - enthusiastic, engaging, and fun!
+GAZZA_VOICE_ID = 'en-au-tutor-5'   # 57yo Sydney AU male - conversational, dry humor, and warm!
 
-# 4. Rescripted Dialogue with Native Gemini 3.8 Expression Tags & Australian Phrasing
+# 4. Rescripted Dialogue with Native Gemini 3.8 Expression Tags, Backchannels & Australian Phrasing
 SCRIPT_TURNS = [
     {
         "speaker": "Mick",
         "style": "excited and high energy",
-        "text": "G'day legends and welcome to The Wrap, your weekly dose of touch footy gold for Point Takeaway down at Redlands Touch Association! Mick here, and oh boy, <short pause> Round 11 was an absolute pearler! Cleveland Showgrounds turned on a bit of pre-game drizzle, had all eleven of us huddled under the rusty tin roof, and then right on kickoff <sighs> the skies cleared, the turf gripped, and the boys dished out a proper 7 to 2 shellacking to the Redlands Centurions! <laugh> You beauty!"
+        "text": "G'day legends and welcome to The Wrap, your weekly dose of touch footy gold for Point Takeaway down at Redlands Touch Association! Mick here, and oh boy... Round 11 was an absolute pearler! Cleveland Showgrounds turned on a bit of pre-game drizzle, had all eleven of us huddled under the rusty tin roof, and then right on kickoff <sighs> the skies cleared, the turf gripped, and the boys dished out a proper 7 to 2 shellacking to the Redlands Centurions! <laugh> You beauty!"
     },
     {
         "speaker": "Gazza",
         "style": "calm, dry wit, deadpan",
-        "text": "A clinical performance, Mick. Particularly impressive considering our mate Nev decided looking at green skies in Norway for the Northern Lights was more important than freezing his backside off in Cleveland. <chuckle> So without Nev, the gaffer Graeme had eleven troops locked and loaded: Cam, Matt, BJ, Jayden, Reece, Mitch, Mack, Adrian, Joely, Dylan, and Peter. Though I must say, <short pause> minute one had a few blokes coughing up their tuckshop pies when Centurions crossed immediately to make it nil-one."
+        "text": "A clinical performance, Mick. |fair dinkum| Particularly impressive considering our mate Nev decided looking at green skies in Norway for the Northern Lights was more important than freezing his backside off in Cleveland. <chuckle> So without Nev, the gaffer Graeme had eleven troops locked and loaded: Cam, Matt, BJ, Jayden, Reece, Mitch, Mack, Adrian, Joely, Dylan, and Peter. Though I must say... minute one had a few blokes coughing up their tuckshop pies when Centurions crossed immediately to make it nil-one."
     },
     {
         "speaker": "Mick",
@@ -59,12 +59,12 @@ SCRIPT_TURNS = [
     {
         "speaker": "Mick",
         "style": "enthusiastic, fast-paced, vivid",
-        "text": "And right before the halftime hooter, Jayden and Dylan put on an absolute clinic through the middle! Give and go, draw and pass, slicing them to ribbons like a hot knife through butter to send us into the sheds up 4-2! <chuckle> The banter at the break was sensational, and whatever Graeme put in the water bottles worked wonders because Mitch came straight out of the sheds and scored an outrageous solo try to blow it out to 5-2!"
+        "text": "And right before the halftime hooter, Jayden and Dylan put on an absolute clinic through the middle! Give and go, draw and pass, slicing them to ribbons like a hot knife through butter to send us into the sheds up 4-2! <chuckle> The banter at the break was sensational, and whatever Graeme put in the water bottles worked wonders because Mitch came straight out of the sheds and scored an outrageous solo try to blow it out to 5-2! |you beauty!|"
     },
     {
         "speaker": "Gazza",
         "style": "dry humor, amused, deadpan",
-        "text": "Mitch made five blokes look like parking cones on that run, Mick. <snicker> Sublime individual try. But then, the match official decided he wanted his own headline with the rare Cleveland double soft send-off. Mack gets sent for a walk to cool his heels on the sideline, and twenty seconds later Joely gets marched off right behind him. The sideline yelled out asking what for, and the ref deadpan replied, quote, it is a referee thing. <short pause> Tactical genius at work right there."
+        "text": "Mitch made five blokes look like parking cones on that run, Mick. <snicker> Sublime individual try. But then, the match official decided he wanted his own headline with the rare Cleveland double soft send-off. Mack gets sent for a walk to cool his heels on the sideline, and twenty seconds later Joely gets marched off right behind him. The sideline yelled out asking what for, and the ref deadpan replied, quote, it is a referee thing... Tactical genius at work right there."
     },
     {
         "speaker": "Mick",
@@ -79,7 +79,7 @@ SCRIPT_TURNS = [
     {
         "speaker": "Mick",
         "style": "warm, proud, respectful",
-        "text": "What a win! <sigh> And the gaffer Graeme was absolutely purring on the sideline after the match! He gave his official post-match appraisal to the group: <short pause> We played near to our best tonight. And it is good. Great to watch. When Graeme drops praise like that, you know the boys earned their post-game frothies!"
+        "text": "What a win! <sigh> And the gaffer Graeme was absolutely purring on the sideline after the match! He gave his official post-match appraisal to the group... We played near to our best tonight. And it is good. Great to watch. When Graeme drops praise like that, you know the boys earned their post-game frothies!"
     },
     {
         "speaker": "Gazza",
@@ -89,12 +89,12 @@ SCRIPT_TURNS = [
     {
         "speaker": "Mick",
         "style": "excited, competitive, pumped",
-        "text": "Strewth, that sets up a wild ladder! Have a squiz at this: <short pause> The Touchers sit in first on 17 points, Hunt and Kill sit second on 17 points, and right up their clobber in third spot is Point Takeaway on 16 points with a plus 11 differential! And check this stat Gazza: <gasp> we've got the outright best attack in the entire competition with 47 tries scored! Bonsai are right on our tail in fourth on 16 points as well!"
+        "text": "Strewth, that sets up a wild ladder! Have a squiz at this... The Touchers sit in first on 17 points, Hunt and Kill sit second on 17 points, and right up their clobber in third spot is Point Takeaway on 16 points with a plus 11 differential! And check this stat Gazza: <gasp> we've got the outright best attack in the entire competition with 47 tries scored! |bloody oath!| Bonsai are right on our tail in fourth on 16 points as well!"
     },
     {
         "speaker": "Gazza",
         "style": "tactical, anticipatory, big match build-up",
-        "text": "Which brings us to next week, Wednesday the twenty-first of October on Field 6. It's the mother of all assignments. A double header against the top two teams on the ladder. <short pause> Game one taps off at quarter past eight Brisvegas time against number two Hunt and Kill. Then thirty minutes later, on the same field at quarter to nine, we back it up against the ladder leaders, The Touchers."
+        "text": "Which brings us to next week, Wednesday the twenty-first of October on Field 6. It's the mother of all assignments. A double header against the top two teams on the ladder... Game one taps off at quarter past eight Brisvegas time against number two Hunt and Kill. Then thirty minutes later, on the same field at quarter to nine, we back it up against the ladder leaders, The Touchers."
     },
     {
         "speaker": "Mick",
@@ -235,11 +235,24 @@ def synthesize_multi_speaker_wrap():
     with open(os.path.join(audio_dir, 'the-wrap-round-11.json'), 'w', encoding='utf-8') as f:
         json.dump(metadata, f, indent=2)
 
+    # Update theWrapEpisodes.json maintaining all rounds
     episodes_path = os.path.join('src', 'data', 'theWrapEpisodes.json')
-    with open(episodes_path, 'w', encoding='utf-8') as f:
-        json.dump([metadata], f, indent=2)
+    episodes = []
+    if os.path.exists(episodes_path):
+        try:
+            with open(episodes_path, 'r', encoding='utf-8') as f:
+                episodes = json.load(f)
+        except Exception:
+            episodes = []
 
-    print('✅ Updated episode metadata and transcript!')
+    filtered_episodes = [e for e in episodes if e.get('id') != 'the-wrap-round-11']
+    filtered_episodes.append(metadata)
+    filtered_episodes.sort(key=lambda e: e.get('date', ''), reverse=True)
+
+    with open(episodes_path, 'w', encoding='utf-8') as f:
+        json.dump(filtered_episodes, f, indent=2)
+
+    print('✅ Updated src/data/theWrapEpisodes.json with clean Round 11!')
 
 if __name__ == '__main__':
     synthesize_multi_speaker_wrap()

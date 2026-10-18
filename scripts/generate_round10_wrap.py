@@ -30,12 +30,12 @@ client = genai.Client(api_key=api_key)
 audio_dir = os.path.join('public', 'audio')
 os.makedirs(audio_dir, exist_ok=True)
 
-# 3. Persistent Australian Voice IDs
-MICK_VOICE_ID = 'voice_lepxbd2f37gg'   # "Mick The Rocket" (en-AU, enthusiastic gravelly footy commentator)
-GAZZA_VOICE_ID = 'voice_xuyxtq26tqmg'  # "Gazza Shemmell" (en-AU, deadpan Queensland tactical analyst)
+# 3. Universal Dedicated Prebuilt Australian Voices
+MICK_VOICE_ID = 'en-au-csagent-1'  # 36yo Sydney AU male - enthusiastic, engaging, and fun!
+GAZZA_VOICE_ID = 'en-au-tutor-5'   # 57yo Sydney AU male - conversational, dry humor, and warm!
 
-# 4. Round 10 Script with strictly verified acoustic tags (<laugh>, <chuckle>, <gasp>, <sigh>)
-# and natural punctuation (... and -) for pauses instead of literal <short pause>.
+# 4. Round 10 Script with strictly verified acoustic tags (<laugh>, <chuckle>, <gasp>, <sigh>),
+# listener backchannels (|...|), and natural punctuation (... and -) for pauses.
 SCRIPT_TURNS = [
     {
         "speaker": "Mick",
@@ -45,7 +45,7 @@ SCRIPT_TURNS = [
     {
         "speaker": "Gazza",
         "style": "calm, dry wit, deadpan",
-        "text": "A proper open-field track meet, Mick. Playing five-on-five meant the defensive gaps weren't just big, they were like the Grand Canyon. We had eleven troops ready to roll, with only Adrian missing on a family holiday to Thailand, which meant our sub bench was practically overflowing. And it was a massive night for our flyer Reece, finally back on the paddock after six months on the sidelines with injury. ... Cam got the party started early, finding his brother Matt slicing straight through a yawning gap to make it 1-nil."
+        "text": "A proper open-field track meet, Mick. |fair dinkum| Playing five-on-five meant the defensive gaps weren't just big, they were like the Grand Canyon. We had eleven troops ready to roll, with only Adrian missing on a family holiday to Thailand, which meant our sub bench was practically overflowing. And it was a massive night for our flyer Reece, finally back on the paddock after six months on the sidelines with injury. ... Cam got the party started early, finding his brother Matt slicing straight through a yawning gap to make it 1-nil."
     },
     {
         "speaker": "Mick",
@@ -60,7 +60,7 @@ SCRIPT_TURNS = [
     {
         "speaker": "Mick",
         "style": "enthusiastic, laughing, fast-paced",
-        "text": "Stone the crows Gazza, and then the ref produces a comedy special right on halftime! <laugh> Matt pulls off a textbook tag on their runner, the bloke just ignores it, keeps running, grounds the ball, and the ref gives the try for 6-3! Haha! The sideline was yelling out, but into the sheds we went with a healthy three-try buffer! And mate, whatever Graeme said at halftime, Dylan took it personally!"
+        "text": "Stone the crows Gazza, and then the ref produces a comedy special right on halftime! <laugh> Matt pulls off a textbook tag on their runner, the bloke just ignores it, keeps running, grounds the ball, and the ref gives the try for 6-3! Haha! The sideline was yelling out, but into the sheds we went with a healthy three-try buffer! |you beauty!| And mate, whatever Graeme said at halftime, Dylan took it personally!"
     },
     {
         "speaker": "Gazza",
@@ -80,7 +80,7 @@ SCRIPT_TURNS = [
     {
         "speaker": "Mick",
         "style": "laughing, animated, hyped",
-        "text": "<laugh> 'I say, over and out!' That is legendary from the gaffer Graeme! And we weren't done yet! Cam, Peter, and Jayden marched us fifty meters upfield, dished to Mitch on the burst, and he streaks away for his hat-trick to blow it out to 11-4! Then Peter and Reece trade sweet passes before Matt feeds Mitch again for his fourth try of the night to make it 12-4! Four tries for Mitch, you beauty!"
+        "text": "<laugh> 'I say, over and out!' That is legendary from the gaffer Graeme! And we weren't done yet! Cam, Peter, and Jayden marched us fifty meters upfield, dished to Mitch on the burst, and he streaks away for his hat-trick to blow it out to 11-4! Then Peter and Reece trade sweet passes before Matt feeds Mitch again for his fourth try of the night to make it 12-4! |bloody oath!| Four tries for Mitch, you beauty!"
     },
     {
         "speaker": "Gazza",
@@ -100,7 +100,7 @@ SCRIPT_TURNS = [
     {
         "speaker": "Mick",
         "style": "rousing, passionate, call to arms",
-        "text": "<sigh> Too right, Gazza! That thirteen-try explosion set the stage for our Round 11 masterclass against the Centurions, and sets us right up for the top-of-the-table double header! What a team, what a club! Up the Point Takeaway!"
+        "text": "<sigh> Too right, Gazza! A thirteen-try explosion to get the confidence soaring! If the boys bring that kind of speed and teamwork into next week against the Centurions, look out! What a team, what a club! Up the Point Takeaway!"
     }
 ]
 

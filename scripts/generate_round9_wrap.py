@@ -30,12 +30,12 @@ client = genai.Client(api_key=api_key)
 audio_dir = os.path.join('public', 'audio')
 os.makedirs(audio_dir, exist_ok=True)
 
-# 3. Persistent Australian Voice IDs
-MICK_VOICE_ID = 'voice_lepxbd2f37gg'   # "Mick The Rocket" (en-AU, enthusiastic gravelly footy commentator)
-GAZZA_VOICE_ID = 'voice_xuyxtq26tqmg'  # "Gazza Shemmell" (en-AU, deadpan Queensland tactical analyst)
+# 3. Universal Dedicated Prebuilt Australian Voices
+MICK_VOICE_ID = 'en-au-csagent-1'  # 36yo Sydney AU male - enthusiastic, engaging, and fun!
+GAZZA_VOICE_ID = 'en-au-tutor-5'   # 57yo Sydney AU male - conversational, dry humor, and warm!
 
-# 4. Round 9 Script with verified acoustic tags (<laugh>, <chuckle>, <gasp>, <sigh>)
-# and natural punctuation (... and -) for timing.
+# 4. Round 9 Script with verified acoustic tags (<laugh>, <chuckle>, <gasp>, <sigh>),
+# listener backchannels (|...|), and natural punctuation (... and -) for timing.
 SCRIPT_TURNS = [
     {
         "speaker": "Mick",
@@ -45,7 +45,7 @@ SCRIPT_TURNS = [
     {
         "speaker": "Gazza",
         "style": "calm, dry wit, deadpan",
-        "text": "A proper war of attrition, Mick. Coming off a three-week layoff with zero cardio is tough enough, but we were down to the bare bones. Peter and Reece were still in the casualty ward, Jayden was unavailable, and Adrian was over in Thailand living his best life. So with just two fresh legs on the sub bench, the game fell into an agonizing pattern. The gaffer Graeme dubbed it 'The Catchup'. United would sneak ahead, and we'd have to bust a gut to pull them back."
+        "text": "A proper war of attrition, Mick. |fair dinkum| Coming off a three-week layoff with zero cardio is tough enough, but we were down to the bare bones. Peter and Reece were still in the casualty ward, Jayden was unavailable, and Adrian was over in Thailand living his best life. So with just two fresh legs on the sub bench, the game fell into an agonizing pattern. The gaffer Graeme dubbed it 'The Catchup'. United would sneak ahead, and we'd have to bust a gut to pull them back."
     },
     {
         "speaker": "Mick",
@@ -65,7 +65,7 @@ SCRIPT_TURNS = [
     {
         "speaker": "Gazza",
         "style": "dry humor, amused, deadpan",
-        "text": "Halftime 3-all was a miracle given our heavy legs, Mick. But the second half was pure drama. United crossed early to make it 3-4, but Nev made amends in defence, corralling their winger right into the corner to force a turnover penalty. And off that tap, Joely produced one of the bravest diving tries of the season, crashing through three defenders to level it at 4-all."
+        "text": "Halftime 3-all was a miracle given our heavy legs, Mick. |bloody oath!| But the second half was pure drama. United crossed early to make it 3-4, but Nev made amends in defence, corralling their winger right into the corner to force a turnover penalty. And off that tap, Joely produced one of the bravest diving tries of the season, crashing through three defenders to level it at 4-all."
     },
     {
         "speaker": "Mick",
@@ -90,7 +90,7 @@ SCRIPT_TURNS = [
     {
         "speaker": "Mick",
         "style": "excited, competitive, pumped",
-        "text": "<gasp> Buzzer beater of the year! <laugh> Pure clutch from Cam! The final hooter blows as the ball hits the turf, and the boys walk away with an epic 6-all draw! What a finish!"
+        "text": "<gasp> Buzzer beater of the year! <laugh> Pure clutch from Cam! The final hooter blows as the ball hits the turf, and the boys walk away with an epic 6-all draw! What a finish! |you beauty!|"
     },
     {
         "speaker": "Gazza",
