@@ -277,5 +277,98 @@
       }
     ],
     "updatedAt": "2026-10-16T12:03:55.852026+00:00"
+  },
+  {
+    "id": "the-wrap-round-7",
+    "round": "Round 7",
+    "date": "2026-09-02",
+    "title": "The Wrap: Parking Chaos, Young Blokes at Heart & The Great Leave",
+    "matchId": "2026-09-02-round-7",
+    "isAudioReady": true,
+    "modelUsed": "gemini-3.8-flash-tts",
+    "durationSeconds": 276.6,
+    "formattedDuration": "4:36",
+    "audioUrl": "/audio/the-wrap-round-7.wav",
+    "stagedNative": true,
+    "hosts": [
+      {
+        "name": "Mick \"The Rocket\" Ryan",
+        "voice": "en-au-csagent-1",
+        "role": "Colour Commentator"
+      },
+      {
+        "name": "Gazza Shemmell",
+        "voice": "en-au-tutor-5",
+        "role": "Tactical Analyst"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "Mick",
+        "style": "excited and high energy",
+        "text": "G'day legends and welcome back to The Wrap, your weekly hit of touch footy gold for Point Takeaway at Redlands Touch Association! Mick here with Gazza, and oh boy... Round 7 was an absolute beauty! Cleveland Showgrounds, taking on The Well Hungarians, and the drama started before a single ball was even kicked! <laugh> The car park was an absolute war zone! Cam, Matt, and Jayden were stuck circling around Cleveland like lost tourists, meaning we had to tap off with just six blokes on the paddock! <laugh> You beauty!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "calm, dry wit, deadpan",
+        "text": "Severe parking crisis at the Showgrounds, Mick. |fair dinkum| Half the squad stuck in gridlock, and the casualty ward was already bulging. Mitch was in emergency with five stitches from a self-inflicted kitchen knife wound, Peter was battling respiratory issues, and Reece was still sidelined. But Mack stood tall right on our tryline, snatched a brilliant intercept, and sparked Joel and Dylan to combine for the opening try to make it 1-nil."
+      },
+      {
+        "speaker": "Mick",
+        "style": "laughing, hyped up, animated",
+        "text": "Haha! The Hungarians struck back to 1-all, but right on cue, the cavalry arrives from the car park! Cam, Matt, and Jayden sprint straight onto the paddock without even warming up! <laugh> Cam fires a pinpoint cutout pass to brother Matt, cracking the line wide open for Joely to waltz over for 2-1! And then Matt dishes a sweet pill to BJ, Cam puts on the afterburners, and feeds Jayden who makes no mistake for 3-1! Sliced them to ribbons!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "analytical, admiring, measured",
+        "text": "Textbook touch footy. Then Dylan and Jayden clamped down in defence, shutting down their outside runners. Moments later, Joel spotted Dylan on the fly, Jayden backed up with an inside sweep, and Cam simply walked through their line to make it 4-1. He made three defenders look like traffic cones, Mick. Made it look effortless."
+      },
+      {
+        "speaker": "Mick",
+        "style": "enthusiastic, laughing, fast-paced",
+        "text": "He was in cruise control! <laugh> The Hungarians sneaked a controversial one right on the halftime siren to peg it back to 4-2, but straight out of the sheds, Adrian earns six more, Joel delivers a crisp pass, and Dylan bags his second try of the night for 5-2! |you beauty!| Dylan was on fire, mate!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "dry humor, amused, deadpan",
+        "text": "Dylan had a cracking night on the wing. But then, as always in Cleveland, the refereeing took center stage. The Hungarians attacked our right corner, their winger dropped the ball stone cold onto the grass, and the referee unbelievably signaled a try to make it 5-3. <sigh> Graeme in the dugout was in utter disbelief."
+      },
+      {
+        "speaker": "Mick",
+        "style": "incredulous, lively, chuckling",
+        "text": "<gasp> Stone the crows Gazza! Blatant knock-on, but you've just got to laugh! And then Nev produces a monstrous fifty-meter charge right through the guts! Matt takes the offload, crashes over the line for what should've been 6-3, and the ref disallows it for an imaginary touch! You couldn't write the script, mate!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "relaxed, appreciative, smooth Queensland drawl",
+        "text": "And then came the comedy highlight of the second half: the soft send-off. Cam gets tackled completely off the ball by their defender. A brief scuffle ensues, and the referee marches both Cam and their bloke off for a two-minute cooling off period. <chuckle> Then Dylan breaks away for another clean runaway try, only for the two referees to hold a conference and inexplicably call it back. Baffling officiating."
+      },
+      {
+        "speaker": "Mick",
+        "style": "laughing, animated, hyped",
+        "text": "Haha! Pure comedy! But the lads kept their heads screwed on. Adrian pulls off a massive tackle in the middle, Mack takes the meters, and Joely pulls off a miraculous try-saving tag right on our stripe with two minutes on the clock! |bloody oath!| Huge heart from the boys!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "authoritative, structured, footy analyst",
+        "text": "And then came the tactical masterclass from Nev. Graeme noted it specifically in the match archives. With the Hungarians launching their final desperate raid, the ball bounces loose near our dead-ball line. Nev stands tall and executes, quote, A Great Leave. He leaves the ball perfectly, lets it roll dead, and regains possession for Point Takeaway to seal the game. Pure veteran instinct."
+      },
+      {
+        "speaker": "Mick",
+        "style": "excited, competitive, pumped",
+        "text": "<laugh> 'A Great Leave!' Only Nev could turn not touching the ball into the defensive play of the century! The final siren sounds, and the boys walk away with a gutsy 5 to 3 triumph over The Well Hungarians! What a win!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "tactical, respectful, smiling",
+        "text": "A thoroughly deserved two points against a tricky opponent. And the gaffer Graeme summed up the team spirit with trademark warmth: Everyone played well tonight. We have a great range of ages of our players. We always did. But, everyone tonight played like young blokes. Good job."
+      },
+      {
+        "speaker": "Mick",
+        "style": "rousing, passionate, call to arms",
+        "text": "<sigh> Young blokes at heart, Gazza! From parking mayhem to phantom tries and soft send-offs, this squad just finds a way to get the job done! Up the Point Takeaway!"
+      }
+    ],
+    "updatedAt": "2026-10-18T06:24:21.361699+00:00"
   }
 ]
