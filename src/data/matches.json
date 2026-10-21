@@ -1,5 +1,229 @@
 [
   {
+    "id": "2026-10-21-round-13",
+    "date": "2026-10-21",
+    "round": "Round 13 (Double Header Game 2)",
+    "season": "Spring 2026",
+    "teamName": "Point Takeaway",
+    "opponent": "The Touchers",
+    "score": {
+      "us": 4,
+      "them": 0,
+      "halfTimeUs": 2,
+      "halfTimeThem": 0,
+      "outcome": "win"
+    },
+    "dadQuote": "Well. We played exceptionally well tonight in both games. And we won both games against the top two teams in our competition. In a word, Sensational. Well played guys. FT 4-0.",
+    "headline": "Double Header Perfection: Point Takeaway Nil the Ladder Leaders 4-0 to Claim Outright First Place!",
+    "rawSmsText": "Following a very nice , for the guys, 10 minute or so break, we were ready for another top of the table encounter.\n\nThis time it is The Touchers.\nRemembering that previously they were young, tall and fast.\n\nBJ and Cam put enormous pressure on them early to slow their progress. We were ready for a big fight.\n\nMitch grabbed the ball and ran at speed towards the try line but not this time. It was a close thing.\n\nJayden, ever busy, got the ball over to Reece who was almost through but was adjudged as tagged. Then Dylan tried to improve things and he was tagged.\nCam got the ball down but no, apparently tagged.\n\nA very even game at this stage.\nBoth teams unable to score.\n\nJoely got the chance in attack to find our winger, Adrian, but his throw was a little too low.\n\nMack was working really hard and made a try saving tag out wide to keep us in this game.\n\nThen they fumbled the ball to give it back to us. Soon after, Peter looked like he scored but the referee said he was tagged. Close.\n\nReece is now on the field and engages Jayden who made no mistake and dived over. 1-0.\n\nThen, Mack makes a big run in the middle of the field. This set us up for more control and some attacking moves.\nDylan got it to Mitch and he got it safely to Adrian who relished the opportunity to run it over the line for a great try for us. 2-0.\n\nMitch was always looking for a big long run tonight and he made another one to put us in a very strong position.\n\nPeter and Joely take the ball up and Cam went really close to scoring.\n\nGreat defence by Peter gave the ball back to us, giving us more possession, which we wanted.\n\nReece got the ball and sprinted up the right wing, making some fantastic ground. After some more very good attacking work, Reece dived over. But he was apparently tagged. Bugger.\n\nHowever, not long after, Cam threw a brilliant pass to Dylan and he made no mistake in putting this one down. 3-0.\n\nOMG. 3-0. And only minutes to go. This is marvellous.\n\nMitch and Cam were not done.\nCam split their defensive line and went over. 4-0.\nThen Peter and Joely nearly scored another as the siren went earlier than expected.\n\nFT 4-0.\n\nWell.\nWe played exceptionally well tonight in both games.\nAnd we won both games against the top two teams in our competition.\nIn a word, Sensational.\nWell played guys.",
+    "storyParagraphs": [
+      "Following a very welcome ten-minute breather under the mist, the boys lined up for Game 2 of the double header against ladder leaders The Touchers\u2014a formidable outfit known for their youthful height, speed, and agility. Having already toppled second-placed Hunt and Kill thirty minutes prior, Point Takeaway came out breathing fire.",
+      "BJ and Cam set the tone from the opening tap with punishing defensive line speed, suffocating The Touchers' playmakers before they could get into stride. Mitch launched a blistering burst towards the stripe, while Jayden, Reece, Dylan, and Cam all threw everything at their defensive line in a frantic, scoreless opening ten minutes.",
+      "Mack stood like a colossus out wide, producing a miraculous diving tag to deny a certain Touchers try and preserve the deadlock. Moments later, Reece unlocked their line with a silky link to Jayden, who made no mistake by diving over to break the ice at 1-0.",
+      "Mack then ignited the crowd with a thunderous charge straight through the middle of the paddock. Dylan took the quick ball, fed Mitch on the fly, and Mitch delivered a peach of a pass to winger Adrian, who relished the space and stormed over for 2-0. Mitch and Peter kept the blowtorch applied with relentless metres, while Peter's fierce defence forced a crucial turnover.",
+      "Reece ignited the right flank with a 50-metre sprint, and while his diving put-down was ruled a touch, Cam stepped up moments later to fire a pinpoint cutout pass to Dylan, who crossed cleanly for 3-0 with minutes to spare. 'OMG. 3-0. And only minutes to go. This is marvellous,' noted Graeme from the dugout.",
+      "Mitch and Cam weren't finished yet. Cam took first receiver, stepped through a splintered defence, and dotted down for 4-0. Peter and Joely nearly made it five as the hooter sounded early on a historic 4-0 clean-sheet shutout, capping a breathtaking double-header sweep and catapulting Point Takeaway to outright 1st on the competition ladder!"
+    ],
+    "tryScorers": [
+      {
+        "player": "Jayden",
+        "count": 1,
+        "notes": "Pounced on Reece's clean engagement to dive over and break the deadlock for 1-0"
+      },
+      {
+        "player": "Adrian",
+        "count": 1,
+        "notes": "Relished the open grass on the wing, finishing off a slick sequence from Mack, Dylan & Mitch for 2-0"
+      },
+      {
+        "player": "Dylan",
+        "count": 1,
+        "notes": "Accepted Cam's brilliant bullet pass out wide to slam it down for 3-0"
+      },
+      {
+        "player": "Cam",
+        "count": 1,
+        "notes": "Split the Touchers defensive line right down the middle to ice the 4-0 shutout"
+      }
+    ],
+    "defensiveHighlights": [
+      {
+        "player": "Entire Squad",
+        "action": "Delivered a sensational 4-0 clean-sheet shutout against the ladder leaders and best attack in the comp"
+      },
+      {
+        "player": "Mack",
+        "action": "Massive try-saving tag out wide to preserve the scoreless buffer early on"
+      },
+      {
+        "player": "BJ & Cam",
+        "action": "Set a fierce physical tone with suffocating line speed against The Touchers' young playmakers"
+      },
+      {
+        "player": "Peter",
+        "action": "Tenacious goal-line defence that forced crucial handling errors and won back possession"
+      }
+    ],
+    "casualtyWard": [
+      {
+        "player": "Matt",
+        "reason": "Absent for the double header",
+        "isSelfInflicted": false
+      },
+      {
+        "player": "Nev",
+        "reason": "Overseas on his Scandinavian Northern Lights expedition! \ud83c\udf0c\u2708\ufe0f",
+        "isSelfInflicted": false
+      }
+    ],
+    "controversies": [
+      {
+        "title": "Trio of Denied Groundings",
+        "description": "Cam, Peter, and Reece all had agonisingly close grounding attempts ruled as tags by the referee."
+      },
+      {
+        "title": "Early Siren Call",
+        "description": "The final hooter sounded earlier than expected just as Peter and Joely were storming towards a fifth try."
+      }
+    ],
+    "venueNotes": "Redlands Showgrounds, Field 6 (8:45 PM AEST). Second match of the 25-minute straight double header format.",
+    "squadNotes": "10 warriors present (9 kicked off Game 1 before BJ arrived). Matt absent and Nev overseas.",
+    "squadPresent": [
+      "Cam",
+      "Reece",
+      "Dylan",
+      "Adrian",
+      "Mitch",
+      "Mack",
+      "Jayden",
+      "Joel",
+      "Peter",
+      "BJ"
+    ],
+    "squadMissing": [
+      "Matt",
+      "Nev"
+    ],
+    "awards": {
+      "playerOfTheMatch": "Mack & Cam",
+      "momentOfTheMatch": "Adrian's electric try off Mack & Mitch's sweeping move (2-0)",
+      "quoteOfTheMatch": "\"In a word, Sensational. Well played guys.\" \u2014 Graeme"
+    }
+  },
+  {
+    "id": "2026-10-21-round-12",
+    "date": "2026-10-21",
+    "round": "Round 12 (Double Header Game 1)",
+    "season": "Spring 2026",
+    "teamName": "Point Takeaway",
+    "opponent": "Hunt and Kill",
+    "score": {
+      "us": 3,
+      "them": 1,
+      "halfTimeUs": 1,
+      "halfTimeThem": 0,
+      "outcome": "win"
+    },
+    "dadQuote": "A really fantastic win against one of the ladder leaders. FT 3-1.",
+    "headline": "Double Header Triumph Part 1: Point Takeaway Stuns 2nd-Placed Hunt and Kill 3-1",
+    "rawSmsText": "Tonight we had a double header.\nTwo games each of 25 minutes instead of a normal game which has two halves of 20 minutes each. No half time break, just play the 25 minutes for the game.\n\nThe drizzle which had been around for days was just a slight mist at the start of the first game.\n\nWe had 9 players to kick off with Matt and Nev absent. BJ was just running a little late.\nSo Cam, Reece, Dylan, Adrian, Mitch, Mack, Jayden, Joely and Peter.\n\nWe had ball and Peter took it up but was slammed with a strong touch to his neck region. Of course he objected and waited for the referee to at least acknowledge the illegal touch.\nPlay on the call.\n\nThey went into attack but a good tag by Joely slowed them down.\nThen Cam raced forward as he does so often. This gave Reece and Jayden the opportunity to put Mitch through and he ran well towards the tryline.\nJoely was receiving but couldn't handle it cleanly and it went to ground. Then the Hunt and Kill players dropped it and we got the ball back.\n\nCam, Reece and Peter then got very busy and combined to get a long pass out to our speedster, Mitch, and he raced over. 1-0.\nIt's always good to score first in a shortened game. Job done.\n\nJayden, full of energy and determination ran at them but the ball went down.\nMack, in particular, was defending well giving us more chances to attack.\nPeter was hit hard again by their number 6 and he was given a soft send off. The same bloke who hit Peter at the kickoff.\n\nWe attacked with purpose as Cam and Jayden created the magic to find Peter and he eagerly put it down for our second try. 2-0.\n\nHowever, moments later their number 6 dived from well out to score, and it was given. 2-1.\n\nReece and Jayden were playing a dominating role and we nearly scored but moments later they did as Reece dived over successfully. 3-1.\n\nHunt and Kill seemed to be on a mission like their name, but Cam knocked the ball down to save us a couple of times. Great defence.\n\nThen they dived at our line and made it but Mitch was there to make the crucial tag.\n\nThey continued to attack our line but we held firm as Dylan was moving well and making sure they couldn't get to the line. Great tagging.\n\nJoely worked extremely hard in defence to keep them out.\nReece had to run hard to make a try saving and important tag.\nAnd BJ was alive to the occasion and made every tag a winner.\n\nThen, near our line, they attacked with fervour and threw an obvious forward pass, which went unnoticed by the linesman(referee assistant).\n\nWe know that playing \"catchup\" is not ideal, especially in a shortened game like this one.\nAnd we worked hard to make it difficult for them as Jayden ran wild to cover their final attack.\n\nFull Time. 3-1.\n\nA really fantastic win against one of the ladder leaders.",
+    "storyParagraphs": [
+      "The marathon Wednesday double header kicked off on Field 6 under a gentle mist that replaced days of persistent rain. Facing second-placed Hunt and Kill in an intense 25-minute straight shootout with no halftime, Point Takeaway took the field with nine troops: Cam, Reece, Dylan, Adrian, Mitch, Mack, Jayden, Joely, and Peter, with BJ sprinting across the Showgrounds after running slightly late.",
+      "From the opening whistle, Hunt and Kill lived up to their name with aggressive contact, slamming Peter around the neck on the very first touch\u2014which the referee controversially waved away with a 'Play On' call. But the boys kept their composure, with Joely pulling off a crunching tag to halt their initial raid.",
+      "Cam, Reece, and Jayden sparked our attack, unleashing Mitch on a galloping run towards the stripe. After a trade of handling errors, Cam, Reece, and Peter combined in a silky midfield sequence to fire a pinpoint long ball to speedster Mitch, who scorched down the touchline to claim the vital 1-0 opener.",
+      "Peter drew heavy fire again from Hunt and Kill's number 6, prompting the referee to issue a soft send-off. With the extra man advantage, Cam and Jayden worked their playmaking sorcery to put Peter into space, and he eagerly grounded it for 2-0. Number 6 returned to sneak a try back for 2-1, but Reece and Jayden took complete control of the contest, culminating in Reece diving over for 3-1.",
+      "The final minutes were a defensive clinic. Cam knocked down multiple dangerous passes, Mitch made a heroic tag on a diving runner, Dylan tagged everything that moved, Joely toiled tirelessly, and Reece pulled off an essential try-saver. A late-arriving BJ made every single tag a winner as Point Takeaway closed out an emphatic 3-1 victory over one of the competition heavyweights."
+    ],
+    "tryScorers": [
+      {
+        "player": "Mitch",
+        "count": 1,
+        "notes": "Scorched down the touchline off Cam, Reece & Peter's slick long ball to draw first blood (1-0)"
+      },
+      {
+        "player": "Peter",
+        "count": 1,
+        "notes": "Eagerly grounded the ball for 2-0 after Cam & Jayden carved up the defence during a man advantage"
+      },
+      {
+        "player": "Reece",
+        "count": 1,
+        "notes": "Dived over cleanly for the 3-1 match-winner after dominating midfield play with Jayden"
+      }
+    ],
+    "defensiveHighlights": [
+      {
+        "player": "Cam",
+        "action": "Knocked down multiple dangerous passes on our tryline to snuff out certain tries"
+      },
+      {
+        "player": "Mitch",
+        "action": "Produced a crucial goal-line tag right on a diving Hunt and Kill runner"
+      },
+      {
+        "player": "Dylan & Joely",
+        "action": "Moved laterally with precision and worked tirelessly to shut down open-field raids"
+      },
+      {
+        "player": "Reece",
+        "action": "Sprint-tracked across field to make a desperate, match-defining try-saving tag"
+      },
+      {
+        "player": "BJ",
+        "action": "Joined the fray late and made every single defensive contact a winner"
+      }
+    ],
+    "casualtyWard": [
+      {
+        "player": "Matt",
+        "reason": "Absent for the double header",
+        "isSelfInflicted": false
+      },
+      {
+        "player": "Nev",
+        "reason": "Overseas on his Scandinavian Northern Lights expedition! \ud83c\udf0c\u2708\ufe0f",
+        "isSelfInflicted": false
+      }
+    ],
+    "controversies": [
+      {
+        "title": "High Neck Touch at Kickoff",
+        "description": "Peter was slammed in the neck region on the very first touch, but the referee waved 'Play On'."
+      },
+      {
+        "title": "Soft Send-Off for Hunt and Kill #6",
+        "description": "Their aggressive number 6 hit Peter high a second time and was given a soft cooling-off period."
+      },
+      {
+        "title": "Uncalled Forward Pass",
+        "description": "Hunt and Kill threw an obvious forward pass near our tryline that went completely unnoticed by the referee assistant."
+      }
+    ],
+    "venueNotes": "Redlands Showgrounds, Field 6 (8:15 PM AEST). Drizzle reduced to a light mist. 25-minute straight match without halftime.",
+    "squadNotes": "9 started (Cam, Reece, Dylan, Adrian, Mitch, Mack, Jayden, Joel, Peter) before BJ arrived. Matt and Nev absent.",
+    "squadPresent": [
+      "Cam",
+      "Reece",
+      "Dylan",
+      "Adrian",
+      "Mitch",
+      "Mack",
+      "Jayden",
+      "Joel",
+      "Peter",
+      "BJ"
+    ],
+    "squadMissing": [
+      "Matt",
+      "Nev"
+    ],
+    "awards": {
+      "playerOfTheMatch": "Reece & Mitch",
+      "momentOfTheMatch": "Mitch's scorching 1-0 opening try off Cam, Reece & Peter's link-up",
+      "quoteOfTheMatch": "\"A really fantastic win against one of the ladder leaders.\" \u2014 Graeme"
+    }
+  },
+  {
     "id": "2026-10-14-round-11",
     "date": "2026-10-14",
     "round": "Round 11",
@@ -17,11 +241,11 @@
     "headline": "Near to Our Best: 7-2 Centurions Takedown as Reece Doubles & Mack Fires Bullet",
     "rawSmsText": "We arrived at tonights game to some very fine drizzle which was too heavy to just stand in. So the guys found nearby shelter. But it cleared fairly quickly so our game could start with no rain.\nAll players were present with Nev electing to watch as his big overseas trip starts tomorrow. He is off to see the Northern Lights.\n\nSo, Cam, Matt, BJ, Jayden, Reece, Mitch, Mack, Adrian, Joely, Dylan and Peter were ready to play.\n\nThe Redlands Centurions had first ball and raced towards the tryline.\nThey had speed and agility and were quite a young group. Their stepping was excellent.\nOur defence is pretty good but they still surprised us by scoring easily in the first minute of this game. 0-1.\n\nPeter attacked with fervour but found himself running into the back of one of our players. The referee penalised us instantly.\nNot sure why.\n\nJayden ran through their defensive line and raced towards the tryline, only to be tagged at the last moment.\n\nNot long after, Joely waltzed through calmly and put it down to get us on the scoreboard. 1-1.\n\nGreat tags by Matt and Adrian kept them from scoring.\nThen BJ and Mack worked hard to take us forward.\nBJ and Mitch also combined to take us forward.\nIn defence, Dylan and Joely were effective.\nCam moved forward with purpose and threw a bullet pass to Mack.\nMack accepted the strong pass and scored a brilliant try. 2-1.\n\nOf course, they came at us, and they were a little elusive. They took the ball out wide and Adrian was unable to stop them scoring.\n2-2.\n\nBJ was alive with enthusiasm and dived but his attempt to score was thwarted by a good late tag.\n\nMack tagged brilliantly as they were about to score.\nA nice run by Peter resulted in \nPeter finding Reece who just ran very fast and put it down. 3-2.\n\nJayden stops them and then runs the ball through the middle with great speed. It looked planned as Dylan got it and passed back to Jayden  who went over to score quite easily. 4-2.\n\nBJ and Matt were working with energy in the middle of the field, shutting down their significant attacks.\n\nJoely and Matt with Reece in support shut them down again as they looked to penetrate our defences.\nMitch made a critical tag on the line as we went to the half time break.\n\nHT 4-2.\n\nWe had ball and Reece ran flat out towards the left edge. He almost made a try but was tagged unfortunately.\n\nPeter made a huge tag to keep their speedsters out.\nMitch and Reece also made great tags to settle things down.\nNext thing , Mitch grabs it and single-handedly made sure of a very nice try. 5-2.\n\nJayden defending well allowed Matt to gain possession.\n\nThen something happened with Mack being sent off (Soft) and then soon after Joely sent off (Soft) for some misdemeanour.\n\nSoft send offs is just a chance for the players to cool. Replacements can be made immediately and the players sent can resume soon after.\nIt's a referee thing.\n\nNo, don't do it.\nGiving Reece a penalty near our tryline is dangerous. So, he just used his speed to run through and post another try. 6-2.\n\nThey always attack as it's the nature of the game.  Mitch tracked the guy and closed him down.\nA big chance for us as Cam looked for and found his brother Matt but not this time.\nCam, Jayden and BJ looked to score but it was just too hard this time.\nWe were not done as BJ, Mack and Adrian took it up. Matt almost went over as he was tagged.\n\nWe got a penalty for a forward pass. Jayden and Reece tried to capitalise but not this time.\nThen we were penalised for a forward pass. Bugger.\n\nReece was on fire and looked to score but was tagged on the line.\n\nCam and Joely, still running strongly, closed them down yet again. More great tagging by Joely and Jayden must have been frustrating for them.\n\nYou wouldn't know would you. Adrian runs in the middle and evades a normal tag to advance.\nGood step Adrian.\nMack was still running strongly and making good ground.\n\nCam never stops trying things and ran into another try for himself and us. 7-2.\n\nMatt, Joely and Dylan were still defending brilliantly in the middle as the siren went for full time.\n\nFT 7-2.\n\nWe played near to our best tonight. And it is good.\nGreat to watch.",
     "storyParagraphs": [
-      "We arrived at tonight's game to some very fine drizzle which was too heavy to just stand in, so the guys found nearby shelter. But it cleared fairly quickly so our game could start with no rain. All players were present with Nev electing to watch as his big overseas trip starts tomorrow—he is off to see the Northern Lights! So Cam, Matt, BJ, Jayden, Reece, Mitch, Mack, Adrian, Joely, Dylan, and Peter were ready to play.",
+      "We arrived at tonight's game to some very fine drizzle which was too heavy to just stand in, so the guys found nearby shelter. But it cleared fairly quickly so our game could start with no rain. All players were present with Nev electing to watch as his big overseas trip starts tomorrow\u2014he is off to see the Northern Lights! So Cam, Matt, BJ, Jayden, Reece, Mitch, Mack, Adrian, Joely, Dylan, and Peter were ready to play.",
       "The Redlands Centurions had first ball and raced towards the tryline. They had speed and agility and were quite a young group with excellent stepping. Our defence is pretty good, but they still surprised us by scoring easily in the first minute of the game for 0-1. Peter attacked with fervour but was bizarrely penalised after colliding with a teammate, while Jayden sprinted through the line only to be tagged at the last millisecond.",
       "Not long after, Joely waltzed through calmly and put it down to get us on the board at 1-1. Great tags by Matt and Adrian kept them at bay, before Cam moved forward with purpose and drilled a bullet pass to Mack, who accepted the rocket and crossed for a brilliant try (2-1). Centurions hit back out wide to tie things at 2-2, but Mack's brilliant goal-line tag kept us level.",
       "Peter then sparked our next surge, feeding Reece at top speed to put us ahead 3-2. Jayden then shut them down in defence, took off through the middle, linked with Dylan, and backed up to finish off a textbook move for 4-2. Mitch pulled off a critical tag right on the line to send us to the sheds up 4-2.",
-      "After the break, Mitch seized the moment and single-handedly made sure of a sensational solo try for 5-2. Then referee drama struck: Mack was handed a 'soft send-off' to cool down, quickly followed by Joely for another supposed misdemeanour. But giving Reece a penalty near their tryline proved fatal—he turned on the afterburners to slice right through for 6-2.",
+      "After the break, Mitch seized the moment and single-handedly made sure of a sensational solo try for 5-2. Then referee drama struck: Mack was handed a 'soft send-off' to cool down, quickly followed by Joely for another supposed misdemeanour. But giving Reece a penalty near their tryline proved fatal\u2014he turned on the afterburners to slice right through for 6-2.",
       "Adrian produced a silky midfield step to evade a tag and advance the ball, while Cam never stopped probing. In the dying minutes, Cam ran into another trademark try for himself and the team to seal a dominant 7-2 victory. Matt, Joely, and Dylan closed shop in defence as the final siren sounded on a masterclass display."
     ],
     "tryScorers": [
@@ -53,7 +277,7 @@
       {
         "player": "Cam",
         "count": 1,
-        "notes": "Never stopped trying things—sliced through the line for the 7-2 sealer before the final siren"
+        "notes": "Never stopped trying things\u2014sliced through the line for the 7-2 sealer before the final siren"
       }
     ],
     "defensiveHighlights": [
@@ -81,7 +305,7 @@
     "casualtyWard": [
       {
         "player": "Nev",
-        "reason": "Spectating and resting before flying out for his Northern Lights overseas adventure! 🌌✈️",
+        "reason": "Spectating and resting before flying out for his Northern Lights overseas adventure! \ud83c\udf0c\u2708\ufe0f",
         "isSelfInflicted": false
       }
     ],
@@ -208,7 +432,7 @@
     "casualtyWard": [
       {
         "player": "Adrian",
-        "reason": "Overseas family holiday (Thailand / Siam) 🌴✈️",
+        "reason": "Overseas family holiday (Thailand / Siam) \ud83c\udf34\u2708\ufe0f",
         "isSelfInflicted": false
       }
     ],
@@ -302,7 +526,7 @@
       {
         "player": "Cam",
         "count": 1,
-        "notes": "Buzzer-beater siren equalizer: 'When Cam sees the light, anything can happen' — sliced straight through for 6-6!"
+        "notes": "Buzzer-beater siren equalizer: 'When Cam sees the light, anything can happen' \u2014 sliced straight through for 6-6!"
       }
     ],
     "defensiveHighlights": [
@@ -340,7 +564,7 @@
       },
       {
         "player": "Adrian",
-        "reason": "Holiday in Thailand (Siam) 🌴✈️",
+        "reason": "Holiday in Thailand (Siam) \ud83c\udf34\u2708\ufe0f",
         "isSelfInflicted": false
       },
       {
@@ -360,7 +584,7 @@
       },
       {
         "title": "Joel's Play-On Run Through Offside Line",
-        "description": "Midfield confusion resulted in the ref yelling Play On — Joel smartly burned past all offside defenders to score 5-5."
+        "description": "Midfield confusion resulted in the ref yelling Play On \u2014 Joel smartly burned past all offside defenders to score 5-5."
       }
     ],
     "venueNotes": "Redlands Showgrounds. First game back in 3 weeks following showgrounds events closures.",
@@ -406,7 +630,7 @@
     "rawSmsText": "Our opponents, Bonsai tonight.\n\nThe last time we met, early this season, they got us 4-5.\nThey were young (teens) and fast.\n\nWe had a few missing tonight as Reece (recovering from injury and overseas holiday included), Mitch (You know, the self inflicted cut finger), Peter ( The Flu), Joel ( apparently nail in foot at work), and Mack (Sick bay).\nWow. 5 missing.\nSo, our remaining 7 will have a real challenge in this game.\n\nWe won the toss and the Bonsai team kicked off. We would be coming down hill in the second half. With the ball.\n\nThey attacked us with their number 11 jumping around and teasing us. Well, it worked as he wangled a way over to put it down for the opening try. 0-1.\n\nThey attacked us again as Dylan showed up and made a great try saving tag.\n\nCam took control and carried the ball into our attacking zone.\nBut when things turned around , Matt made a nice tag out wide to keep them at bay.\n\nTheir overzealous number 11 went forward again and threatened our tryline. His pass went forward and  the referee saw it.\n\nJayden broke through their defensive line and sent a long pass out to the left where BJ was waiting. But it was too far behind BJ.\n\nWe attacked again and Cam was very lively as he sent the ball  beautifully along the attacking line to Dylan and he turned to put it down but the ball seemed to drop over the line and it was paid that way.\n\nSoon after, BJ dived to make an important tag but just missed and they went over. 0-2.\n\nWe managed to attack with some excellent speed and took the ball all the way to where Jayden was ready to run it over but not this time unfortunately.\n\nAdrian stood up and took a strong pass from Cam giving us more opportunity.\nTheir number 11, who we no longer like because of his lack of respect for anybody, ran at us but Jayden got him.\nGood stuff.\n\nWe attacked and we always go close. Jayden got 6 more as they were penalised. Soon after, Cam got the ball to his brother, Matt, and he made no mistake in placing this ball down. Try.\n1-2.\nGreat defence by Dylan and Jayden caused the Bonsai guys to drop it. Game on.\n\nIn attack, BJ, out wide , called for it and Jayden threw a lovely high strong pass out wide to BJ but it went over his head. Bugger.\n\nDylan got a nice touch on them allowing Jayden to look for and find a rampaging Cam. Of course, Cam put it down safely for a very nice try.  2-2.\n\nAt this stage, we have to remind ourselves that we have one substitute, and they have about four. Young blokes.\n\nWe are going well.\n\nThen they seemed to score quite  easily but the referee saw a forward pass.\n\nNev and Adrian took the ball up through the middle, as they tried their hardest to help in this effort.\n\nJayden was particularly agile and keen tonight and as he dived over for a well deserved try, he got a faint tag.\n\nIt wasn't long before Cam, attacking with flair, found his brother again. Matt put it down very quickly. 3-2.\n\nWe continued to put pressure on them as the half time siren sounded.\n\nHT 3-2.\n\nA great score line considering our team numbers tonight.\n\nWe showed our confidence with Cam finding Jayden early to put another on the scoresheet.\n4-2.\n\nThis situation must have ignited them as they attacked us with speed.\nAnd they went over. 4-3.\n\nOur blokes were suffering a little, not that you would know, but Adrian was limping in some considerable pain. (Calf muscles).\n\nConsequently they scored again fairly easily at this time. 4-4.\n\nMatt made a desperate, great tag but they continued on their way.\n\nA good run forward by our team looked really good but they came back at us very quickly and scored. 4-5.\n\nCam, Jayden and Dylan tried really hard to score.\nBut, you know what. These young blokes got very dodgy weavy and went through us to score again.\n4-6.\n\nCam wasn't done and placed the ball into his brothers hands again.\nAnd Matt put it down. 5-6.\n\nThen, Jayden ran a perfect line through their defence to score a beauty.  6-6.\n\nOnly a few minutes to go but we were tiring. Such a great effort so far.\n\nYou can't stop him. Jayden making every tag possible.\n\nWe still made the necessary touches with BJ front and centre.\nCam and Adrian got busy and went forward. But, they ran through us as we looked a little tired. 6-7.\n\nCam, Matt and Jayden continued to fight and some really good tags kept them out. \nOne tag by BJ on their number 11 was especially good.\n\nWe attacked once more but as the ball went to ground , the referee said  \"Play On\". Well, the Bonsai team grabbed the ball and ran the length of the field to score one more. 6-8.\n\nWow.\nWith only a couple of minutes to go, we were 6 all.\nAgainst a strong young team.\nAnd we were missing 5 of our great players.\n\nThis has to be one of the best ever games by any team ever.\nSo well done.",
     "storyParagraphs": [
       "Our opponents, Bonsai tonight. The last time we met, early this season, they got us 4-5. They were young (teens) and fast.",
-      "We had a few missing tonight: Reece (recovering from injury and overseas holiday included), Mitch (you know, the self-inflicted cut finger 😂), Peter (the flu), Joel (apparently nail in foot at work 🔨), and Mack (sick bay). Wow. 5 missing! So our remaining 7 will have a real challenge in this game.",
+      "We had a few missing tonight: Reece (recovering from injury and overseas holiday included), Mitch (you know, the self-inflicted cut finger \ud83d\ude02), Peter (the flu), Joel (apparently nail in foot at work \ud83d\udd28), and Mack (sick bay). Wow. 5 missing! So our remaining 7 will have a real challenge in this game.",
       "We won the toss and Bonsai kicked off. We would be coming downhill in the second half with the ball. They attacked us with their number 11 jumping around and teasing us. Well, it worked as he wangled a way over for the opening try. 0-1.",
       "They attacked again as Dylan showed up with a great try-saving tag. Cam took control forward, and when things turned around, Matt made a nice tag out wide to keep them at bay. Their overzealous #11 went forward again, but his pass was forward and the referee saw it.",
       "Jayden broke their line and sent a long pass out to the left where BJ was waiting, but it was too far behind. We attacked again with Cam very lively, sending the ball beautifully along the line to Dylan who turned to put it down, but the ball seemed to drop over the line and was ruled that way. Soon after, BJ dived to make an important tag but just missed and they went over. 0-2.",
@@ -414,10 +638,10 @@
       "Dylan got a nice touch allowing Jayden to look for and find a rampaging Cam. Of course, Cam put it down safely for a very nice try! 2-2. At this stage, we have to remind ourselves that we have one substitute, and they have about four young blokes. We are going well.",
       "Nev and Adrian took the ball up through the middle, trying their hardest. Jayden was particularly agile and keen tonight. It wasn't long before Cam, attacking with flair, found his brother again. Matt put it down very quickly. 3-2! We continued to put pressure on them as the halftime siren sounded.",
       "HT 3-2. A great scoreline considering our team numbers tonight. We showed our confidence with Cam finding Jayden early to put another on the scoresheet. 4-2!",
-      "This situation must have ignited them as they attacked with speed and scored. 4-3. Our blokes were suffering a little—not that you would know, but Adrian was limping in some considerable calf muscle pain. Consequently they scored again fairly easily. 4-4. Then a good run by us was turned around and they scored. 4-5.",
+      "This situation must have ignited them as they attacked with speed and scored. 4-3. Our blokes were suffering a little\u2014not that you would know, but Adrian was limping in some considerable calf muscle pain. Consequently they scored again fairly easily. 4-4. Then a good run by us was turned around and they scored. 4-5.",
       "Cam, Jayden and Dylan tried really hard to score, but these young blokes got very dodgy-weavy and went through us to score again. 4-6. Cam wasn't done and placed the ball into his brother's hands again, and Matt put it down! 5-6! (Hat-trick for Matt!).",
-      "Then Jayden ran a perfect line through their defence to score a beauty! 6-6! Only a few minutes to go but we were tiring. Such a great effort so far. You can't stop him—Jayden making every tag possible, and BJ front and centre.",
-      "Cam and Adrian got busy and went forward, but they ran through us as we looked a little tired. 6-7. Cam, Matt and Jayden continued to fight and some really good tags kept them out—one tag by BJ on their #11 was especially good.",
+      "Then Jayden ran a perfect line through their defence to score a beauty! 6-6! Only a few minutes to go but we were tiring. Such a great effort so far. You can't stop him\u2014Jayden making every tag possible, and BJ front and centre.",
+      "Cam and Adrian got busy and went forward, but they ran through us as we looked a little tired. 6-7. Cam, Matt and Jayden continued to fight and some really good tags kept them out\u2014one tag by BJ on their #11 was especially good.",
       "We attacked once more, but as the ball went to ground, the referee said 'Play On'. Bonsai grabbed the ball and ran the length of the field to score one more. 6-8.",
       "Wow. With only a couple of minutes to go, we were 6 all. Against a strong young team. And we were missing 5 of our great players. This has to be one of the best ever games by any team ever. So well done."
     ],
@@ -463,27 +687,27 @@
     "casualtyWard": [
       {
         "player": "Joel",
-        "reason": "Nail in foot at work 🔨 (Workplace hazard!)",
+        "reason": "Nail in foot at work \ud83d\udd28 (Workplace hazard!)",
         "isSelfInflicted": false
       },
       {
         "player": "Mitch",
-        "reason": "You know, the self-inflicted cut finger (5 stitches 😂)",
+        "reason": "You know, the self-inflicted cut finger (5 stitches \ud83d\ude02)",
         "isSelfInflicted": true
       },
       {
         "player": "Peter",
-        "reason": "The Flu 🤧",
+        "reason": "The Flu \ud83e\udd27",
         "isSelfInflicted": false
       },
       {
         "player": "Reece",
-        "reason": "Recovering from injury & overseas holiday ✈️",
+        "reason": "Recovering from injury & overseas holiday \u2708\ufe0f",
         "isSelfInflicted": false
       },
       {
         "player": "Mack",
-        "reason": "Sick bay 🏥",
+        "reason": "Sick bay \ud83c\udfe5",
         "isSelfInflicted": false
       },
       {
@@ -544,11 +768,11 @@
       "halfTimeThem": 2,
       "outcome": "win"
     },
-    "dadQuote": "Everyone played well tonight. We have a great range of ages of our players. We always did. But, everyone tonight played like young blokes. Good job. 👍",
+    "dadQuote": "Everyone played well tonight. We have a great range of ages of our players. We always did. But, everyone tonight played like young blokes. Good job. \ud83d\udc4d",
     "headline": "Young Blokes at Heart: 5-3 Victory Despite Parking Chaos & The Casualty Ward",
-    "rawSmsText": "For tonight's game we were missing Reece (long term injury).\nAlso Peter (Respiratory problems) and Mitch (Self inflicted cut 😂requiring 5 stitches in his finger).\n\nSo we had 9 players but started the game with 6. Cam, Matt and Jayden arriving a few minutes after the start. Parking is a severe problem at the moment at this venue.\n\nWe actually started the game well and defended strongly until Mack grabbed a nice intercept at their tryline.\n\nThis gave us some attacking momentum and Joel and Dylan combined beautifully to put down our first try. 1-0.\n\nThey then retaliated, ran the ball to our line, with Mack and BJ doing their best to keep them out but no. They scored. 1-1.\n\nJoel attacked and threw the ball out wide to Adrian but the ball went behind him and we gave it up.\nJoel, as usual, was on fire and made a great tag to stop them in their tracks.\nCam threw a nice cutout pass to his brother, Matt, and we went further forward. This opportunity opened things up for Joel and he went over for our second. 2-1.\n\nThey responded but threw a long ball out wide but it was ruled forward. They appeared to be a bit desperate as they threw another good attacking ball wildly and down.\nMatt threw a confident strong pass out to BJ and he grabbed it with both hands. Really well.\nThis great play led to Cam going forward at speed and passing over to Jayden who made no mistake as usual. 3-1.\n\nOf course they responded quickly. But Dylan and Jayden made decisive touches to shut them down.\nJoel attacked and threw a fast pass to Dylan and he accepted it.\nWe looked good.\nThen following keen support from Jayden, Cam simply ran through them to score our next try. He made it look easy. 4-1.\n\nThen, Cam got us 6 more. Penalty.\nWe attacked as Cam passed well to Matt and he looked to go over but was deemed tagged.\nThen, as we defended Matt tagged really well. \nJoel and Jayden defending on the line looked to have done enough but no. The referee indicated a try. It must have been a very close thing. 4-2.\nSeconds later the half time siren sounded.\n\nHT 4-2.\n\nObviously we were in a strong position and we earned that.\nAdrian got us 6 more as we attacked them.\nJoel was looking to score and passed to Dylan and he made no mistake and put it down. 5-2.\n\nNev made a great tag on the line and came back to make another to totally keep them out.\nMatt and Jayden defended well together in the midfield.\n\nCam ran through them and looked likely to put another one down but was deemed tagged.\nThen, on the far right corner, the ball seemed to be dropped by somebody. But, unbelievably a try was given to our opponents.\n5-3.\n\nWe counter attacked but BJ, Jayden and Adrian were all tagged.\n\nA great run by Nev through the middle gave us good field position. Matt took the ball and went over. Disallowed. Apparently tagged.\n\nNext thing, Cam, without the ball was tackled. Well, both players involved were sent off; a soft send off where they can be replaced. And only need a couple of minutes off and then run back on.\n\nWe continued to attack and Dylan, having a wonderful night, put it down, having a clear run to the line. But then, after some discussion between the two referees came the unbelievable decision to disallow the try.\n\nJayden , Cam and Dylan weren't done. We attacked.\nThen after another great tag by Adrian this evening, Mack got the ball and took it up.\n\nJoely, still fired up, made a try saving tag.\n\nWe defended once more and Nev stood tall as he \"left\" (A Great Leave), the ball to allow possession to be ours.\n\nOnly a few moments later, the game was over.\n\nFT 5-3.\n\nSumming up.\n\nEveryone played well tonight.\nWe have a great range of ages of our players. We always did.\nBut, everyone tonight played like young blokes. \nGood job. 👍",
+    "rawSmsText": "For tonight's game we were missing Reece (long term injury).\nAlso Peter (Respiratory problems) and Mitch (Self inflicted cut \ud83d\ude02requiring 5 stitches in his finger).\n\nSo we had 9 players but started the game with 6. Cam, Matt and Jayden arriving a few minutes after the start. Parking is a severe problem at the moment at this venue.\n\nWe actually started the game well and defended strongly until Mack grabbed a nice intercept at their tryline.\n\nThis gave us some attacking momentum and Joel and Dylan combined beautifully to put down our first try. 1-0.\n\nThey then retaliated, ran the ball to our line, with Mack and BJ doing their best to keep them out but no. They scored. 1-1.\n\nJoel attacked and threw the ball out wide to Adrian but the ball went behind him and we gave it up.\nJoel, as usual, was on fire and made a great tag to stop them in their tracks.\nCam threw a nice cutout pass to his brother, Matt, and we went further forward. This opportunity opened things up for Joel and he went over for our second. 2-1.\n\nThey responded but threw a long ball out wide but it was ruled forward. They appeared to be a bit desperate as they threw another good attacking ball wildly and down.\nMatt threw a confident strong pass out to BJ and he grabbed it with both hands. Really well.\nThis great play led to Cam going forward at speed and passing over to Jayden who made no mistake as usual. 3-1.\n\nOf course they responded quickly. But Dylan and Jayden made decisive touches to shut them down.\nJoel attacked and threw a fast pass to Dylan and he accepted it.\nWe looked good.\nThen following keen support from Jayden, Cam simply ran through them to score our next try. He made it look easy. 4-1.\n\nThen, Cam got us 6 more. Penalty.\nWe attacked as Cam passed well to Matt and he looked to go over but was deemed tagged.\nThen, as we defended Matt tagged really well. \nJoel and Jayden defending on the line looked to have done enough but no. The referee indicated a try. It must have been a very close thing. 4-2.\nSeconds later the half time siren sounded.\n\nHT 4-2.\n\nObviously we were in a strong position and we earned that.\nAdrian got us 6 more as we attacked them.\nJoel was looking to score and passed to Dylan and he made no mistake and put it down. 5-2.\n\nNev made a great tag on the line and came back to make another to totally keep them out.\nMatt and Jayden defended well together in the midfield.\n\nCam ran through them and looked likely to put another one down but was deemed tagged.\nThen, on the far right corner, the ball seemed to be dropped by somebody. But, unbelievably a try was given to our opponents.\n5-3.\n\nWe counter attacked but BJ, Jayden and Adrian were all tagged.\n\nA great run by Nev through the middle gave us good field position. Matt took the ball and went over. Disallowed. Apparently tagged.\n\nNext thing, Cam, without the ball was tackled. Well, both players involved were sent off; a soft send off where they can be replaced. And only need a couple of minutes off and then run back on.\n\nWe continued to attack and Dylan, having a wonderful night, put it down, having a clear run to the line. But then, after some discussion between the two referees came the unbelievable decision to disallow the try.\n\nJayden , Cam and Dylan weren't done. We attacked.\nThen after another great tag by Adrian this evening, Mack got the ball and took it up.\n\nJoely, still fired up, made a try saving tag.\n\nWe defended once more and Nev stood tall as he \"left\" (A Great Leave), the ball to allow possession to be ours.\n\nOnly a few moments later, the game was over.\n\nFT 5-3.\n\nSumming up.\n\nEveryone played well tonight.\nWe have a great range of ages of our players. We always did.\nBut, everyone tonight played like young blokes. \nGood job. \ud83d\udc4d",
     "storyParagraphs": [
-      "For tonight's game we were missing Reece (long term injury), Peter (respiratory problems) and Mitch (self-inflicted cut 😂 requiring 5 stitches in his finger).",
+      "For tonight's game we were missing Reece (long term injury), Peter (respiratory problems) and Mitch (self-inflicted cut \ud83d\ude02 requiring 5 stitches in his finger).",
       "So we had 9 players but started the game with 6. Cam, Matt and Jayden arriving a few minutes after the start. Parking is a severe problem at the moment at this venue.",
       "We actually started the game well and defended strongly until Mack grabbed a nice intercept at their tryline. This gave us some attacking momentum and Joel and Dylan combined beautifully to put down our first try. 1-0.",
       "They then retaliated, ran the ball to our line, with Mack and BJ doing their best to keep them out but no. They scored. 1-1.",
@@ -612,7 +836,7 @@
     "casualtyWard": [
       {
         "player": "Mitch",
-        "reason": "Self inflicted cut 😂 requiring 5 stitches in his finger",
+        "reason": "Self inflicted cut \ud83d\ude02 requiring 5 stitches in his finger",
         "isSelfInflicted": true
       },
       {
@@ -665,7 +889,7 @@
     "awards": {
       "playerOfTheMatch": "Joel & Dylan (Joint MVP)",
       "momentOfTheMatch": "Nev's 'A Great Leave'",
-      "quoteOfTheMatch": "Everyone tonight played like young blokes. Good job. 👍"
+      "quoteOfTheMatch": "Everyone tonight played like young blokes. Good job. \ud83d\udc4d"
     }
   },
   {
@@ -1061,7 +1285,7 @@
       "The Hungarians attacked our right flank with purpose. Soon after, Joel and Mitch did everything possible to tag them, but the referee paid their try. 1-1.",
       "We attacked with speed. Jayden threw a fast, long pass out to Mack on the left wing who couldn't quite drag it in. Reece supplied Adrian with a chance to score, but the referee ruled a touch was made. Matt then looked confident making a great defensive tag, but the referee made a very delicate decision and awarded their try. Matt was not happy. 1-2.",
       "Cam ran on and got very busy. The ball went down but Cam continued, created a gap, and rushed over to score. 2-2. Seconds later the halftime siren sounded. HT 2-2.",
-      "Resuming in the second half, the Hungarians dropped the ball on the first play at halfway. Reece made a big tag to keep them out. Bailey, looking to score, dived but fell awkwardly and might have injured his member. Not sure. Good luck with that mate! 😂",
+      "Resuming in the second half, the Hungarians dropped the ball on the first play at halfway. Reece made a big tag to keep them out. Bailey, looking to score, dived but fell awkwardly and might have injured his member. Not sure. Good luck with that mate! \ud83d\ude02",
       "We played with more desire as Cam found a way through for 3-2. Joel was just brilliant in defense tonight. They attacked and threw a forward pass near the line that went unseen by the referee. 3-3.",
       "Their best player, the young #14 girl, was fabulous controlling their attack, but she missed tagging Jayden and he strolled over for a well-deserved try! 4-3.",
       "Now, a super attack by Cam and Reece got the ball out wide to Mack, who held it beautifully and put it down in the corner! 5-3.",
@@ -1127,7 +1351,7 @@
     "casualtyWard": [
       {
         "player": "Bailey",
-        "reason": "Dived awkwardly and 'might have injured his member. Not sure. Good luck with that mate.' 😂",
+        "reason": "Dived awkwardly and 'might have injured his member. Not sure. Good luck with that mate.' \ud83d\ude02",
         "isSelfInflicted": true
       },
       {
@@ -1325,7 +1549,7 @@
       "We raced upfield. Bailey dived and got tagged, but Joely pounced on the ball, sliced through their offside defensive line, and scored our second! 2-3. Game on!",
       "Reece made a massive try-saving tag when Timball was about to score. Cam and Jayden cleared trouble, and Nev and Mitch pushed deep into their half. Mitch stripped their dummy, got possession, and then unbelievably dummied and weaved through the entire defensive line to score! 3-3. Did I say Game On? Yes!",
       "Then Joel, Cam, and Reece took flight. Reece flew over the tryline to put us in front 4-3 with only minutes to go!",
-      "Timball were losing their cool and clashing with the referee. Peter stepped up with a huge tag on their girl runner about to score, then pressured them into a critical touch-and-pass turnover. With seconds to go, Timball broke through for what looked like a certain equalizer, but Mitch wasn't having any of it—he ran and made a remarkable last-gasp tag to save the win! Siren sounded. FT 4-3!"
+      "Timball were losing their cool and clashing with the referee. Peter stepped up with a huge tag on their girl runner about to score, then pressured them into a critical touch-and-pass turnover. With seconds to go, Timball broke through for what looked like a certain equalizer, but Mitch wasn't having any of it\u2014he ran and made a remarkable last-gasp tag to save the win! Siren sounded. FT 4-3!"
     ],
     "tryScorers": [
       {
@@ -1422,7 +1646,7 @@
     "headline": "9-4 Demolition of Old Foe Ice: Jayden's Kickoff-to-Line Wonder Try & Mitch's Brace",
     "rawSmsText": "Yep. I must have blinked, as soon after the game started,\nJayden had put one down. He was too quick for them after he dummied and ran to the line. 1-0.\n\nWe were up against Ice tonight, an old foe. They're usually pretty good.\nWe have the full squad with 6 on and 6 subs.\nA very cool evening and a fairly dry field having had no rain for a while.\n\nCam and Matt worked the ball forward and looked likely to score but not this time.\n\nBJ made a nice try saving tag to keep them out.\n\nAfter a good buildup, Mitch, stepping well, and Joely run the ball to the try line but couldn't get it down.\n\nPeter got the ball around the half way line and passed very quickly to surprise them and we progressed well.\n\nPeter then grabbed a nice intercept pass and found Reece who was called through by the Ref, even though tagged. It was play on as Reece took full advantage and scored. 2-0.\n\nAdrian took the pass on the right wing and found himself retreating a little before he got the ball to Jayden. Well he just ran, as he does and put it down carefully for another one. 3-0.\n\nThey attacked us and Matt, defending a large gap, couldn't make the required tag and they went over. 3-1.\n\nNev dummied and made some good ground but they got the ball in the middle and strolled over for another. 3-2.\n\nThe next play saw Bailey grab the ball in centre field and just take off. Of course he scored, with ease. 4-2.\n\nWe defended well after this with Mack making a safe tag, setting us up for the next attack. And we attacked well as Joely dived over, successfully. 5-2.\n\nBailey and Peter took the ball up but not in time to beat the half time siren.\n\nHT 5-2.\n\nWe had to defend early in this half as Mitch was in position and took control.\nThen, Mack turned it on and made some excellent ground for us.\n\nJayden and Cam got very busy in the centre, took it forward and found a willing BJ who quickly put it down. 6-2.\n\nThey attacked us with great purpose but Bailey had none of it as he single handedly closed them down.\n\nHowever, soon after, they attacked us again through the middle and dived for the line successfully. 6-3.\n\nPeter, looking as fit as a fiddle, ran forward and found Adrian out wide on the left wing but he couldn't control the ball and it fell to the ground. So close to scoring.\n\nMitch ran on off the bench and called for it. Got it and ran forward and gave it to Peter.\nHe ran further forward and looked to get it back.\nHe did and ran to the line for a great single minded play and a nice try for us. 7-3.\n\nCam and Matt attacked their line again but, unfortunately, too much pressure to catch the winning ball.\n\nThey were about to score but Mack disturbed their catcher, on the right wing, enough to get the ball back for us. Great effort.\n\nMack then combined with his brother, Mitch, to take us well into attack.\n\nWe then had to defend. \nJoely made a great try saving tag but the tag that Bailey made was disallowed and they scored. 7-4.\n\nYou know what, Jayden is quick.\nBut, to watch him run from the kick off in the middle of the field and go all the way to the tryline is amazing. This reminds me of a great similar try by Nev some years ago. It is a very rare thing.\n8-4.\n\nOf course, we then had to defend.\nAnd defend we did with Cam and Adrian doing their best to maintain our dominance.\n\nReece, Cam and Adrian then put together some good attacking play. Joel got involved but couldn't quite finish this time.\n\nA big run through the middle gave Peter a chance but he was tagged  at the line.\n\nJoely and Bailey with some dashing play took the ball forward quickly and found Mitch who relished the opportunity and put it down for our ninth try for the night.\n\n9-4.\n\nThe siren sounded.\nAnother fantastic win.",
     "storyParagraphs": [
-      "I must have blinked, because as soon as the game started, Jayden had put one down. He dummied and ran to the line—too quick for them. 1-0! We were up against old foe Ice tonight, usually pretty good. Full squad available (6 on, 6 subs) on a cool evening and dry turf.",
+      "I must have blinked, because as soon as the game started, Jayden had put one down. He dummied and ran to the line\u2014too quick for them. 1-0! We were up against old foe Ice tonight, usually pretty good. Full squad available (6 on, 6 subs) on a cool evening and dry turf.",
       "Cam and Matt pushed forward, and BJ made a nice try-saving tag to keep Ice out. Peter got the ball near halfway, fed quickly, and then snatched a sweet intercept pass, offloading to Reece who was called 'play on' by the referee and scored! 2-0.",
       "Adrian worked the ball on the right wing to Jayden, who just ran as he always does and placed it down carefully for 3-0. Ice struck back with two tries through midfield gaps to narrow it to 3-2. Then Bailey grabbed the ball in centre field and simply took off, scoring with total ease for 4-2. Joely dived over successfully before halftime. HT 5-2.",
       "Mack turned it on with excellent ground, and Jayden and Cam worked through the centre to find a willing BJ, who quickly put it down for 6-2. Bailey single-handedly shut down a dangerous Ice attack.",
@@ -1532,7 +1756,7 @@
     "headline": "Back-Flicks & Blue Boots: 8-4 Victory Over Lasers 2 as Joely Bags a Hat-Trick",
     "rawSmsText": "Tonight we played a team struggling a bit. Lasers 2.\n\nHowever before the game started , Cam and Reece noticed that one of their previous team players was in the Lasers team and he was very good. Extremely good. He will be known from here as \"Blue Boots\".\n\nWe started the game quite well as we rushed the ball forward. I reminded myself to \"don't blink because you might miss it\" moments.\nAnd it happened. Bailey got the ball, deep in attack, and dummied, and ran , and dived to score early. One minute in.\n1-0.\n\nNot long after, in a defensive position, Joel grabbed it well and ran forward. He passed to Reece who ran extremely fast into an attacking position. He decided to throw a long ball way across field to where Matt was running all alone. A good throw, a good catch and, consequently a good try.\n2-0.\n\nThey then attacked our line and, miraculously, their player grabbed a pass with one hand and dropped to the ground and it was over. 2-1.\n\nWe were still looking keen as Mitch dummied and went forward quickly. Of course his fleet of foot was too much for them as he scored easily. 3-1.\n\nThen we had to defend again as Adrian showed great determination to stop them.\n\nWe attacked with Nev taking it up nicely. And then Peter took it up further. But then we defending again. Nev had to stay wide to stop them going around to score.\nJoel was great in defence showing a lot of determination tonight.\n\nBut then, their \"Blue Boots\" guy ran at speed over the try line and looked for a teammate. He found him. 3-2.\n\nWe counter attacked as Nev passed to his son, BJ, but he just got tagged.\n\nPeter, looking very lively tonight, attacked with purpose and found Bailey who dived over for his second try tonight. 4-2.\n\nCam ran on and attacked full on, got tagged , but also got the ball away to Reece who ran with absolutely no chance of stopping him. A nice late try to make to score look really good. 5-2.\n\nHT 5-2.\n\nAfter the break, they must have had a plan. Because they attacked our line really well and found BJ short when he tried to tag them at the line. 5-3.\n\nPeter and BJ got busy and sent the ball out to Bailey who found a very keen Joel out wide and he put it down 6-3.\nSoon after , we attacked again and Bailey fired it forward over to Joel and he dodged and weaved his way beautifully to the line , untouched. 7-3.\n\nOf course they attacked us with their chance to do so.\nBut two great tags by Mitch and Peter kept them frustrated.\n\nWe attacked with Peter, on fire tonight, getting the ball away to BJ who looked to the line. But he was tagged. Very nearly scored.\n\nJoely, also on fire tonight, dived for the line , but got tagged at the crucial moment.\n\nCam, Reece and Mitch combined to close them down when they looked dangerous.\n\nWe went back into attack when Cam ran forward over the try line and threw an unbelievable back flick to Joel and he actually grabbed it and put it down safely.\nQuite amazing. 8-3.\n\nThey attacked us again with serious intent. Reece knocked the ball down at the line. They hadn't scored.\nBut then their \"Blue Shoes\" threw a brilliant pass along the try line to find one of his teammates.\nSuccessfully down. 8-4.\n\nGreat defence from Reece caused them to drop the ball.\nPeter and Cam then continued with our great defence to take us to the final whistle.\n\nFT 8-4.\n\nWe missed the tremendous contribution by Mack and Jayden tonight, so things can only get better.\n\nAnother fascinating and exciting game from the boys at the Point Takeaway team.",
     "storyParagraphs": [
-      "Tonight we played Lasers 2. Before kickoff, Cam and Reece noticed that one of their previous teammates was playing for Lasers—and he was extremely good. He will be known from here as 'Blue Boots'.",
+      "Tonight we played Lasers 2. Before kickoff, Cam and Reece noticed that one of their previous teammates was playing for Lasers\u2014and he was extremely good. He will be known from here as 'Blue Boots'.",
       "One minute in, Bailey got the ball, dummied, ran, and dived to score early! 1-0. Soon after, Joel intercepted, fed Reece, who launched a massive cross-field bomb to where Matt was running all alone. Great catch, great try! 2-0.",
       "Lasers pulled one back with a one-handed miracle catch. 2-1. Mitch answered immediately, dummying with fleet footwork to score easily for 3-1. Nev and Peter made good ground, but 'Blue Boots' sliced through to set up their second for 3-2.",
       "Nev linked with his son BJ, and Peter found Bailey who dived over for his second try of the night! 4-2. Cam then powered through and offloaded to Reece, who charged in unstoppable for 5-2 just before the break. HT 5-2.",

@@ -65,110 +65,124 @@ export const COMPETITION_DETAILS: CompDetails = {
   ladder: [
         {
             pos: 1,
-            team: "The Touchers",
-            played: 7,
-            won: 5,
-            drawn: 0,
+            team: "Point Takeaway",
+            played: 9,
+            won: 6,
+            drawn: 1,
             lost: 2,
-            pointsFor: 42,
-            pointsAgainst: 30,
-            diff: 12,
-            points: 17,
-            isPointTakeaway: false
+            pointsFor: 54,
+            pointsAgainst: 37,
+            diff: 17,
+            points: 22,
+            isPointTakeaway: true
         },
         {
             pos: 2,
-            team: "Hunt and Kill",
-            played: 7,
-            won: 5,
-            drawn: 0,
+            team: "Bonsai",
+            played: 9,
+            won: 6,
+            drawn: 1,
             lost: 2,
-            pointsFor: 39,
-            pointsAgainst: 27,
-            diff: 12,
-            points: 17,
+            pointsFor: 50,
+            pointsAgainst: 41,
+            diff: 9,
+            points: 22,
             isPointTakeaway: false
         },
         {
             pos: 3,
-            team: "Point Takeaway",
-            played: 7,
-            won: 4,
-            drawn: 1,
-            lost: 2,
-            pointsFor: 47,
-            pointsAgainst: 36,
-            diff: 11,
-            points: 16,
-            isPointTakeaway: true
+            team: "The Touchers",
+            played: 9,
+            won: 6,
+            drawn: 0,
+            lost: 3,
+            pointsFor: 48,
+            pointsAgainst: 35,
+            diff: 13,
+            points: 21,
+            isPointTakeaway: false
         },
         {
             pos: 4,
-            team: "Bonsai",
-            played: 7,
-            won: 4,
-            drawn: 1,
-            lost: 2,
-            pointsFor: 38,
-            pointsAgainst: 35,
-            diff: 3,
-            points: 16,
+            team: "Hunt and Kill",
+            played: 9,
+            won: 5,
+            drawn: 0,
+            lost: 4,
+            pointsFor: 42,
+            pointsAgainst: 33,
+            diff: 9,
+            points: 19,
             isPointTakeaway: false
         },
         {
             pos: 5,
-            team: "United",
-            played: 7,
-            won: 2,
-            drawn: 3,
-            lost: 2,
-            pointsFor: 40,
-            pointsAgainst: 44,
-            diff: -4,
-            points: 14,
+            team: "The Well Hungarians",
+            played: 9,
+            won: 4,
+            drawn: 0,
+            lost: 5,
+            pointsFor: 36,
+            pointsAgainst: 47,
+            diff: -11,
+            points: 17,
             isPointTakeaway: false
         },
         {
             pos: 6,
-            team: "Screws",
-            played: 7,
+            team: "United",
+            played: 9,
             won: 2,
-            drawn: 1,
+            drawn: 3,
             lost: 4,
-            pointsFor: 27,
-            pointsAgainst: 36,
+            pointsFor: 45,
+            pointsAgainst: 54,
             diff: -9,
-            points: 12,
+            points: 16,
             isPointTakeaway: false
         },
         {
             pos: 7,
-            team: "The Well Hungarians",
-            played: 7,
-            won: 2,
-            drawn: 0,
+            team: "Screws",
+            played: 9,
+            won: 3,
+            drawn: 1,
             lost: 5,
-            pointsFor: 31,
-            pointsAgainst: 44,
-            diff: -13,
-            points: 11,
+            pointsFor: 32,
+            pointsAgainst: 41,
+            diff: -9,
+            points: 16,
             isPointTakeaway: false
         },
         {
             pos: 8,
             team: "Redlands Centurions",
-            played: 7,
+            played: 9,
             won: 1,
             drawn: 0,
-            lost: 6,
-            pointsFor: 31,
-            pointsAgainst: 43,
-            diff: -12,
-            points: 9,
+            lost: 8,
+            pointsFor: 36,
+            pointsAgainst: 55,
+            diff: -19,
+            points: 11,
             isPointTakeaway: false
         }
     ],
   divisionResults: [
+    {
+      round: 'Round 13 (Double Header Game 2)',
+      date: 'Wednesday, 21 October 2026',
+      matches: [
+        { homeTeam: 'Point Takeaway', awayTeam: 'The Touchers', homeScore: 4, awayScore: 0, field: 'Field 6', notes: 'Sensational 4-0 clean-sheet shutout over ladder leaders; Point Takeaway claim outright 1st place!' }
+      ]
+    },
+    {
+      round: 'Round 12 (Double Header Game 1)',
+      date: 'Wednesday, 21 October 2026',
+      matches: [
+        { homeTeam: 'Point Takeaway', awayTeam: 'Hunt and Kill', homeScore: 3, awayScore: 1, field: 'Field 6', notes: 'Mitch opener, Peter & Reece tries; 3-1 stunner over 2nd-placed Hunt and Kill' }
+      ]
+    },
     {
       round: 'Round 11',
       date: 'Wednesday, 14 October 2026',
@@ -242,31 +256,13 @@ export const COMPETITION_DETAILS: CompDetails = {
   ],
   upcomingFixtures: [
     {
-      round: 'Round 12 (Double Header Game 1)',
-      date: 'Wednesday, 21 October 2026',
-      time: '8:15 PM AEST (Brisbane)',
-      opponent: 'Hunt and Kill',
-      field: 'Field 6',
-      venue: 'Redlands Showgrounds, Cleveland',
-      notes: '🔥 Double Header Game 1: 3rd vs 2nd showdown! 8:15 PM AEST (9:15 PM AEDT Sydney) on Field 6.'
-    },
-    {
-      round: 'Round 13 (Double Header Game 2)',
-      date: 'Wednesday, 21 October 2026',
-      time: '8:45 PM AEST (Brisbane)',
-      opponent: 'The Touchers',
-      field: 'Field 6',
-      venue: 'Redlands Showgrounds, Cleveland',
-      notes: '🔥 Double Header Game 2: Immediate follow-up clash vs 1st-place The Touchers! 8:45 PM AEST on Field 6.'
-    },
-    {
       round: 'Round 14',
       date: 'Wednesday, 28 October 2026',
       time: '6:15 PM AEST (Brisbane)',
       opponent: 'The Well Hungarians',
       field: 'Field 3',
       venue: 'Redlands Showgrounds, Cleveland',
-      notes: 'Penultimate regular season clash: 6:15 PM AEST (7:15 PM AEDT Sydney) on Field 3.'
+      notes: '🔥 Penultimate regular season clash: 6:15 PM AEST (7:15 PM AEDT Sydney) on Field 3 vs The Well Hungarians.'
     },
     {
       round: 'Round 15',
@@ -275,7 +271,7 @@ export const COMPETITION_DETAILS: CompDetails = {
       opponent: 'Bonsai',
       field: 'Field 2',
       venue: 'Redlands Showgrounds, Cleveland',
-      notes: 'Final round before finals: 7:05 PM AEST (8:05 PM AEDT Sydney) on Field 2 vs Bonsai.'
+      notes: '🔥 Final regular round before finals: 7:05 PM AEST (8:05 PM AEDT Sydney) on Field 2 vs Bonsai.'
     }
   ]
 };
