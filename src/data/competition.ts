@@ -170,6 +170,16 @@ export const COMPETITION_DETAILS: CompDetails = {
     ],
   divisionResults: [
     {
+      round: 'Round 14',
+      date: 'Wednesday, 28 October 2026',
+      matches: [
+        { homeTeam: 'Point Takeaway', awayTeam: 'The Well Hungarians', homeScore: 0, awayScore: 0, field: 'Field 3', notes: 'Washout / Cancelled due to waterlogged fields after heavy rain' },
+        { homeTeam: 'Bonsai', awayTeam: 'Hunt and Kill', homeScore: 0, awayScore: 0, field: 'Field 2', notes: 'Washout / Cancelled' },
+        { homeTeam: 'The Touchers', awayTeam: 'Screws', homeScore: 0, awayScore: 0, field: 'Field 5', notes: 'Washout / Cancelled' },
+        { homeTeam: 'United', awayTeam: 'Redlands Centurions', homeScore: 0, awayScore: 0, field: 'Field 8', notes: 'Washout / Cancelled' }
+      ]
+    },
+    {
       round: 'Round 13 (Double Header Game 2)',
       date: 'Wednesday, 21 October 2026',
       matches: [
@@ -256,22 +266,22 @@ export const COMPETITION_DETAILS: CompDetails = {
   ],
   upcomingFixtures: [
     {
-      round: 'Round 14',
-      date: 'Wednesday, 28 October 2026',
-      time: '6:15 PM AEST (Brisbane)',
+      round: 'Round 15 (Expected Double Header Game 1)',
+      date: 'Wednesday, 4 November 2026',
+      time: '6:30 PM AEST (Brisbane)',
       opponent: 'The Well Hungarians',
       field: 'Field 3',
       venue: 'Redlands Showgrounds, Cleveland',
-      notes: '🔥 Penultimate regular season clash: 6:15 PM AEST (7:15 PM AEDT Sydney) on Field 3 vs The Well Hungarians.'
+      notes: '🌧️ Rescheduled Round 14 Washout: Expected Double Header Game 1 vs The Well Hungarians! 6:30 PM AEST (7:30 PM AEDT Sydney).'
     },
     {
-      round: 'Round 15',
+      round: 'Round 15 (Expected Double Header Game 2)',
       date: 'Wednesday, 4 November 2026',
-      time: '7:05 PM AEST (Brisbane)',
+      time: '7:15 PM AEST (Brisbane)',
       opponent: 'Bonsai',
       field: 'Field 2',
       venue: 'Redlands Showgrounds, Cleveland',
-      notes: '🔥 Final regular round before finals: 7:05 PM AEST (8:05 PM AEDT Sydney) on Field 2 vs Bonsai.'
+      notes: '🔥 Double Header Game 2 & Minor Premiership Decider: 1st vs 2nd showdown vs Bonsai! 7:15 PM AEST (8:15 PM AEDT Sydney).'
     }
   ]
 };

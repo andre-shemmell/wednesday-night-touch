@@ -1,4 +1,4 @@
-export type MatchOutcome = 'win' | 'loss' | 'draw';
+export type MatchOutcome = 'win' | 'loss' | 'draw' | 'washout';
 
 export interface TryScorer {
   player: string;

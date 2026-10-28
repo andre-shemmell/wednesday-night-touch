@@ -1,5 +1,98 @@
 [
   {
+    "id": "the-wrap-round-14-washout",
+    "round": "Round 14",
+    "date": "2026-10-28",
+    "title": "The Wrap: The Cleveland Washout, Double Header Rumours & The Point Takeaway Fish & Chips Special!",
+    "matchId": "2026-10-28-round-14",
+    "isAudioReady": true,
+    "modelUsed": "gemini-3.8-flash-tts",
+    "durationSeconds": 257.1,
+    "formattedDuration": "4:17",
+    "audioUrl": "/audio/the-wrap-round-14-washout.wav",
+    "stagedNative": true,
+    "hosts": [
+      {
+        "name": "Mick \"The Rocket\" Ryan",
+        "voice": "en-au-csagent-1",
+        "role": "Colour Commentator"
+      },
+      {
+        "name": "Gazza Shemmell",
+        "voice": "en-au-tutor-5",
+        "role": "Tactical Analyst"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "Mick",
+        "style": "excited and high energy",
+        "text": "G'day legends and welcome to a special wet weather edition of The Wrap, your weekly hit of touch footy gold for Point Takeaway at Redlands Touch Association! Mick here with Gazza, and strewth... <sigh> mother nature has broken our collective hearts tonight! Cleveland Showgrounds has copped days of torrential Queensland rain, the council threw the padlock on the gates, and Round 14 against The Well Hungarians was officially called off due to waterlogged fields! <sigh> An absolute heartbreaker for the faithful!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "calm, dry wit, deadpan",
+        "text": "A bitter pill to swallow, Mick. |fair dinkum| When you're sitting outright first on the ladder on twenty-two points after destroying the top two teams in last week's double header, all the boys wanted was to run out and put another clinic on the paddock. But looking at Field 3 tonight, you'd need a snorkel and a tinny just to reach the tryline. Sensible decision from the association... nobody wants blown hamstrings or ruined turf right before the finals."
+      },
+      {
+        "speaker": "Mick",
+        "style": "laughing, animated, hyped",
+        "text": "Haha! A tinny with an outboard motor, mate! But Graeme summed up the team vibe in the group dispatches: Tonight's games were cancelled due to wet fields. We have had a lot of rain lately. So everyone is disappointed. <sigh> You could feel the collective groan from Cleveland all the way to Brisbane! But Gazza, the gaffer dropped a juicy tactical prediction right after!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "analytical, admiring, measured",
+        "text": "He certainly did. Graeme noted: I am only guessing, but we may need to play a double header next week. ... And think about that, Mick. With only one regular season week left before finals, the association will likely double up the schedule next Wednesday, the fourth of November. That means Point Takeaway backing up to play both The Well Hungarians and second-placed Bonsai on the same night."
+      },
+      {
+        "speaker": "Mick",
+        "style": "enthusiastic, laughing, fast-paced",
+        "text": "Another double header! |bloody oath!| Bring it on, I say! We swept Hunt and Kill and The Touchers back-to-back in fifty minutes without breaking a sweat, so if the comp wants to throw fifty more minutes at the ladder leaders next week, the boys will be licking their chops! <laugh> But speaking of licking your chops, Gazza... no footy tonight means the troops need feeding!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "warm, authoritative, commercial announcer",
+        "text": "And that brings us to the most important part of tonight's broadcast, Mick. A massive shoutout to the legends who put the jerseys on our backs and fuel our club culture... our proud major sponsor, The Point Takeaway!"
+      },
+      {
+        "speaker": "Mick",
+        "style": "passionate, hyped, energetic",
+        "text": "The Point Takeaway! You beauty! |spot on| While the footy fields are under water, their fryers are sizzling hot, mate! We are talking golden, crispy battered fish that melts in your mouth, fresh sea salt, and a mountain of hot chips buried under a proper Queensland blizzard of chicken salt! <laugh> Extra yellow, legends, that is how you do it!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "appreciative, smooth Queensland drawl",
+        "text": "Don't forget the burgers, Mick. The famous Point Takeaway Burger with the Lot... thick beef patty, melted cheese, bacon, egg, beetroot, pineapple, and grilled onions on a toasted bun so big you have to tackle it with two hands. Graeme, Cam, and the boys swear by them for post-match recovery."
+      },
+      {
+        "speaker": "Mick",
+        "style": "laughing, animated, hyped",
+        "text": "Haha! It's bigger than Mack's wingspan, Gazza! And you've got to grab a paper bag of those crunchy homemade potato scallops and a tub of tartare! And wash it all down with a thick, frosty chocolate or lime milkshake! Pure bliss on a rainy Wednesday night!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "respectful, smiling, local pride",
+        "text": "Whether it's raining cats and dogs or sunny on the bay, Point Takeaway has the goods to feed the whole family. Best fish and chips in the Redlands, top-shelf burgers, and friendly service with a smile. Support the local legends who support the ladder leaders."
+      },
+      {
+        "speaker": "Mick",
+        "style": "excited, emotional, pumped",
+        "text": "Head into Point Takeaway tonight, tell 'em Mick and Gazza sent you, and grab yourself a feast fit for champions! |you beauty!| And Gazza, what's the plan for the squad between now and next Wednesday?"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "tactical, respectful, smiling",
+        "text": "Hydrate, stretch, enjoy the hot chips, and prepare for a marathon double header. If the fixtures lock in as expected for next Wednesday, we take on The Well Hungarians followed immediately by Bonsai to seal the minor premiership. The destiny of this season is in our hands."
+      },
+      {
+        "speaker": "Mick",
+        "style": "rousing, passionate, call to arms",
+        "text": "<sigh> Too right, Gazza! Enjoy the wet weather rest, get into Point Takeaway for dinner, and get ready for a blockbuster double header next Wednesday night down at the Showgrounds! Up the Point Takeaway!"
+      }
+    ],
+    "updatedAt": "2026-10-28T10:08:04.171086+00:00"
+  },
+  {
     "id": "the-wrap-double-header",
     "round": "Double Header (R12 & R13)",
     "date": "2026-10-21",

@@ -21,6 +21,7 @@ export const Scoreboard: React.FC<ScoreboardProps> = ({ match, onShare }) => {
 
   const isWin = match.score.outcome === 'win';
   const isDraw = match.score.outcome === 'draw';
+  const isWashout = match.score.outcome === 'washout';
 
   const wrapEpisode = theWrapEpisodes.find(
     e => e.round.toLowerCase() === match.round.toLowerCase() || e.matchId === match.id
@@ -105,7 +106,7 @@ export const Scoreboard: React.FC<ScoreboardProps> = ({ match, onShare }) => {
           {/* Half-Time & Result Badge */}
           <div className="mt-3 flex flex-wrap items-center justify-center gap-1.5">
             <span className="text-[11px] sm:text-xs font-mono px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-700">
-              HT {match.score.halfTimeUs} - {match.score.halfTimeThem}
+              {isWashout ? 'POSTPONED 🌧️' : `HT ${match.score.halfTimeUs} - ${match.score.halfTimeThem}`}
             </span>
             {isWin && (
               <button
@@ -122,7 +123,12 @@ export const Scoreboard: React.FC<ScoreboardProps> = ({ match, onShare }) => {
                 DRAW 🤝
               </span>
             )}
-            {!isWin && !isDraw && (
+            {isWashout && (
+              <span className="text-[11px] sm:text-xs font-bold px-2.5 py-0.5 rounded-full bg-sky-500/20 text-sky-300 border border-sky-500/40">
+                WASHOUT 🌧️
+              </span>
+            )}
+            {!isWin && !isDraw && !isWashout && (
               <span className="text-[11px] sm:text-xs font-bold px-2.5 py-0.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/40">
                 DEFEAT
               </span>

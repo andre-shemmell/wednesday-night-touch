@@ -1,5 +1,71 @@
 [
   {
+    "id": "2026-10-28-round-14",
+    "date": "2026-10-28",
+    "round": "Round 14",
+    "season": "Spring 2026",
+    "teamName": "Point Takeaway",
+    "opponent": "The Well Hungarians",
+    "score": {
+      "us": 0,
+      "them": 0,
+      "halfTimeUs": 0,
+      "halfTimeThem": 0,
+      "outcome": "washout"
+    },
+    "dadQuote": "Tonight's games were cancelled due to wet fields. We have had a lot of rain lately. So everyone is disappointed. I am only guessing but we may need to play a double header next week.",
+    "headline": "Cleveland Washout: Torrential Rain Floods Showgrounds as Squad Eyes Potential Double Header",
+    "rawSmsText": "Tonight's games were cancelled due to wet fields.\nWe have had a lot of rain lately.\nSo everyone is disappointed.\n\nI am only guessing but we may need to play a double header next week.",
+    "storyParagraphs": [
+      "After the dizzying heights of last week's double-header sweep that propelled Point Takeaway to outright first on the ladder, the squad arrived ready to build on their momentum in Round 14 against The Well Hungarians. However, days of relentless Queensland downpours finally caught up with Cleveland Showgrounds.",
+      "With fields completely waterlogged and surface pools forming on Field 3, association officials made the prudent call to cancel all fixtures for player safety. The disappointment was palpable across the squad, who were desperate to defend their table-topping status.",
+      "As Graeme noted in his official post to the team: 'Tonight's games were cancelled due to wet fields. We have had a lot of rain lately. So everyone is disappointed. I am only guessing but we may need to play a double header next week.'",
+      "With only one regular round remaining before finals, all eyes now turn to Wednesday, 4 November, where Point Takeaway may need to replicate their superhero heroics with another high-stakes double header against both The Well Hungarians and Bonsai to lock up the minor premiership!"
+    ],
+    "tryScorers": [],
+    "defensiveHighlights": [
+      {
+        "player": "Groundskeeper & Officials",
+        "action": "Made the safe call to preserve the waterlogged turf and player hamstrings"
+      }
+    ],
+    "casualtyWard": [
+      {
+        "player": "The Entire Squad",
+        "reason": "Suffering acute footy withdrawal and severe disappointment after cancellation! \ud83c\udf27\ufe0f\u26bd",
+        "isSelfInflicted": false
+      }
+    ],
+    "controversies": [
+      {
+        "title": "The Great Cleveland Deluge",
+        "description": "Unforgiving October rains forced the cancellation of the entire Wednesday night fixture schedule."
+      }
+    ],
+    "venueNotes": "Redlands Showgrounds, Field 3. Fixture abandoned due to waterlogged, unplayable surface.",
+    "squadNotes": "Match postponed. Squad awaiting rescheduled double-header confirmation from Redlands Touch Association.",
+    "squadPresent": [
+      "Cam",
+      "Matt",
+      "BJ",
+      "Jayden",
+      "Reece",
+      "Mitch",
+      "Mack",
+      "Adrian",
+      "Joel",
+      "Dylan",
+      "Peter",
+      "Nev"
+    ],
+    "squadMissing": [],
+    "awards": {
+      "playerOfTheMatch": "Point Takeaway Fryers",
+      "momentOfTheMatch": "The team turning to hot chips and burgers at Point Takeaway",
+      "quoteOfTheMatch": "\"I am only guessing but we may need to play a double header next week.\" \u2014 Graeme"
+    }
+  },
+  {
     "id": "2026-10-21-round-13",
     "date": "2026-10-21",
     "round": "Round 13 (Double Header Game 2)",

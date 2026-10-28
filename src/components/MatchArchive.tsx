@@ -82,6 +82,7 @@ export const MatchArchive: React.FC<MatchArchiveProps> = ({
           const isSelected = match.id === selectedMatchId;
           const isWin = match.score.outcome === 'win';
           const isDraw = match.score.outcome === 'draw';
+          const isWashout = match.score.outcome === 'washout';
 
           return (
             <div
@@ -101,12 +102,14 @@ export const MatchArchive: React.FC<MatchArchiveProps> = ({
                       ? 'bg-turf-500/20 text-turf-400 border border-turf-500/30'
                       : isDraw
                       ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30'
+                      : isWashout
+                      ? 'bg-sky-500/20 text-sky-400 border border-sky-500/30'
                       : 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
                   }`}
                 >
-                  <span className="text-xs uppercase">{match.score.outcome}</span>
-                  <span className="text-base font-black leading-none mt-0.5">
-                    {match.score.us}-{match.score.them}
+                  <span className="text-[10px] uppercase font-bold">{isWashout ? 'RAIN' : match.score.outcome}</span>
+                  <span className="text-sm font-black leading-none mt-0.5">
+                    {isWashout ? '🌧️' : `${match.score.us}-${match.score.them}`}
                   </span>
                 </div>
 
