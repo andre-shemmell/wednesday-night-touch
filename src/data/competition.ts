@@ -73,7 +73,7 @@ export const COMPETITION_DETAILS: CompDetails = {
             pointsFor: 54,
             pointsAgainst: 37,
             diff: 17,
-            points: 25,
+            points: 22,
             isPointTakeaway: true
         },
         {
@@ -86,7 +86,7 @@ export const COMPETITION_DETAILS: CompDetails = {
             pointsFor: 50,
             pointsAgainst: 41,
             diff: 9,
-            points: 25,
+            points: 22,
             isPointTakeaway: false
         },
         {
@@ -99,7 +99,7 @@ export const COMPETITION_DETAILS: CompDetails = {
             pointsFor: 48,
             pointsAgainst: 35,
             diff: 13,
-            points: 24,
+            points: 21,
             isPointTakeaway: false
         },
         {
@@ -112,7 +112,7 @@ export const COMPETITION_DETAILS: CompDetails = {
             pointsFor: 42,
             pointsAgainst: 33,
             diff: 9,
-            points: 22,
+            points: 19,
             isPointTakeaway: false
         },
         {
@@ -125,7 +125,7 @@ export const COMPETITION_DETAILS: CompDetails = {
             pointsFor: 36,
             pointsAgainst: 47,
             diff: -11,
-            points: 20,
+            points: 17,
             isPointTakeaway: false
         },
         {
@@ -138,7 +138,7 @@ export const COMPETITION_DETAILS: CompDetails = {
             pointsFor: 45,
             pointsAgainst: 54,
             diff: -9,
-            points: 19,
+            points: 16,
             isPointTakeaway: false
         },
         {
@@ -151,7 +151,7 @@ export const COMPETITION_DETAILS: CompDetails = {
             pointsFor: 32,
             pointsAgainst: 41,
             diff: -9,
-            points: 19,
+            points: 16,
             isPointTakeaway: false
         },
         {
@@ -164,7 +164,7 @@ export const COMPETITION_DETAILS: CompDetails = {
             pointsFor: 36,
             pointsAgainst: 55,
             diff: -19,
-            points: 14,
+            points: 11,
             isPointTakeaway: false
         }
     ],
