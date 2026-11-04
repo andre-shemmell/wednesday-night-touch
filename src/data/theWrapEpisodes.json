@@ -1,5 +1,98 @@
 [
   {
+    "id": "the-wrap-round-15",
+    "round": "Round 15",
+    "date": "2026-11-04",
+    "title": "The Wrap: The 12-1 Green Carpet Demolition, Nev's Return & Minor Premiership Glory!",
+    "matchId": "2026-11-04-round-15",
+    "isAudioReady": true,
+    "modelUsed": "gemini-3.8-flash-tts",
+    "durationSeconds": 352.2,
+    "formattedDuration": "5:52",
+    "audioUrl": "/audio/the-wrap-round-15.wav",
+    "stagedNative": true,
+    "hosts": [
+      {
+        "name": "Mick \"The Rocket\" Ryan",
+        "voice": "en-au-csagent-1",
+        "role": "Colour Commentator"
+      },
+      {
+        "name": "Gazza Shemmell",
+        "voice": "en-au-tutor-5",
+        "role": "Tactical Analyst"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "Mick",
+        "style": "excited and high energy",
+        "text": "G'day legends and welcome to a massive, history-making edition of The Wrap, your weekly hit of touch footy gold for Point Takeaway at Redlands Touch Association! Mick here with Gazza, and oh boy... after last week's washout, we rocked up to Field 3 at Cleveland Showgrounds and stone the crows! The pitch wasn't just dry... it was mowed and manicured like a pristine green bowling green carpet! <laugh> And what did the boys do on that carpet? A twelve-to-one slaughter of The Well Hungarians to seal the Minor Premiership! <laugh> You beauty!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "calm, dry wit, deadpan",
+        "text": "An absolute clinic on the green carpet, Mick. |fair dinkum| We started the match with just two on the bench. Adrian, Mitch, Mack, Dylan, Joely, Cam, Matt, and Peter were the early arrivals. But then the cavalry pulled into the car park... Reece, BJ, and look who decided to grace us with his presence... BJ's old man, Nev! Straight back from his three-week Scandinavian adventure chasing the Northern Lights. Graeme noted from the dugout that Nev looked pretty much the same as when he left, although he could probably do with a haircut. <chuckle> Eleven troops locked in, with only Jayden missing."
+      },
+      {
+        "speaker": "Mick",
+        "style": "laughing, hyped up, incredulous",
+        "text": "Haha! Welcome home Nev, get ya hair cut mate! But strewth Gazza, the boys were firing from the opening whistle! Joely dishes to Peter, Peter thinks fast, pops it right back inside, and Joely strolls over for 1-nil! And then Mitch, mate... Mitch pulls out a double-dummy that sent half the Hungarian team sliding towards the canteen! <laugh> Dummies to brother Mack, dummies again, and walks it over for 2-nil! You couldn't buy a ticket to that show!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "analytical, admiring, measured",
+        "text": "Mitch had them seeing ghosts. Matt then stepped into first receiver and delivered a lovely ball close to the line for Joely to nab his double for 3-nil. Then Reece turned on the turbochargers, broke the line, and found Matt in support, who made no mistake to push it out to 4-nil. And Matt was in sublime form, Mick. Moments later he threw a peach of a reverse inside pass to Mack, who took it right to the line for 5-nil. Pure team synergy."
+      },
+      {
+        "speaker": "Mick",
+        "style": "enthusiastic, laughing, fast-paced",
+        "text": "Absolute poetry! And then Cam decided he wanted a slice of the pie! <gasp> The Hungarians try to spin it wide, Cam reads it like the morning paper, snaffles the intercept, and casually strolls forty meters to the tryline for 6-nil into the sheds! |you beauty!| And Gazza, how about Mitch literally rolling over on the turf in defence to stop their runner?"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "dry humor, amused, deadpan",
+        "text": "<chuckle> A tactical barrel-roll, Mick. Full marks for commitment. But if the Hungarians thought the second half would bring relief, Reece came out and shredded them immediately. He tore through their middle, fed Mitch on the burst, and Mitch iced his double for 7-nil. Dylan was producing massive midfield tags, and then came the comedy highlight of the night. The Hungarians stepped two meters over the mark to play the ball, and all eleven Point Takeaway blokes screamed in unison, 'OVER THE MARK!' <laugh> The referee actually listened and blew the whistle for a penalty to us. Beautiful to witness."
+      },
+      {
+        "speaker": "Mick",
+        "style": "chuckling, spirited, emphatic",
+        "text": "Haha! If you don't ask, you don't get, Gazza! And off that tap, Cam and Joely put on a masterclass! Cam throws a no-look reverse pass behind his back, Joely latches onto it and crashes over for a sensational hat-trick to make it 8-nil! <gasp> Three tries for Joely! Then Reece decides he's having a go... dummy, dummy again, step, and dots it down for 9-nil! They were completely bamboozled!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "relaxed, appreciative, smooth Queensland drawl",
+        "text": "Reece made it look effortless. And the Hungarians were in total disarray. Coming out of their own red zone, their playmaker threw a pass straight to Cam! He couldn't believe his luck... snatched it and ran sixty meters the length of the paddock to blow it out to 10-nil. |bloody oath!| And then, desperate to clear their line, they launched another long bomb straight into Mitch's breadbasket, and Mitch sprinted seventy meters untouched to complete his own blistering hat-trick for 11-nil!"
+      },
+      {
+        "speaker": "Mick",
+        "style": "laughing, animated, hyped",
+        "text": "<laugh> Hat-tricks for Joely, hat-tricks for Mitch, and Cam bagging a double off two runaway intercepts! And the official scorebook ended up twelve to one because in the final ten seconds, the Hungarians threw a desperation pass to a bloke who wasn't even in the play area, and somehow he held on for their only try! Graeme just shook his head and said, quote, Oh, ok, well done them! Haha!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "authoritative, structured, footy analyst",
+        "text": "A twelve-to-one demolition. And Graeme delivered the ultimate praise in the post-match summary: This game was one of our best ever. Every player did what was needed to beat this team. We can now go into the finals program with great confidence. Absolutely marvellous. ... And Mick, have a look at the final regular season ladder."
+      },
+      {
+        "speaker": "Mick",
+        "style": "excited, competitive, pumped",
+        "text": "Strewth Gazza, feast your eyes on that table! Point Takeaway finishes outright FIRST on twenty-five competition points with a colossal plus twenty-eight differential! Minor Premiers of the Redlands Wednesday Seniors! <laugh> Sixty-six tries scored across the season! The ultimate prize is in sight!"
+      },
+      {
+        "speaker": "Gazza",
+        "style": "tactical, anticipatory, big match build-up",
+        "text": "Which brings us to next Wednesday night, the eleventh of November, down at Cleveland Showgrounds. It is Finals Week One. The Major Semi-Final... 1 versus 4... Point Takeaway taking on Hunt and Kill. Win that, and the boys earn a direct ticket straight into the Grand Final. It doesn't get any bigger than this."
+      },
+      {
+        "speaker": "Mick",
+        "style": "rousing, passionate, call to arms",
+        "text": "<sigh> Major Semi-Final fever, legends! Get down to Point Takeaway for your pre-game burgers, pack the grandstand at the Showgrounds next Wednesday, and let's bring home the silverware! Up the Point Takeaway!"
+      }
+    ],
+    "updatedAt": "2026-11-04T11:44:15.096872+00:00"
+  },
+  {
     "id": "the-wrap-round-14-washout",
     "round": "Round 14",
     "date": "2026-10-28",

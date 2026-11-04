@@ -206,7 +206,7 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
             <label className="text-xs font-semibold text-slate-300 flex items-center gap-1.5 mb-1.5">
               <Key className="w-3.5 h-3.5 text-amber-400" />
               <span>Google Gemini API Key (Optional / AI Mode)</span>
-              <span className="ml-auto text-[10px] text-amber-400 font-mono font-medium">Model: Gemini 3.8 Flash</span>
+              <span className="ml-auto text-[10px] text-amber-400 font-mono font-medium">Model: Gemini 3.5 Flash-Lite</span>
             </label>
             <input
               type="password"
@@ -216,7 +216,7 @@ export const SmsIngestStudio: React.FC<SmsIngestStudioProps> = ({ onPublishMatch
               className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-amber-500"
             />
             <p className="text-[11px] text-slate-400 mt-1">
-              Keys are stored locally in your browser only. Free key at <a href="https://aistudio.google.com" target="_blank" rel="noreferrer" className="text-amber-400 hover:underline">aistudio.google.com</a>. Defaults to Gemini 3.8 Flash.
+              Keys are stored locally in your browser only. Free key at <a href="https://aistudio.google.com" target="_blank" rel="noreferrer" className="text-amber-400 hover:underline">aistudio.google.com</a>. Defaults to Gemini 3.5 Flash-Lite (high free quota).
             </p>
           </div>
         </div>

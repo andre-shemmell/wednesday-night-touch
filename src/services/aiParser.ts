@@ -175,13 +175,13 @@ export async function parseSmsWithGemini(
     }
   };
 
-  // Attempt call with automatic retry and fallback: 3.8 Flash -> 3.7 Flash -> 2.5 Flash
+  // Attempt call with automatic retry and fallback: 3.8 Flash -> 3.7 Flash -> 3.5 Flash-Lite
   const modelsToTry = [modelName];
   if (!modelsToTry.includes('gemini-3.7-flash')) {
     modelsToTry.push('gemini-3.7-flash');
   }
-  if (!modelsToTry.includes('gemini-2.5-flash')) {
-    modelsToTry.push('gemini-2.5-flash');
+  if (!modelsToTry.includes('gemini-3.5-flash-lite')) {
+    modelsToTry.push('gemini-3.5-flash-lite');
   }
 
   let lastError: Error | null = null;

@@ -1,7 +1,7 @@
 import { MatchReport } from '../types/match';
 import initialMatchesRaw from '../data/matches.json';
 
-const STORAGE_KEY = 'wednesday_touch_matches_v9';
+const STORAGE_KEY = 'wednesday_touch_matches_v10';
 const API_KEY_STORAGE = 'gemini_api_key_v1';
 const MODEL_STORAGE = 'gemini_model_choice_v1';
 
@@ -77,9 +77,9 @@ export function setStoredApiKey(key: string): void {
 
 export function getStoredModel(): string {
   try {
-    return localStorage.getItem(MODEL_STORAGE) || 'gemini-3.8-flash';
+    return localStorage.getItem(MODEL_STORAGE) || 'gemini-3.5-flash-lite';
   } catch {
-    return 'gemini-3.8-flash';
+    return 'gemini-3.5-flash-lite';
   }
 }
 
