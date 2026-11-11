@@ -170,6 +170,14 @@ export const COMPETITION_DETAILS: CompDetails = {
     ],
   divisionResults: [
     {
+      round: 'Semi-Finals (Finals Week 1 Washout)',
+      date: 'Wednesday, 11 November 2026',
+      matches: [
+        { homeTeam: 'Point Takeaway', awayTeam: 'Hunt and Kill', homeScore: 0, awayScore: 0, field: 'Field 6', notes: 'Washout / Cancelled due to severe Redlands storm, flooding roads & ongoing lightning strikes near Cleveland' },
+        { homeTeam: 'Bonsai', awayTeam: 'The Touchers', homeScore: 0, awayScore: 0, field: 'Field 2', notes: 'Washout / Cancelled due to severe lightning storm' }
+      ]
+    },
+    {
       round: 'Round 15',
       date: 'Wednesday, 4 November 2026',
       matches: [
@@ -276,22 +284,13 @@ export const COMPETITION_DETAILS: CompDetails = {
   ],
   upcomingFixtures: [
     {
-      round: 'Major Semi-Final (1 vs 4)',
-      date: 'Wednesday, 11 November 2026',
-      time: '7:15 PM AEST (Brisbane)',
-      opponent: 'Hunt and Kill',
-      field: 'Field 6',
+      round: 'Grand Final (Expected 1 vs 2)',
+      date: 'Wednesday, 18 November 2026',
+      time: 'TBC (Redlands Grand Final Night)',
+      opponent: 'Bonsai',
+      field: 'Field TBC',
       venue: 'Redlands Showgrounds, Cleveland',
-      notes: '🏆 FINALS WEEK 1: Minor Premiers Point Takeaway (1st) battle Hunt and Kill (4th) for a direct ticket to the Grand Final!'
-    },
-    {
-      round: 'Elimination Semi-Final (2 vs 3)',
-      date: 'Wednesday, 11 November 2026',
-      time: '8:05 PM AEST (Brisbane)',
-      opponent: 'The Touchers (Neutral)',
-      field: 'Field 2',
-      venue: 'Redlands Showgrounds, Cleveland',
-      notes: '🔥 Finals Week 1: 2nd-place Bonsai take on 3rd-place The Touchers.'
+      notes: '🏆 GRAND FINAL SHOWDOWN (Expected 1 vs 2): Minor Premiers Point Takeaway (1st) take on 2nd-placed Bonsai following the Semi-Final lightning washout!'
     }
   ]
 };

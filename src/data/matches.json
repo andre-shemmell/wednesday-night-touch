@@ -1,5 +1,86 @@
 [
   {
+    "id": "2026-11-11-semi-final-washout",
+    "date": "2026-11-11",
+    "round": "Semi-Final (Washout)",
+    "season": "Spring 2026",
+    "teamName": "Point Takeaway",
+    "opponent": "Hunt and Kill",
+    "score": {
+      "us": 0,
+      "them": 0,
+      "halfTimeUs": 0,
+      "halfTimeThem": 0,
+      "outcome": "washout"
+    },
+    "dadQuote": "Big storm came through the Redlands around 4:30 pm. Flooding roads and many lightning strikes, some close to the shop. Games would still proceed but the ongoing threat of more lightning made the decision to cancel all games fairly easy. Looks likely that our next game will be the Grand Final next Wednesday. 1 vs 2.",
+    "headline": "Storms & Lightning Strike Cleveland: Semi-Final Washed Out as Minor Premiers Eye 1 vs 2 Grand Final!",
+    "rawSmsText": "Big storm came through the Redlands around 4:30 pm.\n\nFlooding roads and many lightning strikes , some close to the shop.\n\nGames would still proceed but the ongoing threat of more lightning made the decision to cancel all games fairly easy.\n\nNo customers for the shop.\nNo Touch Footy.\nRoads flooded.\nPretty boring really.\n\nLooks likely that our next game will be the Grand Final next Wednesday. 1 vs 2.\n\nWe had 3 players missing tonight.\nPeter injured.\nJayden getting married.\nMatt unavailable.\nSo, might be a good thing for us.",
+    "storyParagraphs": [
+      "A fierce late-afternoon storm slammed across the Redlands around 4:30 pm on Wednesday, unleashing torrential downpours, flash-flooded roads, and booming lightning strikes crashing alarmingly close to The Point Takeaway shop. While the turf itself might have handled play, the persistent lightning threat made the Redlands Touch Association's call to abandon all Semi-Final fixtures an easy safety decision.",
+      "For Graeme back at the shop, the deluge brought an unusually quiet evening\u2014flooded streets keeping customers away, no Wednesday night footy to watch, and quiet fryers. In the gaffer's own understated words: 'No customers for the shop. No Touch Footy. Roads flooded. Pretty boring really.'",
+      "However, as the dust\u2014and rain\u2014settled, the washout revealed a massive silver lining for the Minor Premiers. Point Takeaway were missing three pivotal troops for the planned 1 vs 4 Semi-Final clash: Peter sidelined through injury, Matt unavailable, and explosive playmaker Jayden tying the knot in his wedding celebrations! Having the week washed out means the squad preserves full fitness for the biggest dance of the season.",
+      "Following the Semi-Final cancellation, it looks likely the competition jumps straight to next Wednesday's decider: a blockbuster 1 vs 2 Grand Final showdown pitting outright table-toppers Point Takeaway against 2nd-placed Bonsai!"
+    ],
+    "tryScorers": [],
+    "defensiveHighlights": [
+      {
+        "player": "Lightning & Mother Nature",
+        "action": "Forced complete cancellation around 4:30 pm, protecting a 3-man-depleted Point Takeaway line-up"
+      }
+    ],
+    "casualtyWard": [
+      {
+        "player": "Jayden",
+        "reason": "Getting married! Huge congratulations from the entire Point Takeaway family! \ud83d\udc8d\ud83e\udd42",
+        "isSelfInflicted": false
+      },
+      {
+        "player": "Peter",
+        "reason": "Resting up an injury \u2014 blessed with an extra seven days to recover for the Grand Final",
+        "isSelfInflicted": false
+      },
+      {
+        "player": "Matt",
+        "reason": "Unavailable for Semi-Final night",
+        "isSelfInflicted": false
+      }
+    ],
+    "controversies": [
+      {
+        "title": "Lightning Strike Cancellation",
+        "description": "Roads flooded across the Redlands and lightning hit near The Point Takeaway shop around 4:30 pm, leaving officials with no choice but to pull the pin."
+      },
+      {
+        "title": "Straight to 1 vs 2 Grand Final?",
+        "description": "With Finals Week 1 abandoned due to severe electrical storms, Minor Premiers Point Takeaway appear set to face 2nd-placed Bonsai in next Wednesday's Grand Final."
+      }
+    ],
+    "venueNotes": "Redlands Showgrounds, Field 6. Abandoned prior to kickoff due to flooded surrounding roads and severe lightning danger.",
+    "squadNotes": "3 key players missing (Jayden getting married, Peter injured, Matt unavailable). Rest of squad ready for likely 1 vs 2 Grand Final next Wednesday.",
+    "squadPresent": [
+      "Cam",
+      "BJ",
+      "Reece",
+      "Mitch",
+      "Mack",
+      "Adrian",
+      "Joel",
+      "Dylan",
+      "Nev"
+    ],
+    "squadMissing": [
+      "Jayden",
+      "Peter",
+      "Matt"
+    ],
+    "awards": {
+      "playerOfTheMatch": "Jayden (Wedding Day MVP \ud83d\udc8d)",
+      "momentOfTheMatch": "Lightning flashes near The Point Takeaway clearing the path to full fitness for the Grand Final",
+      "quoteOfTheMatch": "\"Looks likely that our next game will be the Grand Final next Wednesday. 1 vs 2... So, might be a good thing for us.\" \u2014 Graeme"
+    }
+  },
+  {
     "id": "2026-11-04-round-15",
     "date": "2026-11-04",
     "round": "Round 15",

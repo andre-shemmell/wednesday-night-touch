@@ -1,0 +1,93 @@
+{
+  "id": "the-wrap-semi-final-washout",
+  "round": "Semi-Final (Washout)",
+  "date": "2026-11-11",
+  "title": "The Wrap: Lightning Strikes the Redlands, Wedding Bells for Jayden & Straight to 1 vs 2 Grand Final!",
+  "matchId": "2026-11-11-semi-final-washout",
+  "isAudioReady": true,
+  "modelUsed": "gemini-3.8-flash-tts",
+  "durationSeconds": 312.2,
+  "formattedDuration": "5:12",
+  "audioUrl": "/audio/the-wrap-semi-final-washout.wav",
+  "stagedNative": true,
+  "hosts": [
+    {
+      "name": "Mick \"The Rocket\" Ryan",
+      "voice": "en-au-csagent-1",
+      "role": "Colour Commentator"
+    },
+    {
+      "name": "Gazza Shemmell",
+      "voice": "en-au-tutor-5",
+      "role": "Tactical Analyst"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "Mick",
+      "style": "excited and high energy",
+      "text": "G'day legends and welcome to a thunder-and-lightning edition of The Wrap, your weekly hit of touch footy gold for Point Takeaway at Redlands Touch Association! Mick here with Gazza, and stone the crows... Mother Nature dropped an absolute cracker of a storm over the Redlands at half past four this arvo! <gasp> Roads flooded like Venice, lightning bolts slamming down dangerously close to The Point Takeaway shop, and the Semi-Finals? Officially called off! <sigh> No footy tonight, legends!"
+    },
+    {
+      "speaker": "Gazza",
+      "style": "calm, dry wit, deadpan",
+      "text": "Complete shutdown across Cleveland, Mick. |fair dinkum| Technically, the actual turf might have soaked up enough moisture to scrape through, but when Thor himself is throwing lightning bolts two hundred meters from Graeme's front counter, player safety makes cancellation a fairly straightforward decision. As Graeme put it in the official dispatches tonight... No customers for the shop. No Touch Footy. Roads flooded. Pretty boring really."
+    },
+    {
+      "speaker": "Mick",
+      "style": "laughing, animated, hyped",
+      "text": "Haha! 'Pretty boring really!' You've got to feel for the gaffer Graeme sitting in an empty shop watching rivers flow down the street! Zero customers braving the flash floods and zero footy to watch! <laugh> Mind you, once the storm waters subside tomorrow, every single supporter needs to march straight down to The Point Takeaway and clear out the fryers to make up for it! Give us a hot chips blizzard with extra chicken salt, please!"
+    },
+    {
+      "speaker": "Gazza",
+      "style": "warm, appreciative, commercial announcer",
+      "text": "Amen to that, Mick. Golden crispy battered fish, a legendary Point Takeaway Burger with the Lot, and hot crunchy potato scallops to cure the Wednesday washout blues. Best feed in the Redlands. ... Now, let's get tactical, because here is the fascinating plot twist of tonight's lightning storm. This cancellation might actually be the biggest tactical stroke of luck of our entire season."
+    },
+    {
+      "speaker": "Mick",
+      "style": "incredulous, hyped up, curious",
+      "text": "<gasp> Talk to me Gazza! How does getting struck by lightning near the chippy help the boys win the championship?!"
+    },
+    {
+      "speaker": "Gazza",
+      "style": "analytical, amused, measured",
+      "text": "Have a squiz at the availability sheet for tonight's planned 1 versus 4 Semi-Final against Hunt and Kill. We were rolling onto the paddock minus three absolute superstars. ... First, Peter was sidelined in the casualty ward nursing an injury. Second, brother Matt was completely unavailable tonight. And third... brace yourself, Mick... Jayden wasn't running lines because he is getting MARRIED!"
+    },
+    {
+      "speaker": "Mick",
+      "style": "ecstatic, laughing, celebratory",
+      "text": "<laugh> JAYDEN IS GETTING MARRIED?! <gasp> You beauty! Massive, massive congratulations from Mick, Gazza, and the entire Point Takeaway family to Jayden and the bride! |bloody oath!| Imagine scheduling a wedding during Finals Week 1... and then having Mother Nature personally intervene with a biblical storm so you don't even miss a single minute of touch footy! That is elite-tier planning right there, Jayden!"
+    },
+    {
+      "speaker": "Gazza",
+      "style": "dry humor, deadpan, smiling",
+      "text": "<chuckle> Either elite planning or someone in the Point Takeaway front row has an unusually tight line of communication with the weather bureau. Bottom line is, Graeme summed it up with classic understatement: We had 3 players missing tonight. Peter injured, Jayden getting married, Matt unavailable... So, might be a good thing for us. With no game played, Peter gets another seven days to heal up, Matt clears his schedule, and Jayden returns from confetti duties ready to slice up the finals."
+    },
+    {
+      "speaker": "Mick",
+      "style": "enthusiastic, fast-paced, hyped",
+      "text": "Haha! Pure destiny, mate! |you beauty!| Speaking of destiny, Gazza... walk the faithful through what this washout means for next Wednesday, the eighteenth of November!"
+    },
+    {
+      "speaker": "Gazza",
+      "style": "authoritative, structured, footy analyst",
+      "text": "Well, because Point Takeaway finished the regular season as outright Minor Premiers... sitting pretty at the top of the table on twenty-five points with that monstrous plus twenty-eight differential after the 12-to-1 demolition last week... skipping the washed-out Semi-Finals leaves only one logical climax. As Graeme reported tonight... Looks likely that our next game will be the Grand Final next Wednesday. One versus two!"
+    },
+    {
+      "speaker": "Mick",
+      "style": "pumped up, excited, dramatic",
+      "text": "<gasp> ONE VERSUS TWO! THE GRAND FINAL! Point Takeaway versus Bonsai for the entire Wednesday Seniors crown! <laugh> Remember Round 8 when just seven exhausted Point Takeaway blokes fought Bonsai to a 6-8 thriller before vowing revenge? Now, all guns blazing, full squad rested, Jayden glowing in newlywed superpowers, Reece's jetpacks oiled, Cam and Matt telepathic... one forty-minute dance for immortality!"
+    },
+    {
+      "speaker": "Gazza",
+      "style": "tactical, respectful, calm",
+      "text": "We haven't had a tougher rival all season than Bonsai. Same twenty-five competition points as us, separated only by our eighteen-point edge in scoring differential. If the Grand Final locks in for next Wednesday night, it will take every drop of discipline, line speed, and clinical touch footy we produced against The Touchers and The Well Hungarians. Rest up tonight, lads, stay out of the floodwater, and get your minds dialed in for Championship Wednesday."
+    },
+    {
+      "speaker": "Mick",
+      "style": "rousing, passionate, call to arms",
+      "text": "<sigh> Stay dry, Redlands! Swing past The Point Takeaway this week to fuel the fryers, raise a cold glass to Jayden's wedding, and get strapped up for what shapes as the biggest night of the year next Wednesday... 1 versus 2 for the trophy! Up the Point Takeaway!"
+    }
+  ],
+  "updatedAt": "2026-11-11T09:39:48.759290+00:00"
+}
