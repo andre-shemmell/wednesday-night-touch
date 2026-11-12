@@ -173,8 +173,10 @@ export const COMPETITION_DETAILS: CompDetails = {
       round: 'Semi-Finals (Finals Week 1 Washout)',
       date: 'Wednesday, 11 November 2026',
       matches: [
-        { homeTeam: 'Point Takeaway', awayTeam: 'Hunt and Kill', homeScore: 0, awayScore: 0, field: 'Field 6', notes: 'Washout / Cancelled due to severe Redlands storm, flooding roads & ongoing lightning strikes near Cleveland' },
-        { homeTeam: 'Bonsai', awayTeam: 'The Touchers', homeScore: 0, awayScore: 0, field: 'Field 2', notes: 'Washout / Cancelled due to severe lightning storm' }
+        { homeTeam: 'Point Takeaway', awayTeam: 'Hunt and Kill', homeScore: 0, awayScore: 0, field: 'Field 2', notes: 'E Grade Semi-Final (7:05 PM) — Washout / Cancelled due to severe Redlands storm, flooding roads & ongoing lightning strikes near Cleveland' },
+        { homeTeam: 'Bonsai', awayTeam: 'The Touchers', homeScore: 0, awayScore: 0, field: 'Field 1', notes: 'E Grade Semi-Final (7:05 PM) — Washout / Cancelled due to severe lightning storm' },
+        { homeTeam: 'United', awayTeam: 'Redlands Centurions', homeScore: 0, awayScore: 0, field: 'Field 3', notes: 'F Grade Semi-Final (7:05 PM) — Washout / Cancelled due to severe lightning storm' },
+        { homeTeam: 'Screws', awayTeam: 'The Well Hungarians', homeScore: 0, awayScore: 0, field: 'Field 4', notes: 'F Grade Semi-Final (7:05 PM) — Washout / Cancelled due to severe lightning storm' }
       ]
     },
     {
@@ -182,9 +184,9 @@ export const COMPETITION_DETAILS: CompDetails = {
       date: 'Wednesday, 4 November 2026',
       matches: [
         { homeTeam: 'Point Takeaway', awayTeam: 'The Well Hungarians', homeScore: 12, awayScore: 1, field: 'Field 3', notes: 'Historic 12-1 demolition on green carpet; Joel (3) & Mitch (3) bag hat-tricks as Point Takeaway claim Minor Premiership!' },
-        { homeTeam: 'Bonsai', awayTeam: 'The Touchers', homeScore: 7, awayScore: 6, field: 'Field 2', notes: 'Bonsai edge out Touchers 7-6 to seal 2nd spot' },
+        { homeTeam: 'Bonsai', awayTeam: 'The Touchers', homeScore: 7, awayScore: 6, field: 'Field 4', notes: 'Bonsai edge out Touchers 7-6 to seal 2nd spot' },
         { homeTeam: 'United', awayTeam: 'Hunt and Kill', homeScore: 7, awayScore: 4, field: 'Field 5', notes: 'United upset Hunt and Kill 7-4' },
-        { homeTeam: 'Screws', awayTeam: 'Redlands Centurions', homeScore: 8, awayScore: 6, field: 'Field 8', notes: 'Screws high-scoring 8-6 win over Centurions' }
+        { homeTeam: 'Screws', awayTeam: 'Redlands Centurions', homeScore: 8, awayScore: 6, field: 'Field 9', notes: 'Screws high-scoring 8-6 win over Centurions' }
       ]
     },
     {
@@ -201,14 +203,20 @@ export const COMPETITION_DETAILS: CompDetails = {
       round: 'Round 13 (Double Header Game 2)',
       date: 'Wednesday, 21 October 2026',
       matches: [
-        { homeTeam: 'Point Takeaway', awayTeam: 'The Touchers', homeScore: 4, awayScore: 0, field: 'Field 6', notes: 'Sensational 4-0 clean-sheet shutout over ladder leaders; Point Takeaway claim outright 1st place!' }
+        { homeTeam: 'Point Takeaway', awayTeam: 'The Touchers', homeScore: 4, awayScore: 0, field: 'Field 6', notes: 'Sensational 4-0 clean-sheet shutout over ladder leaders; Point Takeaway claim outright 1st place!' },
+        { homeTeam: 'Redlands Centurions', awayTeam: 'Bonsai', homeScore: 4, awayScore: 6, field: 'Field 5', notes: 'Bonsai hold off Centurions 6-4 at 8:45 PM' },
+        { homeTeam: 'Screws', awayTeam: 'United', homeScore: 4, awayScore: 3, field: 'Field 7', notes: 'Screws snatch tight 4-3 sprint win' },
+        { homeTeam: 'Hunt and Kill', awayTeam: 'The Well Hungarians', homeScore: 2, awayScore: 3, field: 'Field 8', notes: 'Hungarians pull off 3-2 upset over Hunt and Kill' }
       ]
     },
     {
       round: 'Round 12 (Double Header Game 1)',
       date: 'Wednesday, 21 October 2026',
       matches: [
-        { homeTeam: 'Point Takeaway', awayTeam: 'Hunt and Kill', homeScore: 3, awayScore: 1, field: 'Field 6', notes: 'Mitch opener, Peter & Reece tries; 3-1 stunner over 2nd-placed Hunt and Kill' }
+        { homeTeam: 'Point Takeaway', awayTeam: 'Hunt and Kill', homeScore: 3, awayScore: 1, field: 'Field 6', notes: 'Mitch opener, Peter & Reece tries; 3-1 stunner over 2nd-placed Hunt and Kill' },
+        { homeTeam: 'Bonsai', awayTeam: 'United', homeScore: 6, awayScore: 2, field: 'Field 7', notes: 'Bonsai breeze past United 6-2 at 8:15 PM' },
+        { homeTeam: 'The Touchers', awayTeam: 'Redlands Centurions', homeScore: 6, awayScore: 1, field: 'Field 8', notes: 'Touchers strong 6-1 sprint win' },
+        { homeTeam: 'The Well Hungarians', awayTeam: 'Screws', homeScore: 2, awayScore: 1, field: 'Field 5', notes: 'Hungarians edge Screws 2-1' }
       ]
     },
     {
@@ -226,9 +234,9 @@ export const COMPETITION_DETAILS: CompDetails = {
       date: 'Wednesday, 7 October 2026',
       matches: [
         { homeTeam: 'Point Takeaway', awayTeam: 'Screws', homeScore: 13, awayScore: 4, field: 'Field 5', notes: '5-on-5 open-field masterclass; Mitch (4 tries) & Dylan (4 tries) run riot' },
-        { homeTeam: 'Hunt and Kill', awayTeam: 'The Touchers', homeScore: 7, awayScore: 5, field: 'Field 2', notes: 'Hunt and Kill hold off Touchers late charge' },
-        { homeTeam: 'Bonsai', awayTeam: 'The Well Hungarians', homeScore: 8, awayScore: 4, field: 'Field 3', notes: 'Bonsai keep unbeaten run alive' },
-        { homeTeam: 'United', awayTeam: 'Redlands Centurions', homeScore: 6, awayScore: 3, field: 'Field 8', notes: 'United grind out tight win' }
+        { homeTeam: 'The Touchers', awayTeam: 'The Well Hungarians', homeScore: 9, awayScore: 4, field: 'Field 10', notes: 'Touchers clinically handle Hungarians' },
+        { homeTeam: 'United', awayTeam: 'Redlands Centurions', homeScore: 7, awayScore: 5, field: 'Field 3', notes: 'United prevail in 12-try shootout' },
+        { homeTeam: 'Hunt and Kill', awayTeam: 'Bonsai', homeScore: 0, awayScore: 0, field: 'Field 2', notes: 'Forfeit result (Hunt and Kill awarded forfeit win)' }
       ]
     },
     {
@@ -236,9 +244,9 @@ export const COMPETITION_DETAILS: CompDetails = {
       date: 'Wednesday, 30 September 2026',
       matches: [
         { homeTeam: 'Point Takeaway', awayTeam: 'United', homeScore: 6, awayScore: 6, field: 'Field 5', notes: "Cam's siren equalizer; 8 blokes battle to epic 6-6 draw" },
-        { homeTeam: 'The Touchers', awayTeam: 'The Well Hungarians', homeScore: 0, awayScore: 0, field: 'Field 2', notes: 'Scoreless stalemate' },
-        { homeTeam: 'Bonsai', awayTeam: 'Redlands Centurions', homeScore: 0, awayScore: 0, field: 'Field 3', notes: 'Bye / Washout' },
-        { homeTeam: 'Hunt and Kill', awayTeam: 'Screws', homeScore: 0, awayScore: 0, field: 'Field 10', notes: 'Rescheduled match' }
+        { homeTeam: 'The Touchers', awayTeam: 'Hunt and Kill', homeScore: 6, awayScore: 2, field: 'Field 2', notes: 'Touchers pull clear over Hunt and Kill' },
+        { homeTeam: 'Screws', awayTeam: 'Bonsai', homeScore: 0, awayScore: 0, field: 'Field 8', notes: 'Forfeit result (Screws awarded forfeit win)' },
+        { homeTeam: 'The Well Hungarians', awayTeam: 'Redlands Centurions', homeScore: 0, awayScore: 0, field: 'Field 3', notes: 'Forfeit result (Hungarians awarded forfeit win)' }
       ]
     },
     {
@@ -247,8 +255,8 @@ export const COMPETITION_DETAILS: CompDetails = {
       matches: [
         { homeTeam: 'Bonsai', awayTeam: 'Point Takeaway', homeScore: 8, awayScore: 6, field: 'Field 5', notes: 'Matt hat-trick; heroic comeback with 7 blokes' },
         { homeTeam: 'United', awayTeam: 'The Well Hungarians', homeScore: 13, awayScore: 8, field: 'Field 10', notes: 'Wild 21-try shootout' },
-        { homeTeam: 'Hunt and Kill', awayTeam: 'Redlands Centurions', homeScore: 10, awayScore: 0, field: 'Field 3', notes: 'Shutout victory' },
-        { homeTeam: 'Screws', awayTeam: 'The Touchers', homeScore: 0, awayScore: 0, field: 'Field 2', notes: 'Scoreless draw' }
+        { homeTeam: 'Hunt and Kill', awayTeam: 'Redlands Centurions', homeScore: 10, awayScore: 9, field: 'Field 3', notes: 'Thriller 10-9 victory for Hunt and Kill' },
+        { homeTeam: 'Screws', awayTeam: 'The Touchers', homeScore: 0, awayScore: 0, field: 'Field 2', notes: 'Forfeit result (Screws awarded forfeit win)' }
       ]
     },
     {

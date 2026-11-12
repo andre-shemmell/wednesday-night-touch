@@ -45,8 +45,14 @@ export const LadderAndFixtures: React.FC = () => {
                   VS
                 </div>
                 <div className="text-xs font-bold text-amber-400 mt-2 text-center uppercase tracking-wide">
-                  {ptEntry.points === oppEntry.points
-                    ? `Level on ${ptEntry.points} pts - Battle for 2nd!`
+                  {/grand final/i.test(nextMatch.round)
+                    ? (ptEntry.points === oppEntry.points
+                      ? `Level on ${ptEntry.points} pts - Grand Final Decider!`
+                      : '🏆 Grand Final Showdown!')
+                    : /semi[- ]?final|prelim/i.test(nextMatch.round)
+                    ? 'Finals Knockout Showdown!'
+                    : ptEntry.points === oppEntry.points
+                    ? `Level on ${ptEntry.points} pts - ${(ptEntry.pos === 1 || oppEntry.pos === 1) ? 'Battle for 1st!' : 'Top-of-the-Table Clash!'}`
                     : `${ptEntry.pos <= 4 && oppEntry.pos <= 4 ? 'Top 4 Showdown!' : 'Upcoming Clash'}`}
                 </div>
               </div>
@@ -215,7 +221,11 @@ export const LadderAndFixtures: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center justify-between text-xs text-slate-400 px-1 border-b border-slate-700/60 pb-2">
               <span className="font-semibold text-emerald-400">{currentRoundData.round} • {currentRoundData.date}</span>
-              <span>4 Matches played</span>
+              <span>
+                {currentRoundData.matches.every(m => m.homeScore === 0 && m.awayScore === 0 && /washout|cancel/i.test(m.notes || ''))
+                  ? `${currentRoundData.matches.length} ${currentRoundData.matches.length === 1 ? 'Fixture' : 'Fixtures'} (Washed Out)`
+                  : `${currentRoundData.matches.length} ${currentRoundData.matches.length === 1 ? 'Match' : 'Matches'} played`}
+              </span>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 sm:gap-4">
@@ -223,7 +233,9 @@ export const LadderAndFixtures: React.FC = () => {
                 const isPtGame = m.homeTeam === 'Point Takeaway' || m.awayTeam === 'Point Takeaway';
                 const homeWon = m.homeScore > m.awayScore;
                 const awayWon = m.awayScore > m.homeScore;
-                const isDraw = m.homeScore === m.awayScore;
+                const isWashout = m.homeScore === 0 && m.awayScore === 0 && /washout|cancel/i.test(m.notes || '');
+                const isForfeit = m.homeScore === 0 && m.awayScore === 0 && /forfeit/i.test(m.notes || '');
+                const isDraw = m.homeScore === m.awayScore && !isWashout && !isForfeit;
 
                 return (
                   <div
@@ -241,7 +253,15 @@ export const LadderAndFixtures: React.FC = () => {
                       </span>
                       {isPtGame ? (
                         <span className="px-2 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wide bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
-                          Point Takeaway
+                          Point Takeaway{isWashout ? ' • Washout' : ''}
+                        </span>
+                      ) : isWashout ? (
+                        <span className="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wide bg-sky-900/50 text-sky-300 border border-sky-700/50">
+                          Washout
+                        </span>
+                      ) : isForfeit ? (
+                        <span className="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wide bg-amber-900/40 text-amber-300 border border-amber-700/40">
+                          Forfeit
                         </span>
                       ) : isDraw ? (
                         <span className="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wide bg-slate-700 text-slate-300">

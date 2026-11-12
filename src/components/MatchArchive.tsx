@@ -38,7 +38,7 @@ export const MatchArchive: React.FC<MatchArchiveProps> = ({
               MATCH ARCHIVE
             </h2>
             <p className="text-sm text-slate-400 mt-1">
-              Every Wednesday night saga, scoreline, and dad quote in history
+              Every Wednesday night saga, scoreline, and Graeme's match quotes in history
             </p>
           </div>
 

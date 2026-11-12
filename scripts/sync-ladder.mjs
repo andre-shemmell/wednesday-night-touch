@@ -65,8 +65,10 @@ export function recalculateLadderFromResults(divisionResults) {
   });
 
   divisionResults.forEach(roundData => {
+    if (/semi[- ]?final|grand final|prelim|final/i.test(roundData.round || '')) return;
+
     roundData.matches.forEach(m => {
-      const isByeOrWashout = (m.homeScore === 0 && m.awayScore === 0 && (m.notes?.includes('Bye') || m.notes?.includes('Washout') || m.notes?.includes('Rescheduled')));
+      const isByeOrWashout = (m.homeScore === 0 && m.awayScore === 0 && (m.notes?.includes('Bye') || m.notes?.includes('Washout') || m.notes?.includes('Rescheduled') || m.notes?.includes('Forfeit')));
       if (isByeOrWashout) return;
 
       const home = stats[m.homeTeam];
@@ -212,7 +214,8 @@ export async function syncCompetition() {
     );
   });
 
-  // Replace ladder block in competition.ts
+  // Replace ladder block in competition.ts preserving file line-ending style
+  const eol = code.includes('\r\n') ? '\r\n' : '\n';
   const formattedLadder = JSON.stringify(updatedLadder, null, 4)
     .replace(/"pos"/g, 'pos')
     .replace(/"team"/g, 'team')
@@ -227,9 +230,9 @@ export async function syncCompetition() {
     .replace(/"isPointTakeaway"/g, 'isPointTakeaway')
     .split('\n')
     .map((line, idx) => (idx === 0 ? line : '    ' + line))
-    .join('\n');
+    .join(eol);
 
-  const ladderRegex = /ladder:\s*\[[\s\S]*?\n\s*\],/;
+  const ladderRegex = /ladder:\s*\[[\s\S]*?\r?\n\s*\],/;
   const newCode = code.replace(ladderRegex, `ladder: ${formattedLadder},`);
 
   if (newCode !== code) {
